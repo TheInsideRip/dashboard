@@ -1,98 +1,28 @@
 {
   "generated_date": "April 03, 2026",
   "overview": {
-    "combined_pnl": -0.12,
-    "combined_roi": -2.0,
-    "combined_record": "3W-3L (50.0%)",
-    "total_bets": 6,
+    "combined_pnl": 0.0,
+    "combined_roi": 0.0,
+    "combined_record": "0W-0L (0.0%)",
+    "total_bets": 0,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": -0.17,
-    "totals_roi": -4.25,
-    "totals_record": "2W-2L (50.0%)",
-    "mlrl_pnl": 0.05,
-    "mlrl_roi": 2.5,
-    "mlrl_record": "1W-1L (50.0%)"
+    "totals_pnl": 0.0,
+    "totals_roi": 0.0,
+    "totals_record": "0W-0L (0.0%)",
+    "mlrl_pnl": 0.0,
+    "mlrl_roi": 0.0,
+    "mlrl_record": "0W-0L (0.0%)"
   },
-  "cumulative_chart": [
-    {
-      "date": "2026-04-03",
-      "cumPnl": -0.12
-    }
-  ],
+  "cumulative_chart": [],
   "yesterday": {
-    "date": "2026-04-03",
-    "day_pnl": -0.12,
-    "day_record": "3W-3L (50.0%)",
-    "best_bet": {
-      "label": "TOR@CWS \u2014 RL: CWS (+1.5)",
-      "pnl": 1.05
-    },
-    "last_10_record": "3-3",
-    "bets": [
-      {
-        "market": "totals",
-        "matchup": "MIA@NYY",
-        "play": "Over 7.5",
-        "info": "-118 \u00b7 Model: 9.0 \u00b7 05:35 PM ET \u00b7 Result: 10 runs",
-        "pnl": 0.85,
-        "edge_pct": 22.86
-      },
-      {
-        "market": "totals",
-        "matchup": "TOR@CWS",
-        "play": "Over 7.5",
-        "info": "-102 \u00b7 Model: 8.3 \u00b7 06:10 PM ET \u00b7 Result: 9 runs",
-        "pnl": 0.98,
-        "edge_pct": 16.82
-      },
-      {
-        "market": "totals",
-        "matchup": "STL@DET",
-        "play": "Over 7.5",
-        "info": "-105 \u00b7 Model: 8.5 \u00b7 05:10 PM ET \u00b7 Result: 4 runs",
-        "pnl": -1.0,
-        "edge_pct": 19.45
-      },
-      {
-        "market": "totals",
-        "matchup": "SD@BOS",
-        "play": "Over 8.0",
-        "info": "-120 \u00b7 Model: 9.1 \u00b7 06:10 PM ET \u00b7 Result: 7 runs",
-        "pnl": -1.0,
-        "edge_pct": 14.16
-      },
-      {
-        "market": "mlrl",
-        "matchup": "LAD@WSH",
-        "play": "RL: WSH (+1.5)",
-        "info": "+148 \u00b7 WP: 58.2% \u00b7 05:05 PM ET \u00b7 Result: LAD by 7.0",
-        "pnl": -1.0,
-        "edge_pct": 17.9
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TOR@CWS",
-        "play": "RL: CWS (+1.5)",
-        "info": "+105 \u00b7 WP: 59.7% \u00b7 06:10 PM ET \u00b7 Result: CWS by 1.0",
-        "pnl": 1.05,
-        "edge_pct": 10.9
-      }
-    ]
+    "bets": [],
+    "day_pnl": 0,
+    "day_record": "0W-0L"
   },
   "today": {
-    "first_pitch": "01:45 AM ET",
-    "picks": [
-      {
-        "market": "k_props",
-        "matchup": "Grant Holmes",
-        "play": "Over 4.5 K",
-        "info": "-112 \u00b7 Model: 5.3 K \u00b7 01:45 AM ET",
-        "edge_pct": 18.68,
-        "confidence": "VERY HIGH",
-        "game_date": "2026-04-03"
-      }
-    ]
+    "first_pitch": "TBD",
+    "picks": []
   }
 }
