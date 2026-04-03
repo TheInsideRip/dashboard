@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>The Inside Rip</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&family=Teko:wght@500;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Lexend', sans-serif;
+  color: #ffffff;
+  background: #1a472a;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(34,85,53,0.6) 0%, transparent 60%),
+    linear-gradient(180deg, #1a472a 0%, #163d24 50%, #122e1c 100%);
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+/* ── HEADER ── */
+.header { padding: 24px 16px 0; text-align: center; }
+.header-title {
+  font-family: 'Oswald', sans-serif; font-size: 36px; font-weight: 400;
+  color: #ffffff; letter-spacing: 4px; text-transform: uppercase; line-height: 1.2;
+}
+.header-sport { font-size: 10px; font-weight: 400; color: #ffffff; opacity: 0.6; letter-spacing: 3px; text-transform: uppercase; margin-top: 4px; }
+.header-handle { font-size: 10px; font-weight: 300; color: #ffffff; opacity: 0.5; letter-spacing: 1px; margin-top: 2px; }
+.header-date { font-size: 11px; font-weight: 400; color: #ffffff; opacity: 0.7; margin-top: 5px; }
+
+/* ── TABS ── */
+.tab-bar { display: flex; margin: 14px 16px 0; gap: 12px; }
+.tab-off {
+  flex: 1; text-align: center; padding: 10px 0; font-family: 'Lexend', sans-serif; font-size: 11px;
+  font-weight: 500; color: #ffffff; background: #2d6b3f;
+  border: 2px solid #ffffff; border-radius: 0; cursor: pointer;
+}
+.tab-off:hover { color: #e63c3c; }
+.tab-on {
+  flex: 1; text-align: center; padding: 10px 0; font-family: 'Lexend', sans-serif; font-size: 11px;
+  font-weight: 600; color: #ffffff; background: #2d6b3f;
+  border: none; border-radius: 0; border-bottom: 3px solid #5fcf8e; cursor: pointer;
+}
+
+/* ── CONTENT ── */
+.content { padding: 0 16px; max-width: 540px; margin: 0 auto; }
+.tab-content { display: none; padding-top: 14px; }
+.tab-content.active { display: block; }
+
+/* ── SUMMARY ROWS ── */
+.pnl-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.top-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.pnl-box { background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; padding: 10px 4px; text-align: center; }
+.pnl-label { font-size: 9px; font-weight: 400; color: #ffffff; opacity: 0.5; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+.pnl-rec { font-size: 10px; color: #ffffff; opacity: 0.6; margin-top: 4px; }
+
+/* ── ALL NUMBERS: Oswald 400 ── */
+.num { font-family: 'Oswald', sans-serif; font-weight: 400; color: #ffffff; }
+.bubble { display: inline-block; color: #ffffff; line-height: 1; border-radius: 4px; border: 2px solid #ffffff; font-family: 'Oswald', sans-serif; font-weight: 400; }
+.bub-hero { padding: 8px 22px 6px; font-size: 50px; }
+.bub-lg { padding: 6px 12px 4px; font-size: 26px; }
+.bub-lg28 { padding: 6px 12px 4px; font-size: 28px; }
+.bub-md { padding: 4px 8px 3px; font-size: 18px; }
+.bg-g { background: #1a8a4a; }
+.bg-r { background: #c0392b; }
+
+/* ── SECTION HEADERS ── */
+.section-hdr {
+  background: #2d6b3f;
+  padding: 6px 12px; margin: 16px 0 8px; font-family: 'Oswald', sans-serif; font-size: 14px;
+  font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; color: #ffffff;
+  display: flex; align-items: center; gap: 8px;
+}
+.section-hdr:first-child { margin-top: 0; }
+.dot { width: 5px; height: 5px; border-radius: 50%; background: #ffffff; flex-shrink: 0; }
+
+/* ── BET CARDS ── */
+.card {
+  background: rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.15); border-radius: 4px;
+  padding: 11px 12px; margin-bottom: 8px;
+}
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; }
+.card-matchup { font-size: 14px; font-weight: 500; color: #ffffff; }
+.card-play { font-size: 12px; color: #ffffff; opacity: 0.7; }
+.card-info { font-size: 13px; color: #ffffff; opacity: 0.7; }
+.card-right { text-align: right; }
+
+/* ── EDGE + CONFIDENCE ── */
+.edge-val { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 400; color: #ffffff; line-height: 1; }
+.conf {
+  display: inline-block; font-size: 9px; font-weight: 500; padding: 2px 6px; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: 0.3px; color: #ffffff; margin-top: 3px;
+}
+.c-vh { background: #c0392b; }
+.c-h { background: #d4760a; }
+.c-m { background: #dbb614; }
+
+/* ── OVERVIEW HERO ── */
+.hero {
+  background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;
+  padding: 16px 12px; text-align: center; margin-bottom: 10px;
+}
+.hero-label { font-size: 9px; font-weight: 400; color: #ffffff; opacity: 0.5; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 6px; }
+.hero-rec { font-size: 12px; color: #ffffff; opacity: 0.7; margin-top: 6px; }
+
+/* ── CHART ── */
+.chart-box { background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 12px; }
+
+/* ── TODAY HERO NUM ── */
+.hero-num { font-family: 'Oswald', sans-serif; font-size: 36px; font-weight: 400; color: #ffffff; }
+
+/* ── FOOTER ── */
+.footer {
+  max-width: 540px; margin: 20px auto 0; padding: 0 16px 20px;
+  font-size: 8px; color: #ffffff; opacity: 0.3; line-height: 1.6; text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-title">The Inside Rip</div>
+  <div class="header-sport">Baseball</div>
+  <div class="header-handle">@theinsiderip</div>
+  <div class="header-date" id="header-date">Loading...</div>
+</div>
+
+<div class="tab-bar" id="tab-bar">
+  <div class="tab-off" data-tab="overview">Overview</div>
+  <div class="tab-off" data-tab="yesterday">Yesterday</div>
+  <div class="tab-on" data-tab="today">Today</div>
+</div>
+
+<div class="content">
+  <div class="tab-content" id="tab-overview"><div id="overview-content"></div></div>
+  <div class="tab-content" id="tab-yesterday"><div id="yesterday-content"></div></div>
+  <div class="tab-content active" id="tab-today"><div id="today-content"></div></div>
+</div>
+
+<div class="footer">
+  For entertainment purposes only. Nothing on this site constitutes gambling advice, financial advice, or a recommendation to place any wager. All information is provided as-is with no guarantee of accuracy. Past performance does not predict future results. You are solely responsible for your own betting decisions. Please gamble responsibly. If you or someone you know has a gambling problem, call 1-800-GAMBLER.
+</div>
+
+<script>
+document.getElementById('tab-bar').addEventListener('click', function(e) {
+  var t = e.target;
+  if (!t.dataset.tab) return;
+  document.querySelectorAll('#tab-bar > div').forEach(function(d){ d.className = 'tab-off'; });
+  t.className = 'tab-on';
+  document.querySelectorAll('.tab-content').forEach(function(c){ c.classList.remove('active'); });
+  document.getElementById('tab-' + t.dataset.tab).classList.add('active');
+});
+
+function pnlBg(v) { return v >= 0 ? 'bg-g' : 'bg-r'; }
+function fmt(v) { return v > 0 ? '+' + v.toFixed(1) : v.toFixed(1); }
+function confClass(c) {
+  var u = (c||'').toUpperCase();
+  if (u.indexOf('VERY') >= 0) return 'c-vh';
+  if (u === 'HIGH') return 'c-h';
+  return 'c-m';
+}
+var ML = { k_props: 'K Props', totals: 'Totals', mlrl: 'ML / Run Line' };
+var MO = ['totals', 'mlrl', 'k_props'];
+
+function buildChart(pts, idPrefix) {
+  if (!pts || pts.length < 2) return '';
+  var id = idPrefix || 'c';
+  var W=500,H=120,PL=30,PR=10,PT=10,PB=18;
+  var vals=pts.map(function(d){return d.cumPnl;});
+  var mn=Math.min(0,Math.min.apply(null,vals));
+  var mx=Math.max(0,Math.max.apply(null,vals));
+  var rng=(mx-mn)||1;
+  function x(i){return PL+(i/(pts.length-1))*(W-PL-PR);}
+  function y(v){return PT+(1-(v-mn)/rng)*(H-PT-PB);}
+  var zY=y(0);
+  var line=pts.map(function(d,i){return x(i).toFixed(1)+','+y(d.cumPnl).toFixed(1);}).join(' ');
+  var fill=line+' '+x(pts.length-1).toFixed(1)+','+zY.toFixed(1)+' '+x(0).toFixed(1)+','+zY.toFixed(1);
+  var s='<svg viewBox="0 0 '+W+' '+H+'" width="100%">';
+  s+='<defs><clipPath id="'+id+'a"><rect x="0" y="0" width="'+W+'" height="'+zY.toFixed(1)+'"/></clipPath>';
+  s+='<clipPath id="'+id+'b"><rect x="0" y="'+zY.toFixed(1)+'" width="'+W+'" height="'+(H-zY).toFixed(1)+'"/></clipPath></defs>';
+  [mn,0,mx].forEach(function(v){
+    var yv=y(v);
+    s+='<line x1="'+PL+'" y1="'+yv.toFixed(1)+'" x2="'+(W-PR)+'" y2="'+yv.toFixed(1)+'" stroke="rgba(255,255,255,'+(v===0?'0.15':'0.08')+')" stroke-width="0.5" stroke-dasharray="'+(v===0?'none':'2,3')+'"/>';
+    s+='<text x="'+(PL-6)+'" y="'+(yv+3).toFixed(1)+'" text-anchor="end" fill="rgba(255,255,255,'+(v===0?'0.5':'0.3')+')" font-size="9" font-family="Oswald" font-weight="400">'+(v>=0?'+':'')+v.toFixed(0)+'</text>';
+  });
+  s+='<polygon points="'+fill+'" clip-path="url(#'+id+'a)" fill="rgba(26,138,74,0.2)"/>';
+  s+='<polygon points="'+fill+'" clip-path="url(#'+id+'b)" fill="rgba(192,57,43,0.2)"/>';
+  s+='<polyline points="'+line+'" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>';
+  s+='<circle cx="'+x(pts.length-1).toFixed(1)+'" cy="'+y(pts[pts.length-1].cumPnl).toFixed(1)+'" r="3" fill="#ffffff"/>';
+  pts.forEach(function(d,i){
+    if(i%Math.max(1,Math.floor(pts.length/5))===0||i===pts.length-1){
+      s+='<text x="'+x(i).toFixed(1)+'" y="'+(H-2)+'" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="8" font-family="Oswald" font-weight="400">'+d.date.substring(5)+'</text>';
+    }
+  });
+  s+='</svg>';
+  return s;
+}
+
+function renderOverview(data) {
+  var o=data.overview;
+  var h='<div class="hero"><div class="hero-label">Season P&L</div>';
+  h+='<div><span class="bubble bub-hero '+pnlBg(o.combined_pnl)+'">'+fmt(o.combined_pnl)+'</span></div>';
+  h+='<div class="hero-rec">'+o.combined_record+' &middot; ROI '+fmt(o.combined_roi)+'%</div></div>';
+  h+='<div class="pnl-row">';
+  [['K Props','k_pnl','k_record'],['Totals','totals_pnl','totals_record'],['ML / RL','mlrl_pnl','mlrl_record']].forEach(function(m){
+    h+='<div class="pnl-box"><div class="pnl-label">'+m[0]+'</div><div><span class="bubble bub-lg '+pnlBg(o[m[1]])+'">'+fmt(o[m[1]])+'</span></div><div class="pnl-rec">'+o[m[2]]+'</div></div>';
+  });
+  h+='</div>';
+  h+='<div class="section-hdr"><span class="dot"></span>Season P&L</div>';
+  h+='<div class="chart-box">'+buildChart(data.cumulative_chart, 'cs')+'</div>';
+  var last14 = data.cumulative_chart;
+  if (last14.length > 14) {
+    var sliced = last14.slice(last14.length - 14);
+    var baseVal = last14[last14.length - 15].cumPnl;
+    var zoomed = sliced.map(function(d){ return {date: d.date, cumPnl: d.cumPnl - baseVal}; });
+    h+='<div class="section-hdr"><span class="dot"></span>Last 14 Days</div>';
+    h+='<div class="chart-box">'+buildChart(zoomed, 'cz')+'</div>';
+  }
+  document.getElementById('overview-content').innerHTML=h;
+}
+
+function renderYesterday(data) {
+  var y=data.yesterday;
+  if(!y||!y.bets||y.bets.length===0){document.getElementById('yesterday-content').innerHTML='<div style="text-align:center;padding:40px;opacity:0.5;">No resolved bets</div>';return;}
+  var l10=y.last_10_record||'0-0';
+  var l10w=parseInt(l10.split('-')[0])||0, l10l=parseInt(l10.split('-')[1])||0;
+  var h='<div class="pnl-row">';
+  h+='<div class="pnl-box"><div class="pnl-label">Yesterday</div><div><span class="bubble bub-lg28 '+pnlBg(y.day_pnl)+'">'+fmt(y.day_pnl)+'</span></div><div class="pnl-rec">'+y.day_record+'</div></div>';
+  h+='<div class="pnl-box"><div class="pnl-label">Best Bet</div><div><span class="bubble bub-lg28 '+pnlBg(y.best_bet?y.best_bet.pnl:0)+'">'+(y.best_bet?fmt(y.best_bet.pnl):'—')+'</span></div><div class="pnl-rec">'+(y.best_bet?y.best_bet.label:'')+'</div></div>';
+  h+='<div class="pnl-box"><div class="pnl-label">Last 10</div><div><span class="bubble bub-lg '+(l10w>=l10l?'bg-g':'bg-r')+'">'+l10+'</span></div></div>';
+  h+='</div>';
+  var mkts={};
+  y.bets.forEach(function(b){var m=b.market||'other';if(!mkts[m])mkts[m]=[];mkts[m].push(b);});
+  MO.forEach(function(mk){
+    var bets=mkts[mk];
+    if(!bets||bets.length===0)return;
+    h+='<div class="section-hdr"><span class="dot"></span>'+(ML[mk]||mk)+'</div>';
+    bets.forEach(function(b){
+      h+='<div class="card"><div class="card-top"><div>';
+      h+='<div class="card-matchup">'+b.matchup+'</div>';
+      h+='<div class="card-play">'+b.play+'</div>';
+      h+='<div class="card-info">'+b.info+'</div>';
+      h+='</div><div class="card-right">';
+      h+='<span class="bubble bub-md '+pnlBg(b.pnl)+'">'+fmt(b.pnl)+'</span>';
+      h+='</div></div></div>';
+    });
+  });
+  document.getElementById('yesterday-content').innerHTML=h;
+}
+
+function renderToday(data) {
+  var t=data.today;
+  if(!t||!t.picks||t.picks.length===0){document.getElementById('today-content').innerHTML='<div style="text-align:center;padding:40px;opacity:0.5;">No picks yet. Run the pipeline.</div>';return;}
+  var h='<div class="top-row">';
+  h+='<div class="pnl-box"><div class="pnl-label">Today\'s Plays</div><div class="hero-num">'+t.picks.length+'</div></div>';
+  h+='<div class="pnl-box"><div class="pnl-label">First Pitch</div><div class="hero-num">'+(t.first_pitch||'TBD')+'</div></div>';
+  h+='</div>';
+  var mkts={};
+  t.picks.forEach(function(p){var m=p.market||'other';if(!mkts[m])mkts[m]=[];mkts[m].push(p);});
+  MO.forEach(function(mk){
+    var picks=mkts[mk];
+    if(!picks||picks.length===0)return;
+    picks.sort(function(a,b){return b.edge_pct-a.edge_pct;});
+    h+='<div class="section-hdr"><span class="dot"></span>'+(ML[mk]||mk)+'</div>';
+    picks.forEach(function(p){
+      h+='<div class="card"><div class="card-top"><div>';
+      h+='<div class="card-matchup">'+p.matchup+'</div>';
+      h+='<div class="card-play">'+p.play+'</div>';
+      h+='<div class="card-info">'+p.info+'</div>';
+      h+='</div><div class="card-right">';
+      h+='<div class="edge-val">+'+p.edge_pct.toFixed(1)+'%</div>';
+      h+='<div><span class="conf '+confClass(p.confidence)+'">'+p.confidence+'</span></div>';
+      h+='</div></div></div>';
+    });
+  });
+  document.getElementById('today-content').innerHTML=h;
+}
+
+fetch('dashboard_data.json?'+Date.now())
+  .then(function(r){if(!r.ok)throw new Error('No data');return r.json();})
+  .then(function(data){
+    document.getElementById('header-date').textContent=data.generated_date||'';
+    if(data.overview)renderOverview(data);
+    if(data.yesterday)renderYesterday(data);
+    if(data.today)renderToday(data);
+  })
+  .catch(function(e){
+    console.error(e);
+    document.getElementById('header-date').textContent='Data not loaded';
+    ['overview-content','yesterday-content','today-content'].forEach(function(id){
+      document.getElementById(id).innerHTML='<div style="text-align:center;padding:40px;opacity:0.5;">Could not load dashboard_data.json</div>';
+    });
+  });
+</script>
+</body>
+</html>
