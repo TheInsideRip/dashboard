@@ -25,6 +25,32 @@
     "first_pitch": "01:10 PM ET",
     "picks": [
       {
+        "market": "mlrl",
+        "matchup": "LAD@WSH",
+        "play": "RL: WSH (+1.5)",
+        "info": "+153 \u00b7 WP: 57.7% \u00b7 04:05 PM ET",
+        "edge_pct": 18.1,
+        "confidence": "HIGH",
+        "game_date": "2026-04-04",
+        "book": "BetOnline.ag",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "MIA@NYY",
+        "play": "Over 7.5",
+        "info": "-105 \u00b7 Model: 8.9 \u00b7 07:05 PM ET",
+        "edge_pct": 27.8,
+        "confidence": "HIGH",
+        "game_date": "2026-04-04",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
         "market": "totals",
         "matchup": "STL@DET",
         "play": "Over 7.5",
@@ -32,7 +58,23 @@
         "edge_pct": 24.53,
         "confidence": "HIGH",
         "game_date": "2026-04-04",
-        "book": "FanDuel"
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "PHI@COL",
+        "play": "Over 10.5",
+        "info": "-105 \u00b7 Model: 11.2 \u00b7 08:10 PM ET",
+        "edge_pct": 13.01,
+        "confidence": "MEDIUM",
+        "game_date": "2026-04-04",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
       }
     ]
   }
