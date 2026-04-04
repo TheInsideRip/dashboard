@@ -1,5 +1,5 @@
 {
-  "generated_date": "April 03, 2026",
+  "generated_date": "April 04, 2026",
   "overview": {
     "combined_pnl": 0.0,
     "combined_roi": 0.0,
@@ -22,7 +22,18 @@
     "day_record": "0W-0L"
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": []
+    "first_pitch": "01:10 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "STL@DET",
+        "play": "Over 7.5",
+        "info": "+100 \u00b7 Model: 8.6 \u00b7 01:10 PM ET",
+        "edge_pct": 24.53,
+        "confidence": "HIGH",
+        "game_date": "2026-04-04",
+        "book": "FanDuel"
+      }
+    ]
   }
 }
