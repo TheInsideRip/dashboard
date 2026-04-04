@@ -96,6 +96,7 @@ body {
 .c-vh { background: #c0392b; }
 .c-h { background: #d4760a; }
 .c-m { background: #dbb614; }
+.card-book { font-size: 9px; font-weight: 400; color: #ffffff; opacity: 0.4; margin-top: 3px; letter-spacing: 0.3px; }
 
 /* ── OVERVIEW HERO ── */
 .hero {
@@ -274,6 +275,7 @@ function renderToday(data) {
       h+='</div><div class="card-right">';
       h+='<div class="edge-val">+'+p.edge_pct.toFixed(1)+'%</div>';
       h+='<div><span class="conf '+confClass(p.confidence)+'">'+p.confidence+'</span></div>';
+      if(p.book){h+='<div class="card-book">'+p.book+'</div>';}
       h+='</div></div></div>';
     });
   });
