@@ -66,7 +66,47 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": []
+    "first_pitch": "01:35 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "LAD@WSH",
+        "play": "RL: WSH (+1.5)",
+        "info": "+110 \u00b7 WP: 65.8% \u00b7 01:35 PM ET",
+        "edge_pct": 18.1,
+        "confidence": "HIGH",
+        "game_date": "2026-04-05",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "mlrl",
+        "matchup": "SEA@LAA",
+        "play": "ML: LAA",
+        "info": "+149 \u00b7 WP: 45.9% \u00b7 04:07 PM ET",
+        "edge_pct": 5.7,
+        "confidence": "MEDIUM",
+        "game_date": "2026-04-05",
+        "book": "BetOnline.ag",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "ATL@AZ",
+        "play": "Over 9.0",
+        "info": "-118 \u00b7 Model: 10.2 \u00b7 04:10 PM ET",
+        "edge_pct": 17.02,
+        "confidence": "HIGH",
+        "game_date": "2026-04-05",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      }
+    ]
   }
 }
