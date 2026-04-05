@@ -1,55 +1,65 @@
 {
-  "generated_date": "April 04, 2026",
+  "generated_date": "April 05, 2026",
   "overview": {
-    "combined_pnl": 0.0,
-    "combined_roi": 0.0,
-    "combined_record": "0W-0L (0.0%)",
-    "total_bets": 0,
+    "combined_pnl": -1.05,
+    "combined_roi": -35.0,
+    "combined_record": "1W-2L (33.3%)",
+    "total_bets": 3,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": 0.0,
-    "totals_roi": 0.0,
-    "totals_record": "0W-0L (0.0%)",
-    "mlrl_pnl": 0.0,
-    "mlrl_roi": 0.0,
-    "mlrl_record": "0W-0L (0.0%)"
+    "totals_pnl": -0.05,
+    "totals_roi": -2.5,
+    "totals_record": "1W-1L (50.0%)",
+    "mlrl_pnl": -1.0,
+    "mlrl_roi": -100.0,
+    "mlrl_record": "0W-1L (0.0%)"
   },
-  "cumulative_chart": [],
+  "cumulative_chart": [
+    {
+      "date": "2026-04-04",
+      "cumPnl": -1.05
+    }
+  ],
   "yesterday": {
-    "bets": [],
-    "day_pnl": 0,
-    "day_record": "0W-0L"
-  },
-  "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "LAD@WSH",
-        "play": "RL: WSH (+1.5)",
-        "info": "+153 \u00b7 WP: 57.7% \u00b7 04:05 PM ET",
-        "edge_pct": 18.1,
-        "confidence": "HIGH",
-        "game_date": "2026-04-04",
-        "book": "BetOnline.ag",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      },
+    "date": "2026-04-04",
+    "day_pnl": -1.05,
+    "day_record": "1W-2L (33.3%)",
+    "best_bet": {
+      "label": "MIA@NYY \u2014 Over 7.5",
+      "pnl": 0.95
+    },
+    "last_10_record": "1-2",
+    "bets": [
       {
         "market": "totals",
         "matchup": "MIA@NYY",
         "play": "Over 7.5",
-        "info": "-105 \u00b7 Model: 8.9 \u00b7 07:05 PM ET",
-        "edge_pct": 27.8,
-        "confidence": "HIGH",
-        "game_date": "2026-04-04",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "-105 \u00b7 Model: 8.9 \u00b7 07:05 PM ET \u00b7 Result: 16 runs",
+        "pnl": 0.95,
+        "edge_pct": 27.8
       },
+      {
+        "market": "totals",
+        "matchup": "PHI@COL",
+        "play": "Over 10.5",
+        "info": "-105 \u00b7 Model: 11.2 \u00b7 08:10 PM ET \u00b7 Result: 3 runs",
+        "pnl": -1.0,
+        "edge_pct": 13.01
+      },
+      {
+        "market": "mlrl",
+        "matchup": "LAD@WSH",
+        "play": "RL: WSH (+1.5)",
+        "info": "+153 \u00b7 WP: 57.7% \u00b7 04:05 PM ET \u00b7 Result: LAD by 5.0",
+        "pnl": -1.0,
+        "edge_pct": 18.1
+      }
+    ]
+  },
+  "today": {
+    "first_pitch": "01:10 PM ET",
+    "picks": [
       {
         "market": "totals",
         "matchup": "STL@DET",
@@ -57,19 +67,6 @@
         "info": "+100 \u00b7 Model: 8.6 \u00b7 01:10 PM ET",
         "edge_pct": 24.53,
         "confidence": "HIGH",
-        "game_date": "2026-04-04",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      },
-      {
-        "market": "totals",
-        "matchup": "PHI@COL",
-        "play": "Over 10.5",
-        "info": "-105 \u00b7 Model: 11.2 \u00b7 08:10 PM ET",
-        "edge_pct": 13.01,
-        "confidence": "MEDIUM",
         "game_date": "2026-04-04",
         "book": "FanDuel",
         "result": null,
