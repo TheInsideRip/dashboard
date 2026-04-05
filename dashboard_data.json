@@ -1,16 +1,16 @@
 {
   "generated_date": "April 05, 2026",
   "overview": {
-    "combined_pnl": -1.05,
-    "combined_roi": -35.0,
-    "combined_record": "1W-2L (33.3%)",
-    "total_bets": 3,
+    "combined_pnl": -0.05,
+    "combined_roi": -1.25,
+    "combined_record": "2W-2L (50.0%)",
+    "total_bets": 4,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": -0.05,
-    "totals_roi": -2.5,
-    "totals_record": "1W-1L (50.0%)",
+    "totals_pnl": 0.95,
+    "totals_roi": 31.67,
+    "totals_record": "2W-1L (66.7%)",
     "mlrl_pnl": -1.0,
     "mlrl_roi": -100.0,
     "mlrl_record": "0W-1L (0.0%)"
@@ -18,19 +18,27 @@
   "cumulative_chart": [
     {
       "date": "2026-04-04",
-      "cumPnl": -1.05
+      "cumPnl": -0.05
     }
   ],
   "yesterday": {
     "date": "2026-04-04",
-    "day_pnl": -1.05,
-    "day_record": "1W-2L (33.3%)",
+    "day_pnl": -0.05,
+    "day_record": "2W-2L (50.0%)",
     "best_bet": {
-      "label": "MIA@NYY \u2014 Over 7.5",
-      "pnl": 0.95
+      "label": "STL@DET \u2014 Over 7.5",
+      "pnl": 1.0
     },
-    "last_10_record": "1-2",
+    "last_10_record": "2-2",
     "bets": [
+      {
+        "market": "totals",
+        "matchup": "STL@DET",
+        "play": "Over 7.5",
+        "info": "+100 \u00b7 Model: 8.6 \u00b7 01:10 PM ET \u00b7 Result: 17",
+        "pnl": 1.0,
+        "edge_pct": 24.53
+      },
       {
         "market": "totals",
         "matchup": "MIA@NYY",
@@ -58,21 +66,7 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "STL@DET",
-        "play": "Over 7.5",
-        "info": "+100 \u00b7 Model: 8.6 \u00b7 01:10 PM ET",
-        "edge_pct": 24.53,
-        "confidence": "HIGH",
-        "game_date": "2026-04-04",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      }
-    ]
+    "first_pitch": "TBD",
+    "picks": []
   }
 }
