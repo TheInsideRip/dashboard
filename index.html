@@ -58,11 +58,12 @@ body {
 
 /* ── ALL NUMBERS: Oswald 400 ── */
 .num { font-family: 'Oswald', sans-serif; font-weight: 400; color: #ffffff; }
-.bubble { display: inline-block; color: #ffffff; line-height: 1; border-radius: 4px; border: 2px solid #ffffff; font-family: 'Oswald', sans-serif; font-weight: 400; }
-.bub-hero { padding: 8px 22px 6px; font-size: 50px; }
-.bub-lg { padding: 6px 12px 4px; font-size: 26px; }
-.bub-lg28 { padding: 6px 12px 4px; font-size: 28px; }
-.bub-md { padding: 4px 8px 3px; font-size: 18px; }
+.bubble { display: inline-flex; align-items: center; justify-content: center; color: #ffffff; line-height: 1; border-radius: 4px; border: 2px solid #ffffff; font-family: 'Oswald', sans-serif; font-weight: 400; }
+.bub-hero { padding: 8px 28px 10px 18px; font-size: 50px; min-height: 60px; }
+.bub-lg { padding: 5px 16px 7px 8px; font-size: 26px; min-height: 36px; }
+.bub-lg28 { padding: 6px 12px; font-size: 28px; min-height: 38px; }
+/* bub-last10 removed — uses bub-lg28 */
+.bub-md { padding: 3px 8px 5px; font-size: 18px; min-height: 26px; }
 .bg-g { background: #1a8a4a; }
 .bg-r { background: #c0392b; }
 
@@ -230,9 +231,9 @@ function renderYesterday(data) {
   var l10=y.last_10_record||'0-0';
   var l10w=parseInt(l10.split('-')[0])||0, l10l=parseInt(l10.split('-')[1])||0;
   var h='<div class="pnl-row">';
-  h+='<div class="pnl-box"><div class="pnl-label">Yesterday</div><div><span class="bubble bub-lg28 '+pnlBg(y.day_pnl)+'">'+fmt(y.day_pnl)+'</span></div><div class="pnl-rec">'+y.day_record+'</div></div>';
+  h+='<div class="pnl-box"><div class="pnl-label">Result</div><div><span class="bubble bub-lg28 '+pnlBg(y.day_pnl)+'">'+fmt(y.day_pnl)+'</span></div><div class="pnl-rec">'+y.day_record+'</div></div>';
   h+='<div class="pnl-box"><div class="pnl-label">Best Bet</div><div><span class="bubble bub-lg28 '+pnlBg(y.best_bet?y.best_bet.pnl:0)+'">'+(y.best_bet?fmt(y.best_bet.pnl):'—')+'</span></div><div class="pnl-rec">'+(y.best_bet?y.best_bet.label:'')+'</div></div>';
-  h+='<div class="pnl-box"><div class="pnl-label">Last 10</div><div><span class="bubble bub-lg '+(l10w>=l10l?'bg-g':'bg-r')+'">'+l10+'</span></div></div>';
+  h+='<div class="pnl-box"><div class="pnl-label">Last 10</div><div><span class="bubble bub-lg28 '+(l10w>=l10l?'bg-g':'bg-r')+'">'+l10+'</span></div></div>';
   h+='</div>';
   var mkts={};
   y.bets.forEach(function(b){var m=b.market||'other';if(!mkts[m])mkts[m]=[];mkts[m].push(b);});
@@ -242,8 +243,8 @@ function renderYesterday(data) {
     h+='<div class="section-hdr"><span class="dot"></span>'+(ML[mk]||mk)+'</div>';
     bets.forEach(function(b){
       h+='<div class="card"><div class="card-top"><div>';
-      h+='<div class="card-matchup">'+b.matchup+'</div>';
-      h+='<div class="card-play">'+b.play+'</div>';
+      h+='<div class="card-matchup">'+b.play+'</div>';
+      h+='<div class="card-play">'+b.matchup+'</div>';
       h+='<div class="card-info">'+b.info+'</div>';
       h+='</div><div class="card-right">';
       h+='<span class="bubble bub-md '+pnlBg(b.pnl)+'">'+fmt(b.pnl)+'</span>';
@@ -256,9 +257,18 @@ function renderYesterday(data) {
 function renderToday(data) {
   var t=data.today;
   if(!t||!t.picks||t.picks.length===0){document.getElementById('today-content').innerHTML='<div style="text-align:center;padding:40px;opacity:0.5;">No picks yet. Run the pipeline.</div>';return;}
+  var resolved=t.picks.filter(function(p){return p.result_hit!==null&&p.result_hit!==undefined;});
+  var pending=t.picks.filter(function(p){return p.result_hit===null||p.result_hit===undefined;});
+  var dayPnl=0; var dayW=0; var dayL=0;
+  resolved.forEach(function(p){dayPnl+=p.pnl;if(p.pnl>0)dayW++;else dayL++;});
   var h='<div class="top-row">';
-  h+='<div class="pnl-box"><div class="pnl-label">Today\'s Plays</div><div class="hero-num">'+t.picks.length+'</div></div>';
-  h+='<div class="pnl-box"><div class="pnl-label">First Pitch</div><div class="hero-num">'+(t.first_pitch||'TBD')+'</div></div>';
+  if(resolved.length>0){
+    h+='<div class="pnl-box"><div class="pnl-label">Today</div><div><span class="bubble bub-lg28 '+pnlBg(dayPnl)+'">'+fmt(dayPnl)+'</span></div><div class="pnl-rec">'+dayW+'W-'+dayL+'L'+(pending.length>0?' · '+pending.length+' pending':'')+'</div></div>';
+    h+='<div class="pnl-box"><div class="pnl-label">First Pitch</div><div class="hero-num">'+(t.first_pitch||'TBD')+'</div></div>';
+  } else {
+    h+='<div class="pnl-box"><div class="pnl-label">Today\'s Plays</div><div class="hero-num">'+t.picks.length+'</div></div>';
+    h+='<div class="pnl-box"><div class="pnl-label">First Pitch</div><div class="hero-num">'+(t.first_pitch||'TBD')+'</div></div>';
+  }
   h+='</div>';
   var mkts={};
   t.picks.forEach(function(p){var m=p.market||'other';if(!mkts[m])mkts[m]=[];mkts[m].push(p);});
@@ -268,13 +278,22 @@ function renderToday(data) {
     picks.sort(function(a,b){return b.edge_pct-a.edge_pct;});
     h+='<div class="section-hdr"><span class="dot"></span>'+(ML[mk]||mk)+'</div>';
     picks.forEach(function(p){
+      var resolved = p.result_hit !== null && p.result_hit !== undefined;
       h+='<div class="card"><div class="card-top"><div>';
-      h+='<div class="card-matchup">'+p.matchup+'</div>';
-      h+='<div class="card-play">'+p.play+'</div>';
-      h+='<div class="card-info">'+p.info+'</div>';
+      h+='<div class="card-matchup">'+p.play+'</div>';
+      h+='<div class="card-play">'+p.matchup+'</div>';
+      if(resolved){
+        h+='<div class="card-info">'+p.info+' · Result: '+p.result+'</div>';
+      } else {
+        h+='<div class="card-info">'+p.info+'</div>';
+      }
       h+='</div><div class="card-right">';
-      h+='<div class="edge-val">+'+p.edge_pct.toFixed(1)+'%</div>';
-      h+='<div><span class="conf '+confClass(p.confidence)+'">'+p.confidence+'</span></div>';
+      if(resolved){
+        h+='<span class="bubble bub-md '+pnlBg(p.pnl)+'">'+fmt(p.pnl)+'</span>';
+      } else {
+        h+='<div class="edge-val">+'+p.edge_pct.toFixed(1)+'%</div>';
+        h+='<div><span class="conf '+confClass(p.confidence)+'">'+p.confidence+'</span></div>';
+      }
       if(p.book){h+='<div class="card-book">'+p.book+'</div>';}
       h+='</div></div></div>';
     });
