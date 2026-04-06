@@ -62,7 +62,60 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": []
+    "first_pitch": "06:40 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "STL@WSH",
+        "play": "ML: WSH",
+        "info": "+103 \u00b7 WP: 59.5% \u00b7 06:45 PM ET",
+        "edge_pct": 10.2,
+        "confidence": "HIGH",
+        "game_date": "2026-04-06",
+        "book": "BetOnline.ag",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "mlrl",
+        "matchup": "ATL@LAA",
+        "play": "RL: ATL (-1.5)",
+        "info": "+101 \u00b7 WP: 59.3% \u00b7 09:38 PM ET",
+        "edge_pct": 9.6,
+        "confidence": "MEDIUM",
+        "game_date": "2026-04-06",
+        "book": "BetOnline.ag",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "STL@WSH",
+        "play": "Over 8.0",
+        "info": "-115 \u00b7 Model: 9.7 \u00b7 06:45 PM ET",
+        "edge_pct": 20.94,
+        "confidence": "HIGH",
+        "game_date": "2026-04-06",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "CIN@MIA",
+        "play": "Over 8.0",
+        "info": "-104 \u00b7 Model: 8.9 \u00b7 06:40 PM ET",
+        "edge_pct": 13.59,
+        "confidence": "HIGH",
+        "game_date": "2026-04-06",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      }
+    ]
   }
 }
