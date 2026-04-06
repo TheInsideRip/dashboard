@@ -1,67 +1,63 @@
 {
   "generated_date": "April 05, 2026",
   "overview": {
-    "combined_pnl": -0.05,
-    "combined_roi": -1.25,
-    "combined_record": "2W-2L (50.0%)",
-    "total_bets": 4,
+    "combined_pnl": 1.29,
+    "combined_roi": 18.43,
+    "combined_record": "4W-3L (57.1%)",
+    "total_bets": 7,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": 0.95,
-    "totals_roi": 31.67,
-    "totals_record": "2W-1L (66.7%)",
-    "mlrl_pnl": -1.0,
-    "mlrl_roi": -100.0,
-    "mlrl_record": "0W-1L (0.0%)"
+    "totals_pnl": 1.8,
+    "totals_roi": 45.0,
+    "totals_record": "3W-1L (75.0%)",
+    "mlrl_pnl": -0.51,
+    "mlrl_roi": -17.0,
+    "mlrl_record": "1W-2L (33.3%)"
   },
   "cumulative_chart": [
     {
       "date": "2026-04-04",
       "cumPnl": -0.05
+    },
+    {
+      "date": "2026-04-05",
+      "cumPnl": 1.29
     }
   ],
   "yesterday": {
-    "date": "2026-04-04",
-    "day_pnl": -0.05,
-    "day_record": "2W-2L (50.0%)",
+    "date": "2026-04-05",
+    "day_pnl": 1.34,
+    "day_record": "2W-1L (66.7%)",
     "best_bet": {
-      "label": "STL@DET \u2014 Over 7.5",
-      "pnl": 1.0
+      "label": "SEA@LAA \u2014 ML: LAA",
+      "pnl": 1.49
     },
-    "last_10_record": "2-2",
+    "last_10_record": "4-3",
     "bets": [
       {
         "market": "totals",
-        "matchup": "STL@DET",
-        "play": "Over 7.5",
-        "info": "+100 \u00b7 Model: 8.6 \u00b7 01:10 PM ET \u00b7 Result: 17",
-        "pnl": 1.0,
-        "edge_pct": 24.53
-      },
-      {
-        "market": "totals",
-        "matchup": "MIA@NYY",
-        "play": "Over 7.5",
-        "info": "-105 \u00b7 Model: 8.9 \u00b7 07:05 PM ET \u00b7 Result: 16 runs",
-        "pnl": 0.95,
-        "edge_pct": 27.8
-      },
-      {
-        "market": "totals",
-        "matchup": "PHI@COL",
-        "play": "Over 10.5",
-        "info": "-105 \u00b7 Model: 11.2 \u00b7 08:10 PM ET \u00b7 Result: 3 runs",
-        "pnl": -1.0,
-        "edge_pct": 13.01
+        "matchup": "ATL@AZ",
+        "play": "Over 9.0",
+        "info": "-118 \u00b7 Model: 10.2 \u00b7 04:10 PM ET \u00b7 Result: 11 runs",
+        "pnl": 0.85,
+        "edge_pct": 17.02
       },
       {
         "market": "mlrl",
         "matchup": "LAD@WSH",
         "play": "RL: WSH (+1.5)",
-        "info": "+153 \u00b7 WP: 57.7% \u00b7 04:05 PM ET \u00b7 Result: LAD by 5.0",
+        "info": "+110 \u00b7 WP: 65.8% \u00b7 01:35 PM ET \u00b7 Result: LAD by 2.0",
         "pnl": -1.0,
         "edge_pct": 18.1
+      },
+      {
+        "market": "mlrl",
+        "matchup": "SEA@LAA",
+        "play": "ML: LAA",
+        "info": "+149 \u00b7 WP: 45.9% \u00b7 04:07 PM ET \u00b7 Result: LAA by 1.0",
+        "pnl": 1.49,
+        "edge_pct": 5.7
       }
     ]
   },
@@ -77,9 +73,9 @@
         "confidence": "HIGH",
         "game_date": "2026-04-05",
         "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "result": "LAD by 2.0",
+        "result_hit": 0,
+        "pnl": -1.0
       },
       {
         "market": "mlrl",
@@ -90,9 +86,9 @@
         "confidence": "MEDIUM",
         "game_date": "2026-04-05",
         "book": "BetOnline.ag",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "result": "LAA by 1.0",
+        "result_hit": 1,
+        "pnl": 1.49
       },
       {
         "market": "totals",
@@ -103,9 +99,9 @@
         "confidence": "HIGH",
         "game_date": "2026-04-05",
         "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "result": "11 runs",
+        "result_hit": 1,
+        "pnl": 0.85
       }
     ]
   }
