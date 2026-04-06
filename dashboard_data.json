@@ -1,5 +1,5 @@
 {
-  "generated_date": "April 05, 2026",
+  "generated_date": "April 06, 2026",
   "overview": {
     "combined_pnl": 1.29,
     "combined_roi": 18.43,
@@ -62,47 +62,7 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "LAD@WSH",
-        "play": "RL: WSH (+1.5)",
-        "info": "+110 \u00b7 WP: 65.8% \u00b7 01:35 PM ET",
-        "edge_pct": 18.1,
-        "confidence": "HIGH",
-        "game_date": "2026-04-05",
-        "book": "BetMGM",
-        "result": "LAD by 2.0",
-        "result_hit": 0,
-        "pnl": -1.0
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SEA@LAA",
-        "play": "ML: LAA",
-        "info": "+149 \u00b7 WP: 45.9% \u00b7 04:07 PM ET",
-        "edge_pct": 5.7,
-        "confidence": "MEDIUM",
-        "game_date": "2026-04-05",
-        "book": "BetOnline.ag",
-        "result": "LAA by 1.0",
-        "result_hit": 1,
-        "pnl": 1.49
-      },
-      {
-        "market": "totals",
-        "matchup": "ATL@AZ",
-        "play": "Over 9.0",
-        "info": "-118 \u00b7 Model: 10.2 \u00b7 04:10 PM ET",
-        "edge_pct": 17.02,
-        "confidence": "HIGH",
-        "game_date": "2026-04-05",
-        "book": "FanDuel",
-        "result": "11 runs",
-        "result_hit": 1,
-        "pnl": 0.85
-      }
-    ]
+    "first_pitch": "TBD",
+    "picks": []
   }
 }
