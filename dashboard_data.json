@@ -1,19 +1,19 @@
 {
-  "generated_date": "April 06, 2026",
+  "generated_date": "April 07, 2026",
   "overview": {
-    "combined_pnl": 1.29,
-    "combined_roi": 18.43,
-    "combined_record": "4W-3L (57.1%)",
-    "total_bets": 7,
+    "combined_pnl": 1.19,
+    "combined_roi": 10.82,
+    "combined_record": "6W-5L (54.5%)",
+    "total_bets": 11,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": 1.8,
-    "totals_roi": 45.0,
-    "totals_record": "3W-1L (75.0%)",
-    "mlrl_pnl": -0.51,
-    "mlrl_roi": -17.0,
-    "mlrl_record": "1W-2L (33.3%)"
+    "totals_pnl": 1.67,
+    "totals_roi": 27.83,
+    "totals_record": "4W-2L (66.7%)",
+    "mlrl_pnl": -0.48,
+    "mlrl_roi": -9.6,
+    "mlrl_record": "2W-3L (40.0%)"
   },
   "cumulative_chart": [
     {
@@ -23,99 +23,58 @@
     {
       "date": "2026-04-05",
       "cumPnl": 1.29
+    },
+    {
+      "date": "2026-04-06",
+      "cumPnl": 1.19
     }
   ],
   "yesterday": {
-    "date": "2026-04-05",
-    "day_pnl": 1.34,
-    "day_record": "2W-1L (66.7%)",
+    "date": "2026-04-06",
+    "day_pnl": -0.1,
+    "day_record": "2W-2L (50.0%)",
     "best_bet": {
-      "label": "SEA@LAA \u2014 ML: LAA",
-      "pnl": 1.49
+      "label": "STL@WSH \u2014 ML: WSH",
+      "pnl": 1.03
     },
-    "last_10_record": "4-3",
+    "last_10_record": "6-4",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "ATL@AZ",
-        "play": "Over 9.0",
-        "info": "-118 \u00b7 Model: 10.2 \u00b7 04:10 PM ET \u00b7 Result: 11 runs",
-        "pnl": 0.85,
-        "edge_pct": 17.02
-      },
-      {
-        "market": "mlrl",
-        "matchup": "LAD@WSH",
-        "play": "RL: WSH (+1.5)",
-        "info": "+110 \u00b7 WP: 65.8% \u00b7 01:35 PM ET \u00b7 Result: LAD by 2.0",
-        "pnl": -1.0,
-        "edge_pct": 18.1
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SEA@LAA",
-        "play": "ML: LAA",
-        "info": "+149 \u00b7 WP: 45.9% \u00b7 04:07 PM ET \u00b7 Result: LAA by 1.0",
-        "pnl": 1.49,
-        "edge_pct": 5.7
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "STL@WSH",
-        "play": "ML: WSH",
-        "info": "+103 \u00b7 WP: 59.5% \u00b7 06:45 PM ET",
-        "edge_pct": 10.2,
-        "confidence": "HIGH",
-        "game_date": "2026-04-06",
-        "book": "BetOnline.ag",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      },
-      {
-        "market": "mlrl",
-        "matchup": "ATL@LAA",
-        "play": "RL: ATL (-1.5)",
-        "info": "+101 \u00b7 WP: 59.3% \u00b7 09:38 PM ET",
-        "edge_pct": 9.6,
-        "confidence": "MEDIUM",
-        "game_date": "2026-04-06",
-        "book": "BetOnline.ag",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      },
       {
         "market": "totals",
         "matchup": "STL@WSH",
         "play": "Over 8.0",
-        "info": "-115 \u00b7 Model: 9.7 \u00b7 06:45 PM ET",
-        "edge_pct": 20.94,
-        "confidence": "HIGH",
-        "game_date": "2026-04-06",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "-115 \u00b7 Model: 9.7 \u00b7 06:45 PM ET \u00b7 Result: 15 runs",
+        "pnl": 0.87,
+        "edge_pct": 20.94
       },
       {
         "market": "totals",
         "matchup": "CIN@MIA",
         "play": "Over 8.0",
-        "info": "-104 \u00b7 Model: 8.9 \u00b7 06:40 PM ET",
-        "edge_pct": 13.59,
-        "confidence": "HIGH",
-        "game_date": "2026-04-06",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "-104 \u00b7 Model: 8.9 \u00b7 06:40 PM ET \u00b7 Result: 2 runs",
+        "pnl": -1.0,
+        "edge_pct": 13.59
+      },
+      {
+        "market": "mlrl",
+        "matchup": "STL@WSH",
+        "play": "ML: WSH",
+        "info": "+103 \u00b7 WP: 59.5% \u00b7 06:45 PM ET \u00b7 Result: WSH by 3.0",
+        "pnl": 1.03,
+        "edge_pct": 10.2
+      },
+      {
+        "market": "mlrl",
+        "matchup": "ATL@LAA",
+        "play": "RL: ATL (-1.5)",
+        "info": "+101 \u00b7 WP: 59.3% \u00b7 09:38 PM ET \u00b7 Result: LAA by 4.0",
+        "pnl": -1.0,
+        "edge_pct": 9.6
       }
     ]
+  },
+  "today": {
+    "first_pitch": "TBD",
+    "picks": []
   }
 }
