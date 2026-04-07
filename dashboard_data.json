@@ -74,7 +74,47 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": []
+    "first_pitch": "06:45 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "STL@WSH",
+        "play": "Over 7.5",
+        "info": "-106 \u00b7 Model: 10.0 \u00b7 06:45 PM ET",
+        "edge_pct": 38.04,
+        "confidence": "HIGH",
+        "game_date": "2026-04-07",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "MIL@BOS",
+        "play": "Over 7.0",
+        "info": "-104 \u00b7 Model: 8.8 \u00b7 06:45 PM ET",
+        "edge_pct": 28.5,
+        "confidence": "HIGH",
+        "game_date": "2026-04-07",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "HOU@COL",
+        "play": "Over 10.5",
+        "info": "-110 \u00b7 Model: 12.1 \u00b7 08:40 PM ET",
+        "edge_pct": 21.92,
+        "confidence": "HIGH",
+        "game_date": "2026-04-07",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      }
+    ]
   }
 }
