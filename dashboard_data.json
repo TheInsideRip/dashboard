@@ -70,7 +70,7 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
+    "first_pitch": "01:10 PM ET",
     "picks": [
       {
         "market": "totals",
@@ -89,6 +89,21 @@
       },
       {
         "market": "totals",
+        "matchup": "STL@WSH",
+        "play": "Over 8.5",
+        "info": "-102 \u00b7 Model: 10.2 \u00b7 04:05 PM ET",
+        "edge_pct": 28.11,
+        "confidence": "HIGH",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-08",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
         "matchup": "PHI@SF",
         "play": "Under 8.0",
         "info": "+100 \u00b7 Model: 7.0 \u00b7 03:45 PM ET",
@@ -96,6 +111,21 @@
         "confidence": "HIGH",
         "tier": "ELITE",
         "tier_wr": 68,
+        "game_date": "2026-04-08",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "KC@CLE",
+        "play": "Under 7.0",
+        "info": "-104 \u00b7 Model: 6.6 \u00b7 01:10 PM ET",
+        "edge_pct": 5.01,
+        "confidence": "HIGH",
+        "tier": "LEAN",
+        "tier_wr": 58,
         "game_date": "2026-04-08",
         "book": "FanDuel",
         "result": null,
