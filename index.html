@@ -91,7 +91,7 @@ body {
 /* ── EDGE + CONFIDENCE ── */
 .edge-val { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 400; color: #ffffff; line-height: 1; }
 .conf {
-  display: inline-block; font-size: 9px; font-weight: 500; padding: 2px 6px; border-radius: 3px;
+  display: inline-block; font-size: 10px; font-weight: 500; padding: 3px 8px; border-radius: 3px;
   text-transform: uppercase; letter-spacing: 0.3px; color: #ffffff; margin-top: 3px;
 }
 .c-vh { background: #c0392b; }
@@ -281,7 +281,7 @@ function renderToday(data) {
   MO.forEach(function(mk){
     var picks=mkts[mk];
     if(!picks||picks.length===0)return;
-    picks.sort(function(a,b){return b.tier_wr-a.tier_wr;});
+    picks.sort(function(a,b){return 0;});
     h+='<div class="section-hdr"><span class="dot"></span>'+(ML[mk]||mk)+'</div>';
     picks.forEach(function(p){
       var resolved = p.result_hit !== null && p.result_hit !== undefined;
@@ -297,8 +297,7 @@ function renderToday(data) {
       if(resolved){
         h+='<span class="bubble bub-md '+pnlBg(p.pnl)+'">'+fmt(p.pnl)+'</span>';
       } else {
-        h+='<div class="edge-val">'+p.tier_wr+'%</div>';
-        h+='<div><span class="conf '+tierClass(p.tier)+'">'+p.tier+'</span></div>';
+          h+='<div><span class="conf '+tierClass(p.tier)+'">'+p.tier+'</span></div>';
       }
       if(p.book){h+='<div class="card-book">'+p.book+'</div>';}
       h+='</div></div></div>';
