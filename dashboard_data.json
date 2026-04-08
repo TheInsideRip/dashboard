@@ -1,16 +1,16 @@
 {
-  "generated_date": "April 07, 2026",
+  "generated_date": "April 08, 2026",
   "overview": {
-    "combined_pnl": 1.19,
-    "combined_roi": 10.82,
-    "combined_record": "6W-5L (54.5%)",
-    "total_bets": 11,
+    "combined_pnl": 0.13,
+    "combined_roi": 0.93,
+    "combined_record": "7W-7L (50.0%)",
+    "total_bets": 14,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": 1.67,
-    "totals_roi": 27.83,
-    "totals_record": "4W-2L (66.7%)",
+    "totals_pnl": 0.61,
+    "totals_roi": 6.78,
+    "totals_record": "5W-4L (55.6%)",
     "mlrl_pnl": -0.48,
     "mlrl_roi": -9.6,
     "mlrl_record": "2W-3L (40.0%)"
@@ -27,94 +27,50 @@
     {
       "date": "2026-04-06",
       "cumPnl": 1.19
+    },
+    {
+      "date": "2026-04-07",
+      "cumPnl": 0.13
     }
   ],
   "yesterday": {
-    "date": "2026-04-06",
-    "day_pnl": -0.1,
-    "day_record": "2W-2L (50.0%)",
+    "date": "2026-04-07",
+    "day_pnl": -1.06,
+    "day_record": "1W-2L (33.3%)",
     "best_bet": {
-      "label": "STL@WSH \u2014 ML: WSH",
-      "pnl": 1.03
+      "label": "STL@WSH \u2014 Over 7.5",
+      "pnl": 0.94
     },
-    "last_10_record": "6-4",
+    "last_10_record": "5-5",
     "bets": [
       {
         "market": "totals",
         "matchup": "STL@WSH",
-        "play": "Over 8.0",
-        "info": "-115 \u00b7 Model: 9.7 \u00b7 06:45 PM ET \u00b7 Result: 15 runs",
-        "pnl": 0.87,
-        "edge_pct": 20.94
-      },
-      {
-        "market": "totals",
-        "matchup": "CIN@MIA",
-        "play": "Over 8.0",
-        "info": "-104 \u00b7 Model: 8.9 \u00b7 06:40 PM ET \u00b7 Result: 2 runs",
-        "pnl": -1.0,
-        "edge_pct": 13.59
-      },
-      {
-        "market": "mlrl",
-        "matchup": "STL@WSH",
-        "play": "ML: WSH",
-        "info": "+103 \u00b7 WP: 59.5% \u00b7 06:45 PM ET \u00b7 Result: WSH by 3.0",
-        "pnl": 1.03,
-        "edge_pct": 10.2
-      },
-      {
-        "market": "mlrl",
-        "matchup": "ATL@LAA",
-        "play": "RL: ATL (-1.5)",
-        "info": "+101 \u00b7 WP: 59.3% \u00b7 09:38 PM ET \u00b7 Result: LAA by 4.0",
-        "pnl": -1.0,
-        "edge_pct": 9.6
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:45 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "STL@WSH",
         "play": "Over 7.5",
-        "info": "-106 \u00b7 Model: 10.0 \u00b7 06:45 PM ET",
-        "edge_pct": 38.04,
-        "confidence": "HIGH",
-        "game_date": "2026-04-07",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "-106 \u00b7 Model: 10.0 \u00b7 06:45 PM ET \u00b7 Result: 13 runs",
+        "pnl": 0.94,
+        "edge_pct": 38.04
       },
       {
         "market": "totals",
         "matchup": "MIL@BOS",
         "play": "Over 7.0",
-        "info": "-104 \u00b7 Model: 8.8 \u00b7 06:45 PM ET",
-        "edge_pct": 28.5,
-        "confidence": "HIGH",
-        "game_date": "2026-04-07",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "-104 \u00b7 Model: 8.8 \u00b7 06:45 PM ET \u00b7 Result: 5 runs",
+        "pnl": -1.0,
+        "edge_pct": 28.5
       },
       {
         "market": "totals",
         "matchup": "HOU@COL",
         "play": "Over 10.5",
-        "info": "-110 \u00b7 Model: 12.1 \u00b7 08:40 PM ET",
-        "edge_pct": 21.92,
-        "confidence": "HIGH",
-        "game_date": "2026-04-07",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "-110 \u00b7 Model: 12.1 \u00b7 08:40 PM ET \u00b7 Result: 6 runs",
+        "pnl": -1.0,
+        "edge_pct": 21.92
       }
     ]
+  },
+  "today": {
+    "first_pitch": "TBD",
+    "picks": []
   }
 }
