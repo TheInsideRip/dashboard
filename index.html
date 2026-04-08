@@ -165,6 +165,12 @@ function confClass(c) {
   if (u === 'HIGH') return 'c-h';
   return 'c-m';
 }
+function tierClass(t) {
+  var u = (t||'').toUpperCase();
+  if (u === 'TIER 1') return 'c-vh';
+  if (u === 'TIER 2') return 'c-h';
+  return 'c-m';
+}
 var ML = { k_props: 'K Props', totals: 'Totals', mlrl: 'ML / Run Line' };
 var MO = ['totals', 'mlrl', 'k_props'];
 
@@ -275,7 +281,7 @@ function renderToday(data) {
   MO.forEach(function(mk){
     var picks=mkts[mk];
     if(!picks||picks.length===0)return;
-    picks.sort(function(a,b){return b.edge_pct-a.edge_pct;});
+    picks.sort(function(a,b){return b.tier_wr-a.tier_wr;});
     h+='<div class="section-hdr"><span class="dot"></span>'+(ML[mk]||mk)+'</div>';
     picks.forEach(function(p){
       var resolved = p.result_hit !== null && p.result_hit !== undefined;
@@ -291,8 +297,8 @@ function renderToday(data) {
       if(resolved){
         h+='<span class="bubble bub-md '+pnlBg(p.pnl)+'">'+fmt(p.pnl)+'</span>';
       } else {
-        h+='<div class="edge-val">+'+p.edge_pct.toFixed(1)+'%</div>';
-        h+='<div><span class="conf '+confClass(p.confidence)+'">'+p.confidence+'</span></div>';
+        h+='<div class="edge-val">'+p.tier_wr+'%</div>';
+        h+='<div><span class="conf '+tierClass(p.tier)+'">'+p.tier+'</span></div>';
       }
       if(p.book){h+='<div class="card-book">'+p.book+'</div>';}
       h+='</div></div></div>';
