@@ -82,7 +82,23 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": []
+    "first_pitch": "01:35 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "ATH@NYY",
+        "play": "Under 8.0",
+        "info": "-110 \u00b7 Model: 7.1 \u00b7 01:35 PM ET",
+        "edge_pct": 10.55,
+        "confidence": "HIGH",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-09",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      }
+    ]
   }
 }
