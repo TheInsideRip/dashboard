@@ -63,6 +63,7 @@
   },
   "today": {
     "first_pitch": "TBD",
-    "picks": []
+    "picks": [],
+    "status_message": "Rip dropping approx 5:15 PM ET"
   }
 }
