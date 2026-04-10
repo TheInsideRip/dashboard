@@ -1,16 +1,16 @@
 {
-  "generated_date": "April 09, 2026",
+  "generated_date": "April 10, 2026",
   "overview": {
-    "combined_pnl": -1.87,
-    "combined_roi": -10.39,
-    "combined_record": "8W-10L (44.4%)",
-    "total_bets": 18,
+    "combined_pnl": -0.96,
+    "combined_roi": -5.05,
+    "combined_record": "9W-10L (47.4%)",
+    "total_bets": 19,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": -1.39,
-    "totals_roi": -10.69,
-    "totals_record": "6W-7L (46.2%)",
+    "totals_pnl": -0.48,
+    "totals_roi": -3.43,
+    "totals_record": "7W-7L (50.0%)",
     "mlrl_pnl": -0.48,
     "mlrl_roi": -9.6,
     "mlrl_record": "2W-3L (40.0%)"
@@ -35,70 +35,34 @@
     {
       "date": "2026-04-08",
       "cumPnl": -1.87
+    },
+    {
+      "date": "2026-04-09",
+      "cumPnl": -0.96
     }
   ],
   "yesterday": {
-    "date": "2026-04-08",
-    "day_pnl": -2.0,
-    "day_record": "1W-3L (25.0%)",
+    "date": "2026-04-09",
+    "day_pnl": 0.91,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "PHI@SF \u2014 Under 8.0",
-      "pnl": 1.0
+      "label": "ATH@NYY \u2014 Under 8.0",
+      "pnl": 0.91
     },
     "last_10_record": "4-6",
     "bets": [
       {
         "market": "totals",
-        "matchup": "MIL@BOS",
-        "play": "Over 7.5",
-        "info": "-110 \u00b7 Model: 10.0 \u00b7 01:35 PM ET \u00b7 Result: 5 runs",
-        "pnl": -1.0,
-        "edge_pct": 35.61
-      },
-      {
-        "market": "totals",
-        "matchup": "PHI@SF",
+        "matchup": "ATH@NYY",
         "play": "Under 8.0",
-        "info": "+100 \u00b7 Model: 7.0 \u00b7 03:45 PM ET \u00b7 Result: 5 runs",
-        "pnl": 1.0,
-        "edge_pct": 17.55
-      },
-      {
-        "market": "totals",
-        "matchup": "STL@WSH",
-        "play": "Over 8.5",
-        "info": "-102 \u00b7 Model: 10.2 \u00b7 04:05 PM ET \u00b7 Result: 7 runs",
-        "pnl": -1.0,
-        "edge_pct": 28.11
-      },
-      {
-        "market": "totals",
-        "matchup": "KC@CLE",
-        "play": "Under 7.0",
-        "info": "-104 \u00b7 Model: 6.6 \u00b7 01:10 PM ET \u00b7 Result: 12 runs",
-        "pnl": -1.0,
-        "edge_pct": 5.01
+        "info": "-110 \u00b7 Model: 7.1 \u00b7 01:35 PM ET \u00b7 Result: 1 runs",
+        "pnl": 0.91,
+        "edge_pct": 10.55
       }
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "ATH@NYY",
-        "play": "Under 8.0",
-        "info": "-110 \u00b7 Model: 7.1 \u00b7 01:35 PM ET",
-        "edge_pct": 10.55,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 68,
-        "game_date": "2026-04-09",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      }
-    ]
+    "first_pitch": "TBD",
+    "picks": []
   }
 }
