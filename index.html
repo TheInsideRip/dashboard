@@ -171,8 +171,8 @@ function tierClass(t) {
   if (u === 'STRONG') return 'c-h';
   return 'c-m';
 }
-var ML = { k_props: 'K Props', totals: 'Totals', mlrl: 'ML / Run Line' };
-var MO = ['totals', 'mlrl', 'k_props'];
+var ML = { props: 'Props', totals: 'Totals', mlrl: 'ML / Run Line' };
+var MO = ['totals', 'mlrl', 'props'];
 
 function buildChart(pts, idPrefix) {
   if (!pts || pts.length < 2) return '';
@@ -214,7 +214,7 @@ function renderOverview(data) {
   h+='<div><span class="bubble bub-hero '+pnlBg(o.combined_pnl)+'">'+fmt(o.combined_pnl)+'</span></div>';
   h+='<div class="hero-rec">'+o.combined_record+' &middot; ROI '+fmt(o.combined_roi)+'%</div></div>';
   h+='<div class="pnl-row">';
-  [['K Props','k_pnl','k_record'],['Totals','totals_pnl','totals_record'],['ML / RL','mlrl_pnl','mlrl_record']].forEach(function(m){
+  [['Props','k_pnl','k_record'],['Totals','totals_pnl','totals_record'],['ML / RL','mlrl_pnl','mlrl_record']].forEach(function(m){
     h+='<div class="pnl-box"><div class="pnl-label">'+m[0]+'</div><div><span class="bubble bub-lg '+pnlBg(o[m[1]])+'">'+fmt(o[m[1]])+'</span></div><div class="pnl-rec">'+o[m[2]]+'</div></div>';
   });
   h+='</div>';
@@ -262,7 +262,7 @@ function renderYesterday(data) {
 
 function renderToday(data) {
   var t=data.today;
-  if(!t||!t.picks||t.picks.length===0){document.getElementById('today-content').innerHTML='<div style="text-align:center;padding:40px;opacity:0.5;">No picks yet. Run the pipeline.</div>';return;}
+  if(!t||!t.picks||t.picks.length===0){var sm=t&&t.status_message?t.status_message:'No picks yet.';document.getElementById('today-content').innerHTML='<div style="text-align:center;padding:48px 20px;"><div style="font-family:Oswald,sans-serif;font-weight:400;font-size:14px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,0.5);">'+sm+'</div></div>';return;}
   var resolved=t.picks.filter(function(p){return p.result_hit!==null&&p.result_hit!==undefined;});
   var pending=t.picks.filter(function(p){return p.result_hit===null||p.result_hit===undefined;});
   var dayPnl=0; var dayW=0; var dayL=0;
