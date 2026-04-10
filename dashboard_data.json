@@ -62,8 +62,69 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": [],
-    "status_message": "Rip dropping approx 5:15 PM ET"
+    "first_pitch": "02:20 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "PIT@CHC",
+        "play": "Shota Imanaga U 17.5 Outs",
+        "info": "OUTS_UNDER_STRONG",
+        "edge_pct": 0.0,
+        "confidence": "OUTS_UNDER_STRONG",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-10",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "props",
+        "matchup": "AZ@PHI",
+        "play": "Jesus Luzardo U 17.5 Outs",
+        "info": "OUTS_UNDER_STRONG",
+        "edge_pct": 0.0,
+        "confidence": "OUTS_UNDER_STRONG",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-10",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "MIA@DET",
+        "play": "Over 7.5",
+        "info": "-105 \u00b7 Model: 10.0 \u00b7 06:40 PM ET",
+        "edge_pct": 38.68,
+        "confidence": "HIGH",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-10",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "COL@SD",
+        "play": "Under 8.5",
+        "info": "-115 \u00b7 Model: 7.8 \u00b7 09:40 PM ET",
+        "edge_pct": 5.01,
+        "confidence": "HIGH",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-10",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      }
+    ],
+    "status_message": ""
   }
 }
