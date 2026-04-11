@@ -113,19 +113,24 @@
         "result": null,
         "result_hit": null,
         "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "CWS@KC",
+        "play": "Under 9.5",
+        "info": "-122 \u00b7 Model: 8.7 \u00b7 04:10 PM ET",
+        "edge_pct": 3.79,
+        "confidence": "UNDER_WEATHER_2",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-11",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
       }
     ],
     "watchlist": [
-      {
-        "play": "MIA@DET O 7.5",
-        "time": "1:10 PM ET",
-        "tier": "STRONG"
-      },
-      {
-        "play": "CWS@KC U 9.5",
-        "time": "4:10 PM ET",
-        "tier": "LEAN"
-      },
       {
         "play": "COL@SD U 8.5",
         "time": "8:40 PM ET",
