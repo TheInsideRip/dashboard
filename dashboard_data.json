@@ -116,6 +116,21 @@
       },
       {
         "market": "totals",
+        "matchup": "COL@SD",
+        "play": "Under 8.5",
+        "info": "-122 \u00b7 Model: 7.6 \u00b7 08:40 PM ET",
+        "edge_pct": 5.37,
+        "confidence": "UNDER_WEATHER_3",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-04-11",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
         "matchup": "CWS@KC",
         "play": "Under 9.5",
         "info": "-122 \u00b7 Model: 8.7 \u00b7 04:10 PM ET",
@@ -130,14 +145,7 @@
         "pnl": null
       }
     ],
-    "watchlist": [
-      {
-        "matchup": "COL@SD",
-        "play": "Under 8.5",
-        "info": "UNDER_WEATHER_3",
-        "game_time": "Pending Lineup Verification"
-      }
-    ],
+    "watchlist": [],
     "status_message": ""
   }
 }
