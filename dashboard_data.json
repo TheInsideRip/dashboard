@@ -75,7 +75,7 @@
         "market": "props",
         "matchup": "AZ@PHI",
         "play": "Jesus Luzardo U 17.5 Outs",
-        "info": "+139 \u00b7 Line: 17.5 \u00b7 06:40 PM ET \u00b7 Result: 4 outs",
+        "info": "+139 \u00b7 Line: 17.5 \u00b7 06:40 PM ET \u00b7 Result: 14 outs",
         "pnl": 1.39,
         "edge_pct": 0.0
       }
@@ -115,23 +115,7 @@
         "pnl": null
       }
     ],
-    "watchlist": [
-      {
-        "play": "MIA@DET O 7.5",
-        "time": "1:10 PM ET",
-        "tier": "STRONG"
-      },
-      {
-        "play": "CWS@KC U 9.5",
-        "time": "4:10 PM ET",
-        "tier": "LEAN"
-      },
-      {
-        "play": "COL@SD U 8.5",
-        "time": "8:40 PM ET",
-        "tier": "ELITE"
-      }
-    ],
+    "watchlist": [],
     "status_message": ""
   }
 }
