@@ -303,6 +303,21 @@ function renderToday(data) {
       h+='</div></div></div>';
     });
   });
+  // ── Watchlist: Pending Lineup Verification ──
+  if(t.watchlist&&t.watchlist.length>0){
+    h+='<div class="section-hdr" style="margin-top:24px;"><span class="dot" style="background:rgba(255,255,255,0.3);"></span>Pending Lineup Verification</div>';
+    h+='<div style="padding:0 16px 4px 16px;"><div style="font-family:Lexend,sans-serif;font-size:11px;color:rgba(255,255,255,0.45);letter-spacing:0.5px;">Check back 1 hour before first pitch</div></div>';
+    t.watchlist.forEach(function(w){
+      var tierCls=w.tag?tierClass(w.tier||'LEAN'):'tier-lean';
+      h+='<div class="card" style="opacity:0.6;border-left:2px solid rgba(255,255,255,0.15);">';
+      h+='<div class="card-top"><div>';
+      h+='<div class="card-matchup">'+w.play+'</div>';
+      h+='<div class="card-play" style="opacity:0.5;">'+w.time+'</div>';
+      h+='</div><div class="card-right">';
+      if(w.tier){h+='<div><span class="conf '+tierClass(w.tier)+'" style="opacity:0.6;">'+w.tier+'</span></div>';}
+      h+='</div></div></div>';
+    });
+  }
   document.getElementById('today-content').innerHTML=h;
 }
 
