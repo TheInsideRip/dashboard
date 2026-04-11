@@ -82,8 +82,56 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": [],
-    "status_message": "Rip dropping approx 5:15 PM ET"
+    "first_pitch": "02:20 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "PIT@CHC",
+        "play": "Edward Cabrera U 17.5 Outs",
+        "info": "-127 \u00b7 Line: 17.5 \u00b7 02:20 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "OUTS_UNDER_STRONG",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-11",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "props",
+        "matchup": "HOU@SEA",
+        "play": "Luis Castillo U 17.5 Outs",
+        "info": "-115 \u00b7 Line: 17.5 \u00b7 09:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "OUTS_UNDER_STRONG",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-11",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      }
+    ],
+    "watchlist": [
+      {
+        "play": "MIA@DET O 7.5",
+        "time": "1:10 PM ET",
+        "tier": "STRONG"
+      },
+      {
+        "play": "CWS@KC U 9.5",
+        "time": "4:10 PM ET",
+        "tier": "LEAN"
+      },
+      {
+        "play": "COL@SD U 8.5",
+        "time": "8:40 PM ET",
+        "tier": "ELITE"
+      }
+    ],
+    "status_message": ""
   }
 }
