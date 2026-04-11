@@ -1,16 +1,16 @@
 {
-  "generated_date": "April 10, 2026",
+  "generated_date": "April 11, 2026",
   "overview": {
-    "combined_pnl": -0.96,
-    "combined_roi": -5.05,
-    "combined_record": "9W-10L (47.4%)",
-    "total_bets": 19,
+    "combined_pnl": -1.09,
+    "combined_roi": -5.19,
+    "combined_record": "10W-11L (47.6%)",
+    "total_bets": 21,
     "k_pnl": 0.0,
     "k_roi": 0.0,
     "k_record": "0W-0L (0.0%)",
-    "totals_pnl": -0.48,
-    "totals_roi": -3.43,
-    "totals_record": "7W-7L (50.0%)",
+    "totals_pnl": -0.61,
+    "totals_roi": -3.81,
+    "totals_record": "8W-8L (50.0%)",
     "mlrl_pnl": -0.48,
     "mlrl_roi": -9.6,
     "mlrl_record": "2W-3L (40.0%)"
@@ -39,25 +39,37 @@
     {
       "date": "2026-04-09",
       "cumPnl": -0.96
+    },
+    {
+      "date": "2026-04-10",
+      "cumPnl": -1.09
     }
   ],
   "yesterday": {
-    "date": "2026-04-09",
-    "day_pnl": 0.91,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-04-10",
+    "day_pnl": -0.13,
+    "day_record": "1W-1L (50.0%)",
     "best_bet": {
-      "label": "ATH@NYY \u2014 Under 8.0",
-      "pnl": 0.91
+      "label": "COL@SD \u2014 Under 8.5",
+      "pnl": 0.87
     },
     "last_10_record": "4-6",
     "bets": [
       {
         "market": "totals",
-        "matchup": "ATH@NYY",
-        "play": "Under 8.0",
-        "info": "-110 \u00b7 Model: 7.1 \u00b7 01:35 PM ET \u00b7 Result: 1 runs",
-        "pnl": 0.91,
-        "edge_pct": 10.55
+        "matchup": "MIA@DET",
+        "play": "Over 8.5",
+        "info": "-112 \u00b7 Model: 10.0 \u00b7 06:40 PM ET \u00b7 Result: 2 runs",
+        "pnl": -1.0,
+        "edge_pct": 38.68
+      },
+      {
+        "market": "totals",
+        "matchup": "COL@SD",
+        "play": "Under 8.5",
+        "info": "-115 \u00b7 Model: 7.8 \u00b7 09:40 PM ET \u00b7 Result: 7 runs",
+        "pnl": 0.87,
+        "edge_pct": 5.01
       }
     ]
   },
@@ -75,36 +87,6 @@
         "tier_wr": 58,
         "game_date": "2026-04-10",
         "book": "Fanatics",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      },
-      {
-        "market": "totals",
-        "matchup": "MIA@DET",
-        "play": "Over 8.5",
-        "info": "-112 \u00b7 Model: 10.0 \u00b7 06:40 PM ET",
-        "edge_pct": 38.68,
-        "confidence": "HIGH_PARK_GAP",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-04-10",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      },
-      {
-        "market": "totals",
-        "matchup": "COL@SD",
-        "play": "Under 8.5",
-        "info": "-115 \u00b7 Model: 7.8 \u00b7 09:40 PM ET",
-        "edge_pct": 5.01,
-        "confidence": "UNDER_WEATHER_3",
-        "tier": "ELITE",
-        "tier_wr": 68,
-        "game_date": "2026-04-10",
-        "book": "FanDuel",
         "result": null,
         "result_hit": null,
         "pnl": null
