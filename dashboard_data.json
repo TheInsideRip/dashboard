@@ -94,9 +94,70 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": [],
+    "first_pitch": "01:40 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "Tarik Skubal \u2014 MIA@DET",
+        "play": "Under 7.5 K",
+        "info": "+102 \u00b7 Model: 7.0 K \u00b7 01:40 PM ET",
+        "edge_pct": 17.2,
+        "confidence": "VERY HIGH",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-12",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "props",
+        "matchup": "COL@SD",
+        "play": "Kyle Freeland U 17.5 Outs",
+        "info": "-120 \u00b7 Line: 17.5 \u00b7 04:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "OUTS_UNDER_STRONG",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-12",
+        "book": "DraftKings",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "props",
+        "matchup": "HOU@SEA",
+        "play": "Logan Gilbert U 17.5 Outs",
+        "info": "+150 \u00b7 Line: 17.5 \u00b7 04:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "OUTS_UNDER_STRONG",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-12",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      },
+      {
+        "market": "totals",
+        "matchup": "MIA@DET",
+        "play": "Over 6.5",
+        "info": "+100 \u00b7 Model: 8.3 \u00b7 01:40 PM ET",
+        "edge_pct": 31.02,
+        "confidence": "HIGH_PARK_GAP",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-12",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null
+      }
+    ],
     "watchlist": [],
-    "status_message": "Rip dropping approx 5:15 PM ET"
+    "status_message": ""
   }
 }
