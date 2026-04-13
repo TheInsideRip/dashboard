@@ -1,13 +1,13 @@
 {
   "generated_date": "April 13, 2026",
   "overview": {
-    "combined_pnl": 6.32,
-    "combined_roi": 19.75,
-    "combined_record": "19W-13L (59.4%)",
-    "total_bets": 32,
-    "k_pnl": 3.9,
-    "k_roi": 65.0,
-    "k_record": "5W-1L (83.3%)",
+    "combined_pnl": 5.49,
+    "combined_roi": 17.71,
+    "combined_record": "18W-13L (58.1%)",
+    "total_bets": 31,
+    "k_pnl": 3.07,
+    "k_roi": 61.4,
+    "k_record": "4W-1L (80.0%)",
     "totals_pnl": 0.21,
     "totals_roi": 1.11,
     "totals_record": "10W-9L (52.6%)",
@@ -50,18 +50,18 @@
     },
     {
       "date": "2026-04-12",
-      "cumPnl": 6.32
+      "cumPnl": 5.49
     }
   ],
   "yesterday": {
     "date": "2026-04-12",
-    "day_pnl": 4.54,
-    "day_record": "5W-1L (83.3%)",
+    "day_pnl": 3.71,
+    "day_record": "4W-1L (80.0%)",
     "best_bet": {
       "label": "CWS@KC \u2014 ML: CWS",
       "pnl": 1.58
     },
-    "last_10_record": "8-2",
+    "last_10_record": "7-3",
     "bets": [
       {
         "market": "totals",
@@ -78,14 +78,6 @@
         "info": "+102 \u00b7 Model: 7.0 K \u00b7 01:40 PM ET \u00b7 Result: 7 K",
         "pnl": 1.02,
         "edge_pct": 17.2
-      },
-      {
-        "market": "props",
-        "matchup": "COL@SD",
-        "play": "Kyle Freeland U 17.5 Outs",
-        "info": "-120 \u00b7 Line: 17.5 \u00b7 04:10 PM ET \u00b7 Result: 0 outs",
-        "pnl": 0.83,
-        "edge_pct": 0.0
       },
       {
         "market": "props",
