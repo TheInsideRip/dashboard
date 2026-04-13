@@ -123,6 +123,38 @@
         "result_hit": null,
         "pnl": null,
         "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "MIA@ATL",
+        "play": "MIA ML +125",
+        "info": "+125 \u00b7 07:15 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 59,
+        "game_date": "2026-04-13",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "WSH@PIT",
+        "play": "WSH ML +158",
+        "info": "+158 \u00b7 06:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 59,
+        "game_date": "2026-04-13",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       }
     ],
     "watchlist": [],
