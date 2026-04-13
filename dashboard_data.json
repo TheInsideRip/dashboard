@@ -1,19 +1,19 @@
 {
-  "generated_date": "April 12, 2026",
+  "generated_date": "April 13, 2026",
   "overview": {
-    "combined_pnl": 1.78,
-    "combined_roi": 6.85,
-    "combined_record": "14W-12L (53.8%)",
-    "total_bets": 26,
-    "k_pnl": 3.05,
-    "k_roi": 101.67,
-    "k_record": "3W-0L (100.0%)",
-    "totals_pnl": -0.79,
-    "totals_roi": -4.39,
-    "totals_record": "9W-9L (50.0%)",
-    "mlrl_pnl": -0.48,
-    "mlrl_roi": -9.6,
-    "mlrl_record": "2W-3L (40.0%)"
+    "combined_pnl": 6.32,
+    "combined_roi": 19.75,
+    "combined_record": "19W-13L (59.4%)",
+    "total_bets": 32,
+    "k_pnl": 3.9,
+    "k_roi": 65.0,
+    "k_record": "5W-1L (83.3%)",
+    "totals_pnl": 0.21,
+    "totals_roi": 1.11,
+    "totals_record": "10W-9L (52.6%)",
+    "mlrl_pnl": 2.21,
+    "mlrl_roi": 31.57,
+    "mlrl_record": "4W-3L (57.1%)"
   },
   "cumulative_chart": [
     {
@@ -47,147 +47,76 @@
     {
       "date": "2026-04-11",
       "cumPnl": 1.78
+    },
+    {
+      "date": "2026-04-12",
+      "cumPnl": 6.32
     }
   ],
   "yesterday": {
-    "date": "2026-04-11",
-    "day_pnl": 1.48,
-    "day_record": "3W-1L (75.0%)",
+    "date": "2026-04-12",
+    "day_pnl": 4.54,
+    "day_record": "5W-1L (83.3%)",
     "best_bet": {
-      "label": "HOU@SEA \u2014 Luis Castillo U 17.5 Outs",
-      "pnl": 0.87
+      "label": "CWS@KC \u2014 ML: CWS",
+      "pnl": 1.58
     },
-    "last_10_record": "7-3",
+    "last_10_record": "8-2",
     "bets": [
       {
-        "market": "props",
-        "matchup": "PIT@CHC",
-        "play": "Edward Cabrera U 17.5 Outs",
-        "info": "-127 \u00b7 Line: 17.5 \u00b7 02:20 PM ET \u00b7 Result: 15 outs",
-        "pnl": 0.79,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "HOU@SEA",
-        "play": "Luis Castillo U 17.5 Outs",
-        "info": "-115 \u00b7 Line: 17.5 \u00b7 09:40 PM ET \u00b7 Result: 10 outs",
-        "pnl": 0.87,
-        "edge_pct": 0.0
-      },
-      {
         "market": "totals",
-        "matchup": "CWS@KC",
-        "play": "Under 9.5",
-        "info": "-122 \u00b7 Model: 8.7 \u00b7 04:10 PM ET \u00b7 Result: 2 runs",
-        "pnl": 0.82,
-        "edge_pct": 3.79
-      },
-      {
-        "market": "totals",
-        "matchup": "COL@SD",
-        "play": "Under 8.5",
-        "info": "-122 \u00b7 Model: 7.6 \u00b7 08:40 PM ET \u00b7 Result: 14 runs",
-        "pnl": -1.0,
-        "edge_pct": 5.37
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "01:40 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "CWS@KC",
-        "play": "ML: CWS",
-        "info": "+158 \u00b7 WP: 45.4% \u00b7 02:10 PM ET",
-        "edge_pct": 6.6,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 59,
-        "game_date": "2026-04-12",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TEX@LAD",
-        "play": "ML: TEX",
-        "info": "+111 \u00b7 WP: 50.8% \u00b7 04:10 PM ET",
-        "edge_pct": 3.5,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 59,
-        "game_date": "2026-04-12",
-        "book": "BetOnline.ag",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "matchup": "MIA@DET",
+        "play": "Over 6.5",
+        "info": "+100 \u00b7 Model: 8.3 \u00b7 01:40 PM ET \u00b7 Result: 10 runs",
+        "pnl": 1.0,
+        "edge_pct": 31.02
       },
       {
         "market": "props",
         "matchup": "Tarik Skubal \u2014 MIA@DET",
         "play": "Under 7.5 K",
-        "info": "+102 \u00b7 Model: 7.0 K \u00b7 01:40 PM ET",
-        "edge_pct": 17.2,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-12",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "+102 \u00b7 Model: 7.0 K \u00b7 01:40 PM ET \u00b7 Result: 7 K",
+        "pnl": 1.02,
+        "edge_pct": 17.2
       },
       {
         "market": "props",
         "matchup": "COL@SD",
         "play": "Kyle Freeland U 17.5 Outs",
-        "info": "-120 \u00b7 Line: 17.5 \u00b7 04:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-04-12",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "-120 \u00b7 Line: 17.5 \u00b7 04:10 PM ET \u00b7 Result: 0 outs",
+        "pnl": 0.83,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "HOU@SEA",
         "play": "Logan Gilbert U 17.5 Outs",
-        "info": "+150 \u00b7 Line: 17.5 \u00b7 04:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-04-12",
-        "book": "Fanatics",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "info": "+150 \u00b7 Line: 17.5 \u00b7 04:10 PM ET \u00b7 Result: 21 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       },
       {
-        "market": "totals",
-        "matchup": "MIA@DET",
-        "play": "Over 6.5",
-        "info": "+100 \u00b7 Model: 8.3 \u00b7 01:40 PM ET",
-        "edge_pct": 31.02,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-04-12",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null
+        "market": "mlrl",
+        "matchup": "CWS@KC",
+        "play": "ML: CWS",
+        "info": "+158 \u00b7 WP: 45.4% \u00b7 02:10 PM ET \u00b7 Result: CWS by 1.0",
+        "pnl": 1.58,
+        "edge_pct": 6.6
+      },
+      {
+        "market": "mlrl",
+        "matchup": "TEX@LAD",
+        "play": "ML: TEX",
+        "info": "+111 \u00b7 WP: 50.8% \u00b7 04:10 PM ET \u00b7 Result: TEX by 3.0",
+        "pnl": 1.11,
+        "edge_pct": 3.5
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "TBD",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Rip dropping approx 5:15 PM ET"
   }
 }
