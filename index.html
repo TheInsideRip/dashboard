@@ -337,5 +337,22 @@ fetch('dashboard_data.json?'+Date.now())
     });
   });
 </script>
+<!-- Cloudflare Web Analytics (self-exclude: visit with ?exclude=true) -->
+<script>
+(function(){
+  // Self-exclude: add ?exclude=true to URL once to stop counting your visits
+  // Re-enable: add ?include=true
+  var p = new URLSearchParams(window.location.search);
+  if (p.get('exclude') === 'true') { localStorage.setItem('cf_exclude', '1'); }
+  if (p.get('include') === 'true') { localStorage.removeItem('cf_exclude'); }
+  if (localStorage.getItem('cf_exclude')) return;
+  var s = document.createElement('script');
+  s.defer = true;
+  s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+  s.setAttribute('data-cf-beacon', '{"token": "2d51781839fe4bcfbd9e1f9c9c076cf6"}');
+  document.head.appendChild(s);
+})();
+</script>
+<!-- End Cloudflare Web Analytics -->
 </body>
 </html>
