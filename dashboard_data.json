@@ -106,9 +106,26 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
-    "picks": [],
+    "first_pitch": "04:10 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "HOU@SEA",
+        "play": "ML: HOU (BP:300)",
+        "info": "+140 \u00b7 04:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 59,
+        "game_date": "2026-04-13",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup verification in progress. First pitch 4:10pm. Data required."
+    "status_message": ""
   }
 }
