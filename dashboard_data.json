@@ -1,13 +1,13 @@
 {
   "generated_date": "April 14, 2026",
   "overview": {
-    "combined_pnl": 5.57,
-    "combined_roi": 15.91,
-    "combined_record": "20W-15L (57.1%)",
-    "total_bets": 35,
-    "k_pnl": 3.9,
-    "k_roi": 65.0,
-    "k_record": "5W-1L (83.3%)",
+    "combined_pnl": 4.74,
+    "combined_roi": 13.94,
+    "combined_record": "19W-15L (55.9%)",
+    "total_bets": 34,
+    "k_pnl": 3.07,
+    "k_roi": 61.4,
+    "k_record": "4W-1L (80.0%)",
     "totals_pnl": 0.21,
     "totals_roi": 1.11,
     "totals_record": "10W-9L (52.6%)",
@@ -50,11 +50,11 @@
     },
     {
       "date": "2026-04-12",
-      "cumPnl": 6.32
+      "cumPnl": 5.49
     },
     {
       "date": "2026-04-13",
-      "cumPnl": 5.57
+      "cumPnl": 4.74
     }
   ],
   "yesterday": {
