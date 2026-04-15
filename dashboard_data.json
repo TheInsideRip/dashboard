@@ -1,19 +1,19 @@
 {
-  "generated_date": "April 14, 2026",
+  "generated_date": "April 15, 2026",
   "overview": {
-    "combined_pnl": 4.74,
-    "combined_roi": 13.94,
-    "combined_record": "19W-15L (55.9%)",
-    "total_bets": 34,
-    "k_pnl": 3.07,
-    "k_roi": 61.4,
-    "k_record": "4W-1L (80.0%)",
+    "combined_pnl": 7.49,
+    "combined_roi": 19.71,
+    "combined_record": "22W-16L (57.9%)",
+    "total_bets": 38,
+    "k_pnl": 2.9,
+    "k_roi": 41.43,
+    "k_record": "5W-2L (71.4%)",
     "totals_pnl": 0.21,
     "totals_roi": 1.11,
     "totals_record": "10W-9L (52.6%)",
-    "mlrl_pnl": 1.46,
-    "mlrl_roi": 14.6,
-    "mlrl_record": "5W-5L (50.0%)"
+    "mlrl_pnl": 4.38,
+    "mlrl_roi": 36.5,
+    "mlrl_record": "7W-5L (58.3%)"
   },
   "cumulative_chart": [
     {
@@ -50,102 +50,57 @@
     },
     {
       "date": "2026-04-12",
-      "cumPnl": 5.49
+      "cumPnl": 6.32
     },
     {
       "date": "2026-04-13",
-      "cumPnl": 4.74
+      "cumPnl": 5.57
+    },
+    {
+      "date": "2026-04-14",
+      "cumPnl": 7.49
     }
   ],
   "yesterday": {
-    "date": "2026-04-13",
-    "day_pnl": -0.75,
-    "day_record": "1W-2L (33.3%)",
+    "date": "2026-04-14",
+    "day_pnl": 1.92,
+    "day_record": "2W-1L (66.7%)",
     "best_bet": {
-      "label": "MIA@ATL \u2014 MIA ML +125",
-      "pnl": 1.25
+      "label": "WSH@PIT \u2014 WSH ML +154",
+      "pnl": 1.54
     },
-    "last_10_record": "7-3",
+    "last_10_record": "6-4",
     "bets": [
-      {
-        "market": "mlrl",
-        "matchup": "HOU@SEA",
-        "play": "HOU ML +140",
-        "info": "+140 \u00b7 04:10 PM ET \u00b7 Result: SEA",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "mlrl",
-        "matchup": "MIA@ATL",
-        "play": "MIA ML +125",
-        "info": "+125 \u00b7 07:15 PM ET \u00b7 Result: MIA",
-        "pnl": 1.25,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "mlrl",
-        "matchup": "WSH@PIT",
-        "play": "WSH ML +158",
-        "info": "+158 \u00b7 06:40 PM ET \u00b7 Result: PIT",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:35 PM ET",
-    "picks": [
       {
         "market": "mlrl",
         "matchup": "LAA@NYY",
         "play": "LAA ML +138",
-        "info": "+138 \u00b7 07:05 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 59,
-        "game_date": "2026-04-14",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+138 \u00b7 07:05 PM ET \u00b7 Result: LAA",
+        "pnl": 1.38,
+        "edge_pct": 0.0
       },
       {
         "market": "mlrl",
         "matchup": "WSH@PIT",
         "play": "WSH ML +154",
-        "info": "+154 \u00b7 06:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 59,
-        "game_date": "2026-04-14",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+154 \u00b7 06:40 PM ET \u00b7 Result: WSH",
+        "pnl": 1.54,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "Framber Valdez \u2014 KC@DET",
         "play": "Over 4.5 K",
-        "info": "-146 \u00b7 Model: 5.6 K \u00b7 06:40 PM ET",
-        "edge_pct": 13.22,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-04-14",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-146 \u00b7 Model: 5.6 K \u00b7 06:40 PM ET \u00b7 Result: 1 K",
+        "pnl": -1.0,
+        "edge_pct": 13.22
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "TBD",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch TBD."
   }
 }
