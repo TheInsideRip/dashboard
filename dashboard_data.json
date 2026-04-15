@@ -99,8 +99,25 @@
   },
   "today": {
     "first_pitch": "12:35 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "WSH@PIT",
+        "play": "WSH ML +140",
+        "info": "+140 \u00b7 06:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 59,
+        "game_date": "2026-04-15",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
+    "status_message": ""
   }
 }
