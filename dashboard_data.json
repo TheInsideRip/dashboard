@@ -115,6 +115,22 @@
         "result_hit": null,
         "pnl": null,
         "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "NYM@LAD",
+        "play": "Shohei Ohtani U 17.5 Outs",
+        "info": "+139 \u00b7 Line: 17.5 \u00b7 10:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-15",
+        "book": "BetOnline.ag",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       }
     ],
     "watchlist": [],
