@@ -1,13 +1,13 @@
 {
   "generated_date": "April 15, 2026",
   "overview": {
-    "combined_pnl": 7.49,
-    "combined_roi": 19.71,
-    "combined_record": "22W-16L (57.9%)",
-    "total_bets": 38,
-    "k_pnl": 2.9,
-    "k_roi": 41.43,
-    "k_record": "5W-2L (71.4%)",
+    "combined_pnl": 6.66,
+    "combined_roi": 18.0,
+    "combined_record": "21W-16L (56.8%)",
+    "total_bets": 37,
+    "k_pnl": 2.07,
+    "k_roi": 34.5,
+    "k_record": "4W-2L (66.7%)",
     "totals_pnl": 0.21,
     "totals_roi": 1.11,
     "totals_record": "10W-9L (52.6%)",
@@ -50,15 +50,15 @@
     },
     {
       "date": "2026-04-12",
-      "cumPnl": 6.32
+      "cumPnl": 5.49
     },
     {
       "date": "2026-04-13",
-      "cumPnl": 5.57
+      "cumPnl": 4.74
     },
     {
       "date": "2026-04-14",
-      "cumPnl": 7.49
+      "cumPnl": 6.66
     }
   ],
   "yesterday": {
@@ -98,9 +98,9 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
+    "first_pitch": "12:35 PM ET",
     "picks": [],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch TBD."
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
   }
 }
