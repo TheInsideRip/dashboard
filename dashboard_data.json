@@ -94,48 +94,9 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "BAL@CLE",
-        "play": "BAL ML +100",
-        "info": "+100 \u00b7 06:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 59,
-        "game_date": "2026-04-16",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "KC@DET",
-        "play": "KC ML -110",
-        "info": "-110 \u00b7 01:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 59,
-        "game_date": "2026-04-16",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
-    "watchlist": [
-      {
-        "play": "LAA ML +215 @ NYY",
-        "time": "01:35 PM ET",
-        "tier": "ELITE"
-      }
-    ],
-    "status_message": ""
+    "first_pitch": "12:35 PM ET",
+    "picks": [],
+    "watchlist": [],
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
   }
 }
