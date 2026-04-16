@@ -94,9 +94,42 @@
     ]
   },
   "today": {
-    "first_pitch": "12:35 PM ET",
-    "picks": [],
+    "first_pitch": "06:10 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "BAL@CLE",
+        "play": "Under 8.0",
+        "info": "-110 \u00b7 Model: 7.5 \u00b7 06:10 PM ET",
+        "edge_pct": 3.88,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-04-16",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "SEA@SD",
+        "play": "Under 8.5",
+        "info": "-110 \u00b7 Model: 8.0 \u00b7 08:40 PM ET",
+        "edge_pct": 3.88,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-04-16",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
+    "status_message": ""
   }
 }
