@@ -1,13 +1,13 @@
 {
   "generated_date": "April 16, 2026",
   "overview": {
-    "combined_pnl": 5.66,
-    "combined_roi": 14.89,
-    "combined_record": "21W-17L (55.3%)",
-    "total_bets": 38,
-    "k_pnl": 2.07,
-    "k_roi": 34.5,
-    "k_record": "4W-2L (66.7%)",
+    "combined_pnl": 4.66,
+    "combined_roi": 11.95,
+    "combined_record": "21W-18L (53.8%)",
+    "total_bets": 39,
+    "k_pnl": 1.07,
+    "k_roi": 15.29,
+    "k_record": "4W-3L (57.1%)",
     "totals_pnl": 0.21,
     "totals_roi": 1.11,
     "totals_record": "10W-9L (52.6%)",
@@ -62,13 +62,13 @@
     },
     {
       "date": "2026-04-15",
-      "cumPnl": 5.66
+      "cumPnl": 4.66
     }
   ],
   "yesterday": {
     "date": "2026-04-15",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "day_pnl": -2.0,
+    "day_record": "0W-2L (0.0%)",
     "best_bet": {
       "label": "WSH@PIT \u2014 WSH ML +140",
       "pnl": -1.0
@@ -82,30 +82,21 @@
         "info": "+140 \u00b7 06:40 PM ET \u00b7 Result: PIT",
         "pnl": -1.0,
         "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "10:10 PM ET",
-    "picks": [
+      },
       {
         "market": "props",
         "matchup": "NYM@LAD",
         "play": "Shohei Ohtani U 17.5 Outs",
-        "info": "+139 \u00b7 Line: 17.5 \u00b7 10:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-04-15",
-        "book": "BetOnline.ag",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+139 \u00b7 Line: 17.5 \u00b7 10:10 PM ET \u00b7 Result: None",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
   }
 }
