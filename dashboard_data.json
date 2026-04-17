@@ -98,8 +98,24 @@
     ]
   },
   "today": {
-    "first_pitch": "08:40 PM ET",
+    "first_pitch": "02:20 PM ET",
     "picks": [
+      {
+        "market": "props",
+        "matchup": "Edward Cabrera \u2014 NYM@CHC",
+        "play": "Under 5.5 K",
+        "info": "-102 \u00b7 Model: 4.8 K \u00b7 02:20 PM ET",
+        "edge_pct": 21.11,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-17",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
       {
         "market": "totals",
         "matchup": "LAD@COL",
@@ -117,13 +133,7 @@
         "voided": false
       }
     ],
-    "watchlist": [
-      {
-        "play": "Edward Cabrera U 5.5 K @ -102",
-        "time": "02:20 PM ET",
-        "tier": "STRONG"
-      }
-    ],
+    "watchlist": [],
     "status_message": ""
   }
 }
