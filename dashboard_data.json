@@ -98,9 +98,32 @@
     ]
   },
   "today": {
-    "first_pitch": "02:20 PM ET",
-    "picks": [],
-    "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 02:20 PM ET."
+    "first_pitch": "08:40 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "LAD@COL",
+        "play": "Over 9.5",
+        "info": "-106 \u00b7 Model: 12.4 \u00b7 08:40 PM ET",
+        "edge_pct": 43.79,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-17",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
+    "watchlist": [
+      {
+        "play": "Edward Cabrera U 5.5 K @ -102",
+        "time": "02:20 PM ET",
+        "tier": "STRONG"
+      }
+    ],
+    "status_message": ""
   }
 }
