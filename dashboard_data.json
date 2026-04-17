@@ -1,16 +1,16 @@
 {
   "generated_date": "April 17, 2026",
   "overview": {
-    "combined_pnl": 4.66,
-    "combined_roi": 11.95,
-    "combined_record": "21W-18L (53.8%)",
-    "total_bets": 39,
+    "combined_pnl": 6.48,
+    "combined_roi": 15.8,
+    "combined_record": "23W-18L (56.1%)",
+    "total_bets": 41,
     "k_pnl": 1.07,
     "k_roi": 15.29,
     "k_record": "4W-3L (57.1%)",
-    "totals_pnl": 0.21,
-    "totals_roi": 1.11,
-    "totals_record": "10W-9L (52.6%)",
+    "totals_pnl": 2.03,
+    "totals_roi": 9.67,
+    "totals_record": "12W-9L (57.1%)",
     "mlrl_pnl": 3.38,
     "mlrl_roi": 26.0,
     "mlrl_record": "7W-6L (53.8%)"
@@ -63,73 +63,44 @@
     {
       "date": "2026-04-15",
       "cumPnl": 4.66
+    },
+    {
+      "date": "2026-04-16",
+      "cumPnl": 6.48
     }
   ],
   "yesterday": {
-    "date": "2026-04-15",
-    "day_pnl": -2.0,
-    "day_record": "0W-2L (0.0%)",
+    "date": "2026-04-16",
+    "day_pnl": 1.82,
+    "day_record": "2W-0L (100.0%)",
     "best_bet": {
-      "label": "WSH@PIT \u2014 WSH ML +140",
-      "pnl": -1.0
+      "label": "BAL@CLE \u2014 Under 8.0",
+      "pnl": 0.91
     },
     "last_10_record": "5-5",
     "bets": [
       {
-        "market": "mlrl",
-        "matchup": "WSH@PIT",
-        "play": "WSH ML +140",
-        "info": "+140 \u00b7 06:40 PM ET \u00b7 Result: PIT",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "NYM@LAD",
-        "play": "Shohei Ohtani U 17.5 Outs",
-        "info": "+139 \u00b7 Line: 17.5 \u00b7 10:10 PM ET \u00b7 Result: None",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [
-      {
         "market": "totals",
         "matchup": "BAL@CLE",
         "play": "Under 8.0",
-        "info": "-110 \u00b7 Model: 7.5 \u00b7 06:10 PM ET",
-        "edge_pct": 3.88,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 68,
-        "game_date": "2026-04-16",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-110 \u00b7 Model: 7.5 \u00b7 06:10 PM ET \u00b7 Result: 6 runs",
+        "pnl": 0.91,
+        "edge_pct": 3.88
       },
       {
         "market": "totals",
         "matchup": "SEA@SD",
         "play": "Under 8.5",
-        "info": "-110 \u00b7 Model: 8.0 \u00b7 08:40 PM ET",
-        "edge_pct": 3.88,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 68,
-        "game_date": "2026-04-16",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-110 \u00b7 Model: 8.0 \u00b7 08:40 PM ET \u00b7 Result: 7 runs",
+        "pnl": 0.91,
+        "edge_pct": 3.88
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "02:20 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 02:20 PM ET."
   }
 }
