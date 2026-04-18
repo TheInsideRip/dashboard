@@ -102,7 +102,7 @@
     ]
   },
   "today": {
-    "first_pitch": "04:10 PM ET",
+    "first_pitch": "02:20 PM ET",
     "picks": [
       {
         "market": "props",
@@ -119,9 +119,63 @@
         "result_hit": null,
         "pnl": null,
         "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "DET@BOS",
+        "play": "Over 7.0",
+        "info": "-108 \u00b7 Model: 8.7 \u00b7 04:10 PM ET",
+        "edge_pct": 24.59,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-18",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "LAD@COL",
+        "play": "Over 10.5",
+        "info": "-120 \u00b7 Model: 12.1 \u00b7 08:10 PM ET",
+        "edge_pct": 17.08,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-18",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "NYM@CHC",
+        "play": "Under 8.5",
+        "info": "-115 \u00b7 Model: 7.9 \u00b7 02:20 PM ET",
+        "edge_pct": 3.37,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-04-18",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       }
     ],
-    "watchlist": [],
+    "watchlist": [
+      {
+        "play": "LAD ML -308 @ COL",
+        "time": "08:10 PM ET",
+        "tier": "ELITE"
+      }
+    ],
     "status_message": ""
   }
 }
