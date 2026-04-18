@@ -1,16 +1,16 @@
 {
-  "generated_date": "April 17, 2026",
+  "generated_date": "April 18, 2026",
   "overview": {
-    "combined_pnl": 6.48,
-    "combined_roi": 15.8,
-    "combined_record": "23W-18L (56.1%)",
-    "total_bets": 41,
-    "k_pnl": 1.07,
-    "k_roi": 15.29,
-    "k_record": "4W-3L (57.1%)",
-    "totals_pnl": 2.03,
-    "totals_roi": 9.67,
-    "totals_record": "12W-9L (57.1%)",
+    "combined_pnl": 6.46,
+    "combined_roi": 15.02,
+    "combined_record": "24W-19L (55.8%)",
+    "total_bets": 43,
+    "k_pnl": 2.05,
+    "k_roi": 25.62,
+    "k_record": "5W-3L (62.5%)",
+    "totals_pnl": 1.03,
+    "totals_roi": 4.68,
+    "totals_record": "12W-10L (54.5%)",
     "mlrl_pnl": 3.38,
     "mlrl_roi": 26.0,
     "mlrl_record": "7W-6L (53.8%)"
@@ -67,73 +67,44 @@
     {
       "date": "2026-04-16",
       "cumPnl": 6.48
+    },
+    {
+      "date": "2026-04-17",
+      "cumPnl": 6.46
     }
   ],
   "yesterday": {
-    "date": "2026-04-16",
-    "day_pnl": 1.82,
-    "day_record": "2W-0L (100.0%)",
+    "date": "2026-04-17",
+    "day_pnl": -0.02,
+    "day_record": "1W-1L (50.0%)",
     "best_bet": {
-      "label": "BAL@CLE \u2014 Under 8.0",
-      "pnl": 0.91
+      "label": "Edward Cabrera \u2014 NYM@CHC \u2014 Under 5.5 K",
+      "pnl": 0.98
     },
     "last_10_record": "5-5",
     "bets": [
       {
         "market": "totals",
-        "matchup": "BAL@CLE",
-        "play": "Under 8.0",
-        "info": "-110 \u00b7 Model: 7.5 \u00b7 06:10 PM ET \u00b7 Result: 6 runs",
-        "pnl": 0.91,
-        "edge_pct": 3.88
+        "matchup": "LAD@COL",
+        "play": "Over 9.5",
+        "info": "-106 \u00b7 Model: 12.4 \u00b7 08:40 PM ET \u00b7 Result: 8 runs",
+        "pnl": -1.0,
+        "edge_pct": 43.79
       },
-      {
-        "market": "totals",
-        "matchup": "SEA@SD",
-        "play": "Under 8.5",
-        "info": "-110 \u00b7 Model: 8.0 \u00b7 08:40 PM ET \u00b7 Result: 7 runs",
-        "pnl": 0.91,
-        "edge_pct": 3.88
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "02:20 PM ET",
-    "picks": [
       {
         "market": "props",
         "matchup": "Edward Cabrera \u2014 NYM@CHC",
         "play": "Under 5.5 K",
-        "info": "-102 \u00b7 Model: 4.8 K \u00b7 02:20 PM ET",
-        "edge_pct": 21.11,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-17",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "LAD@COL",
-        "play": "Over 9.5",
-        "info": "-106 \u00b7 Model: 12.4 \u00b7 08:40 PM ET",
-        "edge_pct": 43.79,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-04-17",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-102 \u00b7 Model: 4.8 K \u00b7 02:20 PM ET \u00b7 Result: 4 K",
+        "pnl": 0.98,
+        "edge_pct": 21.11
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "TBD",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch TBD."
   }
 }
