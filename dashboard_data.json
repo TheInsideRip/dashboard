@@ -171,30 +171,41 @@
         "result_hit": null,
         "pnl": null,
         "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "LAD@COL",
+        "play": "Over 11.5",
+        "info": "-106 \u00b7 Model: 12.9 \u00b7 03:10 PM ET",
+        "edge_pct": 20.86,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-19",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "DET@BOS",
+        "play": "Over 7.0",
+        "info": "-110 \u00b7 Model: 8.4 \u00b7 04:35 PM ET",
+        "edge_pct": 18.72,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-19",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       }
     ],
-    "watchlist": [
-      {
-        "play": "LAD@COL O 11.5 @ -106",
-        "time": "03:10 PM ET",
-        "tier": "STRONG"
-      },
-      {
-        "play": "Michael King O 5.5 K @ +100",
-        "time": "04:07 PM ET",
-        "tier": "STRONG"
-      },
-      {
-        "play": "Framber Valdez O 5.5 K @ +108",
-        "time": "04:35 PM ET",
-        "tier": "STRONG"
-      },
-      {
-        "play": "DET@BOS O 7.0 @ -110",
-        "time": "04:35 PM ET",
-        "tier": "STRONG"
-      }
-    ],
+    "watchlist": [],
     "status_message": ""
   }
 }
