@@ -1,16 +1,16 @@
 {
-  "generated_date": "April 18, 2026",
+  "generated_date": "April 19, 2026",
   "overview": {
-    "combined_pnl": 6.46,
-    "combined_roi": 15.02,
-    "combined_record": "24W-19L (55.8%)",
-    "total_bets": 43,
-    "k_pnl": 2.05,
-    "k_roi": 25.62,
-    "k_record": "5W-3L (62.5%)",
-    "totals_pnl": 1.03,
-    "totals_roi": 4.68,
-    "totals_record": "12W-10L (54.5%)",
+    "combined_pnl": 4.33,
+    "combined_roi": 9.21,
+    "combined_record": "25W-22L (53.2%)",
+    "total_bets": 47,
+    "k_pnl": 1.05,
+    "k_roi": 11.67,
+    "k_record": "5W-4L (55.6%)",
+    "totals_pnl": -0.1,
+    "totals_roi": -0.4,
+    "totals_record": "13W-12L (52.0%)",
     "mlrl_pnl": 3.38,
     "mlrl_roi": 26.0,
     "mlrl_record": "7W-6L (53.8%)"
@@ -71,105 +71,60 @@
     {
       "date": "2026-04-17",
       "cumPnl": 6.46
+    },
+    {
+      "date": "2026-04-18",
+      "cumPnl": 4.33
     }
   ],
   "yesterday": {
-    "date": "2026-04-17",
-    "day_pnl": -0.02,
-    "day_record": "1W-1L (50.0%)",
+    "date": "2026-04-18",
+    "day_pnl": -2.13,
+    "day_record": "1W-3L (25.0%)",
     "best_bet": {
-      "label": "Edward Cabrera \u2014 NYM@CHC \u2014 Under 5.5 K",
-      "pnl": 0.98
+      "label": "NYM@CHC \u2014 Under 8.5",
+      "pnl": 0.87
     },
-    "last_10_record": "5-5",
+    "last_10_record": "4-6",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "LAD@COL",
-        "play": "Over 9.5",
-        "info": "-106 \u00b7 Model: 12.4 \u00b7 08:40 PM ET \u00b7 Result: 8 runs",
-        "pnl": -1.0,
-        "edge_pct": 43.79
-      },
-      {
-        "market": "props",
-        "matchup": "Edward Cabrera \u2014 NYM@CHC",
-        "play": "Under 5.5 K",
-        "info": "-102 \u00b7 Model: 4.8 K \u00b7 02:20 PM ET \u00b7 Result: 4 K",
-        "pnl": 0.98,
-        "edge_pct": 21.11
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "02:20 PM ET",
-    "picks": [
       {
         "market": "props",
         "matchup": "Tarik Skubal \u2014 DET@BOS",
         "play": "Under 7.5 K",
-        "info": "-108 \u00b7 Model: 7.0 K \u00b7 04:10 PM ET",
-        "edge_pct": 11.74,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-18",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-108 \u00b7 Model: 7.0 K \u00b7 04:10 PM ET \u00b7 Result: 10 K",
+        "pnl": -1.0,
+        "edge_pct": 11.74
       },
       {
         "market": "totals",
         "matchup": "DET@BOS",
         "play": "Over 7.0",
-        "info": "-108 \u00b7 Model: 8.7 \u00b7 04:10 PM ET",
-        "edge_pct": 24.59,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-04-18",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-108 \u00b7 Model: 8.7 \u00b7 04:10 PM ET \u00b7 Result: 5 runs",
+        "pnl": -1.0,
+        "edge_pct": 24.59
       },
       {
         "market": "totals",
         "matchup": "LAD@COL",
         "play": "Over 10.5",
-        "info": "-120 \u00b7 Model: 12.1 \u00b7 08:10 PM ET",
-        "edge_pct": 17.08,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-04-18",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-120 \u00b7 Model: 12.1 \u00b7 08:10 PM ET \u00b7 Result: 7 runs",
+        "pnl": -1.0,
+        "edge_pct": 17.08
       },
       {
         "market": "totals",
         "matchup": "NYM@CHC",
         "play": "Under 8.5",
-        "info": "-115 \u00b7 Model: 7.9 \u00b7 02:20 PM ET",
-        "edge_pct": 3.37,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 68,
-        "game_date": "2026-04-18",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-115 \u00b7 Model: 7.9 \u00b7 02:20 PM ET \u00b7 Result: 6 runs",
+        "pnl": 0.87,
+        "edge_pct": 3.37
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
   }
 }
