@@ -173,7 +173,28 @@
         "voided": false
       }
     ],
-    "watchlist": [],
+    "watchlist": [
+      {
+        "play": "LAD@COL O 11.5 @ -106",
+        "time": "03:10 PM ET",
+        "tier": "STRONG"
+      },
+      {
+        "play": "Michael King O 5.5 K @ +100",
+        "time": "04:07 PM ET",
+        "tier": "STRONG"
+      },
+      {
+        "play": "Framber Valdez O 5.5 K @ +108",
+        "time": "04:35 PM ET",
+        "tier": "STRONG"
+      },
+      {
+        "play": "DET@BOS O 7.0 @ -110",
+        "time": "04:35 PM ET",
+        "tier": "STRONG"
+      }
+    ],
     "status_message": ""
   }
 }
