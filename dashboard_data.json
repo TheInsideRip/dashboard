@@ -123,8 +123,57 @@
   },
   "today": {
     "first_pitch": "01:35 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "Cole Ragans \u2014 KC@NYY",
+        "play": "Over 6.5 K",
+        "info": "+118 \u00b7 Model: 6.7 K \u00b7 01:35 PM ET",
+        "edge_pct": 16.03,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-04-19",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Bailey Ober \u2014 CIN@MIN",
+        "play": "Over 4.5 K",
+        "info": "-166 \u00b7 Model: 5.6 K \u00b7 02:10 PM ET",
+        "edge_pct": 7.68,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 53,
+        "game_date": "2026-04-19",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "SF@WSH",
+        "play": "Over 8.5",
+        "info": "+100 \u00b7 Model: 11.0 \u00b7 01:35 PM ET",
+        "edge_pct": 42.06,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-19",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
+    "status_message": ""
   }
 }
