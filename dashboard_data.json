@@ -134,9 +134,32 @@
     ]
   },
   "today": {
-    "first_pitch": "11:10 AM ET",
-    "picks": [],
-    "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 11:10 AM ET."
+    "first_pitch": "06:45 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "ATL@WSH",
+        "play": "Over 8.0",
+        "info": "-110 \u00b7 Model: 10.6 \u00b7 06:45 PM ET",
+        "edge_pct": 37.05,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-20",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
+    "watchlist": [
+      {
+        "play": "BAL ML -125 @ KC",
+        "time": "07:40 PM ET",
+        "tier": "ELITE"
+      }
+    ],
+    "status_message": ""
   }
 }
