@@ -137,6 +137,22 @@
     "first_pitch": "06:45 PM ET",
     "picks": [
       {
+        "market": "mlrl",
+        "matchup": "BAL@KC",
+        "play": "ML: BAL (fade home L5)",
+        "info": "-125 \u00b7 07:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-04-20",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
         "market": "totals",
         "matchup": "ATL@WSH",
         "play": "Over 8.0",
@@ -153,13 +169,7 @@
         "voided": false
       }
     ],
-    "watchlist": [
-      {
-        "play": "BAL ML -125 @ KC",
-        "time": "07:40 PM ET",
-        "tier": "ELITE"
-      }
-    ],
+    "watchlist": [],
     "status_message": ""
   }
 }
