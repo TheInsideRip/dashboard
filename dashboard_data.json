@@ -83,6 +83,10 @@
     {
       "date": "2026-04-20",
       "cumPnl": 6.49
+    },
+    {
+      "date": "2026-04-21",
+      "cumPnl": 6.49
     }
   ],
   "yesterday": {
@@ -93,7 +97,7 @@
       "label": "ATL@WSH \u2014 Over 8.0",
       "pnl": 0.91
     },
-    "last_10_record": "5-5",
+    "last_10_record": "5-4",
     "bets": [
       {
         "market": "totals",
@@ -116,22 +120,6 @@
   "today": {
     "first_pitch": "06:45 PM ET",
     "picks": [
-      {
-        "market": "props",
-        "matchup": "Jacob Lopez \u2014 ATH@SEA",
-        "play": "Over 4.5 K",
-        "info": "+110 \u00b7 Model: 5.4 K \u00b7 09:40 PM ET",
-        "edge_pct": 34.86,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-04-21",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
       {
         "market": "props",
         "matchup": "Merrill Kelly \u2014 CWS@AZ",
