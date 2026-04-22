@@ -1,16 +1,16 @@
 {
-  "generated_date": "April 21, 2026",
+  "generated_date": "April 22, 2026",
   "overview": {
-    "combined_pnl": 6.49,
-    "combined_roi": 12.02,
-    "combined_record": "30W-24L (55.6%)",
-    "total_bets": 54,
-    "k_pnl": 0.65,
-    "k_roi": 5.91,
-    "k_record": "6W-5L (54.5%)",
-    "totals_pnl": 1.66,
-    "totals_roi": 5.72,
-    "totals_record": "16W-13L (55.2%)",
+    "combined_pnl": 8.07,
+    "combined_roi": 14.41,
+    "combined_record": "32W-24L (57.1%)",
+    "total_bets": 56,
+    "k_pnl": 1.36,
+    "k_roi": 11.33,
+    "k_record": "7W-5L (58.3%)",
+    "totals_pnl": 2.53,
+    "totals_roi": 8.43,
+    "totals_record": "17W-13L (56.7%)",
     "mlrl_pnl": 4.18,
     "mlrl_roi": 29.86,
     "mlrl_record": "8W-6L (57.1%)"
@@ -86,74 +86,49 @@
     },
     {
       "date": "2026-04-21",
-      "cumPnl": 6.49
+      "cumPnl": 8.07
     }
   ],
   "yesterday": {
-    "date": "2026-04-20",
-    "day_pnl": 1.71,
+    "date": "2026-04-21",
+    "day_pnl": 1.58,
     "day_record": "2W-0L (100.0%)",
     "best_bet": {
-      "label": "ATL@WSH \u2014 Over 8.0",
-      "pnl": 0.91
+      "label": "ATL@WSH \u2014 Over 8.5",
+      "pnl": 0.87
     },
-    "last_10_record": "5-4",
+    "last_10_record": "7-2",
     "bets": [
       {
         "market": "totals",
         "matchup": "ATL@WSH",
-        "play": "Over 8.0",
-        "info": "-110 \u00b7 Model: 10.6 \u00b7 06:45 PM ET \u00b7 Result: 13 runs",
-        "pnl": 0.91,
-        "edge_pct": 37.05
+        "play": "Over 8.5",
+        "info": "-115 \u00b7 Model: 10.7 \u00b7 06:45 PM ET \u00b7 Result: 15 runs",
+        "pnl": 0.87,
+        "edge_pct": 28.47
       },
       {
-        "market": "mlrl",
-        "matchup": "BAL@KC",
-        "play": "BAL ML -125",
-        "info": "-125 \u00b7 07:40 PM ET \u00b7 Result: BAL",
-        "pnl": 0.8,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:45 PM ET",
-    "picks": [
+        "market": "props",
+        "matchup": "Jacob Lopez \u2014 ATH@SEA",
+        "play": "Over 4.5 K",
+        "info": "+110 \u00b7 Model: 5.4 K \u00b7 09:40 PM ET \u00b7 Result: None",
+        "pnl": 0.0,
+        "edge_pct": 34.86
+      },
       {
         "market": "props",
         "matchup": "Merrill Kelly \u2014 CWS@AZ",
         "play": "Over 4.5 K",
-        "info": "-140 \u00b7 Model: 5.2 K \u00b7 09:40 PM ET",
-        "edge_pct": 4.84,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-04-21",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "ATL@WSH",
-        "play": "Over 8.5",
-        "info": "-115 \u00b7 Model: 10.7 \u00b7 06:45 PM ET",
-        "edge_pct": 28.47,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-04-21",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-140 \u00b7 Model: 5.2 K \u00b7 09:40 PM ET \u00b7 Result: 5 K",
+        "pnl": 0.71,
+        "edge_pct": 4.84
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:10 PM ET."
   }
 }
