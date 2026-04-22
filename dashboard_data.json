@@ -120,7 +120,23 @@
   "today": {
     "first_pitch": "12:10 PM ET",
     "picks": [],
-    "watchlist": [],
+    "watchlist": [
+      {
+        "play": "PHI@CHC U 8.0 @ -110",
+        "time": "07:40 PM ET",
+        "tier": "ELITE"
+      },
+      {
+        "play": "ATL@WSH O 9.0 @ -110",
+        "time": "06:45 PM ET",
+        "tier": "STRONG"
+      },
+      {
+        "play": "Eduardo Rodriguez U 17.5 Outs @ -128",
+        "time": "09:40 PM ET",
+        "tier": "STRONG"
+      }
+    ],
     "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:10 PM ET."
   }
 }
