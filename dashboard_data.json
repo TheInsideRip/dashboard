@@ -97,7 +97,7 @@
       "label": "ATL@WSH \u2014 Over 8.5",
       "pnl": 0.87
     },
-    "last_10_record": "7-2",
+    "last_10_record": "7-3",
     "bets": [
       {
         "market": "totals",
@@ -106,14 +106,6 @@
         "info": "-115 \u00b7 Model: 10.7 \u00b7 06:45 PM ET \u00b7 Result: 15 runs",
         "pnl": 0.87,
         "edge_pct": 28.47
-      },
-      {
-        "market": "props",
-        "matchup": "Jacob Lopez \u2014 ATH@SEA",
-        "play": "Over 4.5 K",
-        "info": "+110 \u00b7 Model: 5.4 K \u00b7 09:40 PM ET \u00b7 Result: None",
-        "pnl": 0.0,
-        "edge_pct": 34.86
       },
       {
         "market": "props",
