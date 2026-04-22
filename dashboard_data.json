@@ -119,24 +119,57 @@
   },
   "today": {
     "first_pitch": "06:45 PM ET",
-    "picks": [],
-    "watchlist": [
+    "picks": [
       {
-        "play": "PHI@CHC U 8.0 @ -110",
-        "time": "07:40 PM ET",
-        "tier": "ELITE"
+        "market": "props",
+        "matchup": "CWS@AZ",
+        "play": "Eduardo Rodriguez U 17.5 Outs",
+        "info": "-128 \u00b7 Line: 17.5 \u00b7 09:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-22",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       },
       {
-        "play": "ATL@WSH O 9.0 @ -110",
-        "time": "06:45 PM ET",
-        "tier": "STRONG"
+        "market": "totals",
+        "matchup": "ATL@WSH",
+        "play": "Over 9.0",
+        "info": "-110 \u00b7 Model: 11.2 \u00b7 06:45 PM ET",
+        "edge_pct": 31.18,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-04-22",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       },
       {
-        "play": "Eduardo Rodriguez U 17.5 Outs @ -128",
-        "time": "09:40 PM ET",
-        "tier": "STRONG"
+        "market": "totals",
+        "matchup": "PHI@CHC",
+        "play": "Under 8.0",
+        "info": "-110 \u00b7 Model: 7.4 \u00b7 07:40 PM ET",
+        "edge_pct": 5.56,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-04-22",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       }
     ],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:45 PM ET."
+    "watchlist": [],
+    "status_message": ""
   }
 }
