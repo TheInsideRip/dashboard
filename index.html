@@ -262,7 +262,7 @@ function renderYesterday(data) {
 
 function renderToday(data) {
   var t=data.today;
-  if(!t||!t.picks||t.picks.length===0){var sm=t&&t.status_message?t.status_message:'No picks yet.';document.getElementById('today-content').innerHTML='<div style="text-align:center;padding:48px 20px;"><div style="font-family:Oswald,sans-serif;font-weight:400;font-size:14px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,0.5);">'+sm+'</div></div>';return;}
+  var hasPicks=t&&t.picks&&t.picks.length>0;var hasWatchlist=t&&t.watchlist&&t.watchlist.length>0;if(!t||(!hasPicks&&!hasWatchlist)){var sm=t&&t.status_message?t.status_message:'No picks yet.';document.getElementById('today-content').innerHTML='<div style="text-align:center;padding:48px 20px;"><div style="font-family:Oswald,sans-serif;font-weight:400;font-size:14px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,0.5);">'+sm+'</div></div>';return;}
   var resolved=t.picks.filter(function(p){return p.result_hit!==null&&p.result_hit!==undefined;});
   var pending=t.picks.filter(function(p){return p.result_hit===null||p.result_hit===undefined;});
   var dayPnl=0; var dayW=0; var dayL=0;
