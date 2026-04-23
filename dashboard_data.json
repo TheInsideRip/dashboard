@@ -130,9 +130,32 @@
     ]
   },
   "today": {
-    "first_pitch": "01:05 PM ET",
-    "picks": [],
-    "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:05 PM ET."
+    "first_pitch": "02:20 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "PHI@CHC",
+        "play": "Under 9.0",
+        "info": "-110 \u00b7 Model: 8.5 \u00b7 02:20 PM ET",
+        "edge_pct": 3.88,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-23",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
+    "watchlist": [
+      {
+        "play": "Matt Waldron O 3.5 K @ -160",
+        "time": "03:10 PM ET",
+        "tier": "STRONG"
+      }
+    ],
+    "status_message": ""
   }
 }
