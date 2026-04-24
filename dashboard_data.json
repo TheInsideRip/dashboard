@@ -1,16 +1,16 @@
 {
-  "generated_date": "April 23, 2026",
+  "generated_date": "April 24, 2026",
   "overview": {
-    "combined_pnl": 8.76,
-    "combined_roi": 14.85,
-    "combined_record": "34W-25L (57.6%)",
-    "total_bets": 59,
+    "combined_pnl": 7.76,
+    "combined_roi": 12.93,
+    "combined_record": "34W-26L (56.7%)",
+    "total_bets": 60,
     "k_pnl": 2.14,
     "k_roi": 16.46,
     "k_record": "8W-5L (61.5%)",
-    "totals_pnl": 2.44,
-    "totals_roi": 7.62,
-    "totals_record": "18W-14L (56.2%)",
+    "totals_pnl": 1.44,
+    "totals_roi": 4.36,
+    "totals_record": "18W-15L (54.5%)",
     "mlrl_pnl": 4.18,
     "mlrl_roi": 29.86,
     "mlrl_record": "8W-6L (57.1%)"
@@ -91,65 +91,36 @@
     {
       "date": "2026-04-22",
       "cumPnl": 8.76
+    },
+    {
+      "date": "2026-04-23",
+      "cumPnl": 7.76
     }
   ],
   "yesterday": {
-    "date": "2026-04-22",
-    "day_pnl": 0.69,
-    "day_record": "2W-1L (66.7%)",
+    "date": "2026-04-23",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "ATL@WSH \u2014 Over 9.0",
-      "pnl": 0.91
+      "label": "PHI@CHC \u2014 Under 9.0",
+      "pnl": -1.0
     },
-    "last_10_record": "7-3",
+    "last_10_record": "6-4",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "ATL@WSH",
-        "play": "Over 9.0",
-        "info": "-110 \u00b7 Model: 11.2 \u00b7 06:45 PM ET \u00b7 Result: 14 runs",
-        "pnl": 0.91,
-        "edge_pct": 31.18
-      },
-      {
-        "market": "totals",
-        "matchup": "PHI@CHC",
-        "play": "Under 8.0",
-        "info": "-110 \u00b7 Model: 7.4 \u00b7 07:40 PM ET \u00b7 Result: 9 runs",
-        "pnl": -1.0,
-        "edge_pct": 5.56
-      },
-      {
-        "market": "props",
-        "matchup": "CWS@AZ",
-        "play": "Eduardo Rodriguez U 17.5 Outs",
-        "info": "-128 \u00b7 Line: 17.5 \u00b7 09:40 PM ET \u00b7 Result: 15 outs",
-        "pnl": 0.78,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "02:20 PM ET",
-    "picks": [
       {
         "market": "totals",
         "matchup": "PHI@CHC",
         "play": "Under 9.0",
-        "info": "-110 \u00b7 Model: 8.5 \u00b7 02:20 PM ET",
-        "edge_pct": 3.88,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-23",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-110 \u00b7 Model: 8.5 \u00b7 02:20 PM ET \u00b7 Result: 15 runs",
+        "pnl": -1.0,
+        "edge_pct": 3.88
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
