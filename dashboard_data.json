@@ -1,13 +1,13 @@
 {
-  "generated_date": "April 24, 2026",
+  "generated_date": "April 25, 2026",
   "overview": {
-    "combined_pnl": 7.76,
-    "combined_roi": 12.93,
-    "combined_record": "34W-26L (56.7%)",
-    "total_bets": 60,
-    "k_pnl": 2.14,
-    "k_roi": 16.46,
-    "k_record": "8W-5L (61.5%)",
+    "combined_pnl": 6.94,
+    "combined_roi": 11.02,
+    "combined_record": "35W-28L (55.6%)",
+    "total_bets": 63,
+    "k_pnl": 1.32,
+    "k_roi": 8.25,
+    "k_record": "9W-7L (56.2%)",
     "totals_pnl": 1.44,
     "totals_roi": 4.36,
     "totals_record": "18W-15L (54.5%)",
@@ -95,81 +95,52 @@
     {
       "date": "2026-04-23",
       "cumPnl": 7.76
+    },
+    {
+      "date": "2026-04-24",
+      "cumPnl": 6.94
     }
   ],
   "yesterday": {
-    "date": "2026-04-23",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-04-24",
+    "day_pnl": -0.82,
+    "day_record": "1W-2L (33.3%)",
     "best_bet": {
-      "label": "PHI@CHC \u2014 Under 9.0",
-      "pnl": -1.0
+      "label": "COL@NYM \u2014 Freddy Peralta U 17.5 Outs",
+      "pnl": 1.18
     },
     "last_10_record": "6-4",
     "bets": [
       {
-        "market": "totals",
-        "matchup": "PHI@CHC",
-        "play": "Under 9.0",
-        "info": "-110 \u00b7 Model: 8.5 \u00b7 02:20 PM ET \u00b7 Result: 15 runs",
-        "pnl": -1.0,
-        "edge_pct": 3.88
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [
-      {
         "market": "props",
         "matchup": "Framber Valdez \u2014 DET@CIN",
         "play": "Over 5.5 K",
-        "info": "-122 \u00b7 Model: 6.5 K \u00b7 06:40 PM ET",
-        "edge_pct": 19.59,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 53,
-        "game_date": "2026-04-24",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-122 \u00b7 Model: 6.5 K \u00b7 06:40 PM ET \u00b7 Result: 4 K",
+        "pnl": -1.0,
+        "edge_pct": 19.59
       },
       {
         "market": "props",
         "matchup": "Brayan Bello \u2014 BOS@BAL",
         "play": "Over 4.5 K",
-        "info": "+110 \u00b7 Model: 4.8 K \u00b7 07:05 PM ET",
-        "edge_pct": 15.15,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-04-24",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+110 \u00b7 Model: 4.8 K \u00b7 07:05 PM ET \u00b7 Result: 2 K",
+        "pnl": -1.0,
+        "edge_pct": 15.15
       },
       {
         "market": "props",
         "matchup": "COL@NYM",
         "play": "Freddy Peralta U 17.5 Outs",
-        "info": "+118 \u00b7 Line: 17.5 \u00b7 07:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-04-24",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+118 \u00b7 Line: 17.5 \u00b7 07:10 PM ET \u00b7 Result: 17 outs",
+        "pnl": 1.18,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:05 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:05 PM ET."
   }
 }
