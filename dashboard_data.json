@@ -126,9 +126,26 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [],
+    "first_pitch": "01:37 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "CLE@TOR",
+        "play": "ML: CLE",
+        "info": "+122 \u00b7 WP: 54.8% \u00b7 01:37 PM ET",
+        "edge_pct": 9.7,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-26",
+        "book": "BetOnline.ag",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
+    "status_message": ""
   }
 }
