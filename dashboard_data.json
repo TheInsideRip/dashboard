@@ -130,9 +130,58 @@
     ]
   },
   "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [],
+    "first_pitch": "07:07 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "Jack Leiter \u2014 NYY@TEX",
+        "play": "Under 5.5 K",
+        "info": "+110 \u00b7 Model: 4.1 K \u00b7 08:05 PM ET",
+        "edge_pct": 50.06,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-27",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Dylan Cease \u2014 BOS@TOR",
+        "play": "Under 7.5 K",
+        "info": "-118 \u00b7 Model: 6.3 K \u00b7 07:07 PM ET",
+        "edge_pct": 26.82,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-27",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Max Fried \u2014 NYY@TEX",
+        "play": "Under 5.5 K",
+        "info": "+108 \u00b7 Model: 5.5 K \u00b7 08:05 PM ET",
+        "edge_pct": 4.0,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-04-27",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
+    "status_message": ""
   }
 }
