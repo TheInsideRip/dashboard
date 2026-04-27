@@ -1,19 +1,19 @@
 {
-  "generated_date": "April 26, 2026",
+  "generated_date": "April 27, 2026",
   "overview": {
-    "combined_pnl": 8.12,
-    "combined_roi": 12.69,
-    "combined_record": "36W-28L (56.2%)",
-    "total_bets": 64,
+    "combined_pnl": 7.12,
+    "combined_roi": 10.95,
+    "combined_record": "36W-29L (55.4%)",
+    "total_bets": 65,
     "k_pnl": 2.5,
     "k_roi": 14.71,
     "k_record": "10W-7L (58.8%)",
     "totals_pnl": 1.44,
     "totals_roi": 4.36,
     "totals_record": "18W-15L (54.5%)",
-    "mlrl_pnl": 4.18,
-    "mlrl_roi": 29.86,
-    "mlrl_record": "8W-6L (57.1%)"
+    "mlrl_pnl": 3.18,
+    "mlrl_roi": 21.2,
+    "mlrl_record": "8W-7L (53.3%)"
   },
   "cumulative_chart": [
     {
@@ -103,49 +103,36 @@
     {
       "date": "2026-04-25",
       "cumPnl": 8.12
+    },
+    {
+      "date": "2026-04-26",
+      "cumPnl": 7.12
     }
   ],
   "yesterday": {
-    "date": "2026-04-25",
-    "day_pnl": 1.18,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-04-26",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "Robbie Ray \u2014 MIA@SF \u2014 Under 5.5 K",
-      "pnl": 1.18
+      "label": "CLE@TOR \u2014 ML: CLE",
+      "pnl": -1.0
     },
-    "last_10_record": "6-4",
+    "last_10_record": "5-5",
     "bets": [
-      {
-        "market": "props",
-        "matchup": "Robbie Ray \u2014 MIA@SF",
-        "play": "Under 5.5 K",
-        "info": "+118 \u00b7 Model: 5.2 K \u00b7 04:05 PM ET \u00b7 Result: 4 K",
-        "pnl": 1.18,
-        "edge_pct": 19.54
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "01:37 PM ET",
-    "picks": [
       {
         "market": "mlrl",
         "matchup": "CLE@TOR",
         "play": "ML: CLE",
-        "info": "+122 \u00b7 WP: 54.8% \u00b7 01:37 PM ET",
-        "edge_pct": 9.7,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-26",
-        "book": "BetOnline.ag",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+122 \u00b7 WP: 54.8% \u00b7 01:37 PM ET \u00b7 Result: TOR by 2.0",
+        "pnl": -1.0,
+        "edge_pct": 9.7
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "06:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
   }
 }
