@@ -1,13 +1,13 @@
 {
-  "generated_date": "April 27, 2026",
+  "generated_date": "April 28, 2026",
   "overview": {
-    "combined_pnl": 7.12,
-    "combined_roi": 10.95,
-    "combined_record": "36W-29L (55.4%)",
-    "total_bets": 65,
-    "k_pnl": 2.5,
-    "k_roi": 14.71,
-    "k_record": "10W-7L (58.8%)",
+    "combined_pnl": 10.15,
+    "combined_roi": 14.93,
+    "combined_record": "39W-29L (57.4%)",
+    "total_bets": 68,
+    "k_pnl": 5.53,
+    "k_roi": 27.65,
+    "k_record": "13W-7L (65.0%)",
     "totals_pnl": 1.44,
     "totals_roi": 4.36,
     "totals_record": "18W-15L (54.5%)",
@@ -107,81 +107,52 @@
     {
       "date": "2026-04-26",
       "cumPnl": 7.12
+    },
+    {
+      "date": "2026-04-27",
+      "cumPnl": 10.15
     }
   ],
   "yesterday": {
-    "date": "2026-04-26",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-04-27",
+    "day_pnl": 3.03,
+    "day_record": "3W-0L (100.0%)",
     "best_bet": {
-      "label": "CLE@TOR \u2014 ML: CLE",
-      "pnl": -1.0
+      "label": "Jack Leiter \u2014 NYY@TEX \u2014 Under 5.5 K",
+      "pnl": 1.1
     },
-    "last_10_record": "5-5",
+    "last_10_record": "6-4",
     "bets": [
-      {
-        "market": "mlrl",
-        "matchup": "CLE@TOR",
-        "play": "ML: CLE",
-        "info": "+122 \u00b7 WP: 54.8% \u00b7 01:37 PM ET \u00b7 Result: TOR by 2.0",
-        "pnl": -1.0,
-        "edge_pct": 9.7
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:07 PM ET",
-    "picks": [
       {
         "market": "props",
         "matchup": "Jack Leiter \u2014 NYY@TEX",
         "play": "Under 5.5 K",
-        "info": "+110 \u00b7 Model: 4.1 K \u00b7 08:05 PM ET",
-        "edge_pct": 50.06,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-27",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+110 \u00b7 Model: 4.1 K \u00b7 08:05 PM ET \u00b7 Result: 4 K",
+        "pnl": 1.1,
+        "edge_pct": 50.06
       },
       {
         "market": "props",
         "matchup": "Dylan Cease \u2014 BOS@TOR",
         "play": "Under 7.5 K",
-        "info": "-118 \u00b7 Model: 6.3 K \u00b7 07:07 PM ET",
-        "edge_pct": 26.82,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-27",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-118 \u00b7 Model: 6.3 K \u00b7 07:07 PM ET \u00b7 Result: 5 K",
+        "pnl": 0.85,
+        "edge_pct": 26.82
       },
       {
         "market": "props",
         "matchup": "Max Fried \u2014 NYY@TEX",
         "play": "Under 5.5 K",
-        "info": "+108 \u00b7 Model: 5.5 K \u00b7 08:05 PM ET",
-        "edge_pct": 4.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-04-27",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+108 \u00b7 Model: 5.5 K \u00b7 08:05 PM ET \u00b7 Result: 5 K",
+        "pnl": 1.08,
+        "edge_pct": 4.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "06:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
   }
 }
