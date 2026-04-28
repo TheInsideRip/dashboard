@@ -150,9 +150,42 @@
     ]
   },
   "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [],
+    "first_pitch": "07:40 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "ATH@KC",
+        "play": "Kris Bubic U 17.5 Outs",
+        "info": "-132 \u00b7 Line: 17.5 \u00b7 09:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-28",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "MIN@SEA",
+        "play": "Logan Gilbert U 17.5 Outs",
+        "info": "+105 \u00b7 Line: 17.5 \u00b7 07:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-28",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
+    "status_message": ""
   }
 }
