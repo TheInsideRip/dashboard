@@ -147,8 +147,89 @@
   },
   "today": {
     "first_pitch": "01:10 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "SEA@MIN",
+        "play": "SEA ML -148",
+        "info": "-148 \u00b7 01:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-04-29",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Erick Fedde \u2014 LAA@CWS",
+        "play": "Over 3.5 K",
+        "info": "-144 \u00b7 Model: 4.3 K \u00b7 01:10 PM ET",
+        "edge_pct": 6.24,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-04-29",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "MIN@SEA",
+        "play": "George Kirby U 17.5 Outs",
+        "info": "+116 \u00b7 Line: 17.5 \u00b7 01:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-29",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "ATH@KC",
+        "play": "Michael Wacha U 17.5 Outs",
+        "info": "-133 \u00b7 Line: 17.5 \u00b7 09:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-29",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "LAD@MIA",
+        "play": "Sandy Alcantara U 17.5 Outs",
+        "info": "-128 \u00b7 Line: 17.5 \u00b7 03:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-04-29",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
+    "status_message": ""
   }
 }
