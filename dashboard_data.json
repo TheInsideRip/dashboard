@@ -1,19 +1,19 @@
 {
-  "generated_date": "April 29, 2026",
+  "generated_date": "April 30, 2026",
   "overview": {
-    "combined_pnl": 11.96,
-    "combined_roi": 17.09,
-    "combined_record": "41W-29L (58.6%)",
-    "total_bets": 70,
-    "k_pnl": 7.34,
-    "k_roi": 33.36,
-    "k_record": "15W-7L (68.2%)",
+    "combined_pnl": 14.24,
+    "combined_roi": 18.99,
+    "combined_record": "45W-30L (60.0%)",
+    "total_bets": 75,
+    "k_pnl": 8.94,
+    "k_roi": 34.38,
+    "k_record": "18W-8L (69.2%)",
     "totals_pnl": 1.44,
     "totals_roi": 4.36,
     "totals_record": "18W-15L (54.5%)",
-    "mlrl_pnl": 3.18,
-    "mlrl_roi": 21.2,
-    "mlrl_record": "8W-7L (53.3%)"
+    "mlrl_pnl": 3.86,
+    "mlrl_roi": 24.13,
+    "mlrl_record": "9W-7L (56.2%)"
   },
   "cumulative_chart": [
     {
@@ -115,121 +115,68 @@
     {
       "date": "2026-04-28",
       "cumPnl": 11.96
+    },
+    {
+      "date": "2026-04-29",
+      "cumPnl": 14.24
     }
   ],
   "yesterday": {
-    "date": "2026-04-28",
-    "day_pnl": 1.81,
-    "day_record": "2W-0L (100.0%)",
+    "date": "2026-04-29",
+    "day_pnl": 2.28,
+    "day_record": "4W-1L (80.0%)",
     "best_bet": {
-      "label": "MIN@SEA \u2014 Logan Gilbert U 17.5 Outs",
-      "pnl": 1.05
+      "label": "MIN@SEA \u2014 George Kirby U 17.5 Outs",
+      "pnl": 1.16
     },
-    "last_10_record": "7-3",
+    "last_10_record": "9-1",
     "bets": [
-      {
-        "market": "props",
-        "matchup": "ATH@KC",
-        "play": "Kris Bubic U 17.5 Outs",
-        "info": "-132 \u00b7 Line: 17.5 \u00b7 09:40 PM ET \u00b7 Result: 15 outs",
-        "pnl": 0.76,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "MIN@SEA",
-        "play": "Logan Gilbert U 17.5 Outs",
-        "info": "+105 \u00b7 Line: 17.5 \u00b7 07:40 PM ET \u00b7 Result: 15 outs",
-        "pnl": 1.05,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [
       {
         "market": "mlrl",
         "matchup": "SEA@MIN",
         "play": "SEA ML -148",
-        "info": "-148 \u00b7 01:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-04-29",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-148 \u00b7 01:40 PM ET \u00b7 Result: SEA",
+        "pnl": 0.68,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "Erick Fedde \u2014 LAA@CWS",
         "play": "Over 3.5 K",
-        "info": "-144 \u00b7 Model: 4.3 K \u00b7 01:10 PM ET",
-        "edge_pct": 6.24,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-04-29",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-144 \u00b7 Model: 4.3 K \u00b7 01:10 PM ET \u00b7 Result: 6 K",
+        "pnl": 0.69,
+        "edge_pct": 6.24
       },
       {
         "market": "props",
         "matchup": "MIN@SEA",
         "play": "George Kirby U 17.5 Outs",
-        "info": "+116 \u00b7 Line: 17.5 \u00b7 01:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-04-29",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+116 \u00b7 Line: 17.5 \u00b7 01:40 PM ET \u00b7 Result: 17 outs",
+        "pnl": 1.16,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "ATH@KC",
         "play": "Michael Wacha U 17.5 Outs",
-        "info": "-133 \u00b7 Line: 17.5 \u00b7 09:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-04-29",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-133 \u00b7 Line: 17.5 \u00b7 09:40 PM ET \u00b7 Result: 15 outs",
+        "pnl": 0.75,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "LAD@MIA",
         "play": "Sandy Alcantara U 17.5 Outs",
-        "info": "-128 \u00b7 Line: 17.5 \u00b7 03:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-04-29",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-128 \u00b7 Line: 17.5 \u00b7 03:10 PM ET \u00b7 Result: 18 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:15 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
   }
 }
