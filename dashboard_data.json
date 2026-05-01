@@ -162,9 +162,58 @@
     ]
   },
   "today": {
-    "first_pitch": "02:20 PM ET",
-    "picks": [],
+    "first_pitch": "06:45 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "NYM@LAA",
+        "play": "NYM ML -127",
+        "info": "-127 \u00b7 09:38 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-05-01",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "MIL@WSH",
+        "play": "Over 8.0",
+        "info": "-105 \u00b7 Model: 9.4 \u00b7 06:45 PM ET",
+        "edge_pct": 21.41,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-05-01",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "CWS@SD",
+        "play": "Under 8.0",
+        "info": "-105 \u00b7 Model: 7.4 \u00b7 09:40 PM ET",
+        "edge_pct": 7.95,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-05-01",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 02:20 PM ET."
+    "status_message": ""
   }
 }
