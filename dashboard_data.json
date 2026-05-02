@@ -166,9 +166,74 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [],
+    "first_pitch": "04:05 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "NYM@LAA",
+        "play": "NYM ML -143",
+        "info": "-143 \u00b7 09:38 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-05-02",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "KC@SEA",
+        "play": "Emerson Hancock U 17.5 Outs",
+        "info": "-110 \u00b7 Line: 17.5 \u00b7 09:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-02",
+        "book": "DraftKings",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "CWS@SD",
+        "play": "Michael King U 17.5 Outs",
+        "info": "-136 \u00b7 Line: 17.5 \u00b7 08:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-02",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "MIL@WSH",
+        "play": "Over 7.5",
+        "info": "-108 \u00b7 Model: 9.7 \u00b7 04:05 PM ET",
+        "edge_pct": 32.34,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 74,
+        "game_date": "2026-05-02",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
+    "status_message": ""
   }
 }
