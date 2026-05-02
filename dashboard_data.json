@@ -1,19 +1,19 @@
 {
-  "generated_date": "May 01, 2026",
+  "generated_date": "May 02, 2026",
   "overview": {
-    "combined_pnl": 15.13,
-    "combined_roi": 19.4,
-    "combined_record": "47W-31L (60.3%)",
-    "total_bets": 78,
+    "combined_pnl": 13.92,
+    "combined_roi": 17.19,
+    "combined_record": "48W-33L (59.3%)",
+    "total_bets": 81,
     "k_pnl": 10.83,
     "k_roi": 38.68,
     "k_record": "20W-8L (71.4%)",
-    "totals_pnl": 1.44,
-    "totals_roi": 4.36,
-    "totals_record": "18W-15L (54.5%)",
-    "mlrl_pnl": 2.86,
-    "mlrl_roi": 16.82,
-    "mlrl_record": "9W-8L (52.9%)"
+    "totals_pnl": -0.56,
+    "totals_roi": -1.6,
+    "totals_record": "18W-17L (51.4%)",
+    "mlrl_pnl": 3.65,
+    "mlrl_roi": 20.28,
+    "mlrl_record": "10W-8L (55.6%)"
   },
   "cumulative_chart": [
     {
@@ -123,97 +123,52 @@
     {
       "date": "2026-04-30",
       "cumPnl": 15.13
+    },
+    {
+      "date": "2026-05-01",
+      "cumPnl": 13.92
     }
   ],
   "yesterday": {
-    "date": "2026-04-30",
-    "day_pnl": 0.89,
-    "day_record": "2W-1L (66.7%)",
+    "date": "2026-05-01",
+    "day_pnl": -1.21,
+    "day_record": "1W-2L (33.3%)",
     "best_bet": {
-      "label": "Michael Lorenzen \u2014 COL@CIN \u2014 Over 4.5 K",
-      "pnl": 1.12
+      "label": "NYM@LAA \u2014 NYM ML -127",
+      "pnl": 0.79
     },
-    "last_10_record": "8-2",
+    "last_10_record": "7-3",
     "bets": [
-      {
-        "market": "mlrl",
-        "matchup": "TOR@MIN",
-        "play": "TOR ML -148",
-        "info": "-148 \u00b7 07:40 PM ET \u00b7 Result: MIN",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "Michael Lorenzen \u2014 COL@CIN",
-        "play": "Over 4.5 K",
-        "info": "+112 \u00b7 Model: 4.5 K \u00b7 12:40 PM ET \u00b7 Result: 5 K",
-        "pnl": 1.12,
-        "edge_pct": 6.0
-      },
-      {
-        "market": "props",
-        "matchup": "KC@ATH",
-        "play": "Jeffrey Springs U 17.5 Outs",
-        "info": "-130 \u00b7 Line: 17.5 \u00b7 03:05 PM ET \u00b7 Result: 9 outs",
-        "pnl": 0.77,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:45 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "NYM@LAA",
-        "play": "NYM ML -127",
-        "info": "-127 \u00b7 09:38 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-05-01",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
       {
         "market": "totals",
         "matchup": "MIL@WSH",
         "play": "Over 8.0",
-        "info": "-105 \u00b7 Model: 9.4 \u00b7 06:45 PM ET",
-        "edge_pct": 21.41,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-05-01",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-105 \u00b7 Model: 9.4 \u00b7 06:45 PM ET \u00b7 Result: 7 runs",
+        "pnl": -1.0,
+        "edge_pct": 21.41
       },
       {
         "market": "totals",
         "matchup": "CWS@SD",
         "play": "Under 8.0",
-        "info": "-105 \u00b7 Model: 7.4 \u00b7 09:40 PM ET",
-        "edge_pct": 7.95,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 68,
-        "game_date": "2026-05-01",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-105 \u00b7 Model: 7.4 \u00b7 09:40 PM ET \u00b7 Result: 10 runs",
+        "pnl": -1.0,
+        "edge_pct": 7.95
+      },
+      {
+        "market": "mlrl",
+        "matchup": "NYM@LAA",
+        "play": "NYM ML -127",
+        "info": "-127 \u00b7 09:38 PM ET \u00b7 Result: NYM",
+        "pnl": 0.79,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
   }
 }
