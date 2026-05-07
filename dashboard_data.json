@@ -1,19 +1,19 @@
 {
-  "generated_date": "May 02, 2026",
+  "generated_date": "May 06, 2026",
   "overview": {
-    "combined_pnl": 13.92,
-    "combined_roi": 17.19,
-    "combined_record": "48W-33L (59.3%)",
-    "total_bets": 81,
-    "k_pnl": 10.83,
-    "k_roi": 38.68,
-    "k_record": "20W-8L (71.4%)",
-    "totals_pnl": -0.56,
-    "totals_roi": -1.6,
-    "totals_record": "18W-17L (51.4%)",
-    "mlrl_pnl": 3.65,
-    "mlrl_roi": 20.28,
-    "mlrl_record": "10W-8L (55.6%)"
+    "combined_pnl": 9.92,
+    "combined_roi": 11.67,
+    "combined_record": "48W-37L (56.5%)",
+    "total_bets": 85,
+    "k_pnl": 8.83,
+    "k_roi": 29.43,
+    "k_record": "20W-10L (66.7%)",
+    "totals_pnl": -1.56,
+    "totals_roi": -4.33,
+    "totals_record": "18W-18L (50.0%)",
+    "mlrl_pnl": 2.65,
+    "mlrl_roi": 13.95,
+    "mlrl_record": "10W-9L (52.6%)"
   },
   "cumulative_chart": [
     {
@@ -127,113 +127,60 @@
     {
       "date": "2026-05-01",
       "cumPnl": 13.92
+    },
+    {
+      "date": "2026-05-02",
+      "cumPnl": 9.92
     }
   ],
   "yesterday": {
-    "date": "2026-05-01",
-    "day_pnl": -1.21,
-    "day_record": "1W-2L (33.3%)",
+    "date": "2026-05-02",
+    "day_pnl": -4.0,
+    "day_record": "0W-4L (0.0%)",
     "best_bet": {
-      "label": "NYM@LAA \u2014 NYM ML -127",
-      "pnl": 0.79
+      "label": "MIL@WSH \u2014 Over 7.5",
+      "pnl": -1.0
     },
-    "last_10_record": "7-3",
+    "last_10_record": "3-7",
     "bets": [
       {
         "market": "totals",
         "matchup": "MIL@WSH",
-        "play": "Over 8.0",
-        "info": "-105 \u00b7 Model: 9.4 \u00b7 06:45 PM ET \u00b7 Result: 7 runs",
+        "play": "Over 7.5",
+        "info": "-108 \u00b7 Model: 9.7 \u00b7 04:05 PM ET \u00b7 Result: 5 runs",
         "pnl": -1.0,
-        "edge_pct": 21.41
+        "edge_pct": 32.34
       },
-      {
-        "market": "totals",
-        "matchup": "CWS@SD",
-        "play": "Under 8.0",
-        "info": "-105 \u00b7 Model: 7.4 \u00b7 09:40 PM ET \u00b7 Result: 10 runs",
-        "pnl": -1.0,
-        "edge_pct": 7.95
-      },
-      {
-        "market": "mlrl",
-        "matchup": "NYM@LAA",
-        "play": "NYM ML -127",
-        "info": "-127 \u00b7 09:38 PM ET \u00b7 Result: NYM",
-        "pnl": 0.79,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "04:05 PM ET",
-    "picks": [
       {
         "market": "mlrl",
         "matchup": "NYM@LAA",
         "play": "NYM ML -143",
-        "info": "-143 \u00b7 09:38 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-05-02",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-143 \u00b7 09:38 PM ET \u00b7 Result: LAA",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "KC@SEA",
         "play": "Emerson Hancock U 17.5 Outs",
-        "info": "-110 \u00b7 Line: 17.5 \u00b7 09:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-02",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-110 \u00b7 Line: 17.5 \u00b7 09:40 PM ET \u00b7 Result: 21 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "CWS@SD",
         "play": "Michael King U 17.5 Outs",
-        "info": "-136 \u00b7 Line: 17.5 \u00b7 08:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-02",
-        "book": "Fanatics",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "MIL@WSH",
-        "play": "Over 7.5",
-        "info": "-108 \u00b7 Model: 9.7 \u00b7 04:05 PM ET",
-        "edge_pct": 32.34,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 74,
-        "game_date": "2026-05-02",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-136 \u00b7 Line: 17.5 \u00b7 08:40 PM ET \u00b7 Result: 18 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
   }
 }
