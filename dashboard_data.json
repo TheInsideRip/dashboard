@@ -166,9 +166,42 @@
     ]
   },
   "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [],
+    "first_pitch": "07:10 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "NYM@AZ",
+        "play": "NYM ML -139",
+        "info": "-139 \u00b7 09:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-05-08",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "MIA@WSH",
+        "play": "Foster Griffin U 17.5 Outs",
+        "info": "-138 \u00b7 Line: 17.5 \u00b7 07:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-08",
+        "book": "DraftKings",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
+    "status_message": ""
   }
 }
