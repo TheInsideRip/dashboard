@@ -170,9 +170,26 @@
     ]
   },
   "today": {
-    "first_pitch": "03:07 PM ET",
-    "picks": [],
+    "first_pitch": "09:05 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "SF@PIT",
+        "play": "Braxton Ashcraft U 17.5 Outs",
+        "info": "-129 \u00b7 Line: 17.5 \u00b7 09:05 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-09",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Validated-edge framework produced no qualifying picks for the early slate. Late slate (7 PM+ ET) under assessment as lineups confirm. Re-check at 6 PM ET."
+    "status_message": ""
   }
 }
