@@ -1,16 +1,16 @@
 {
-  "generated_date": "May 10, 2026",
+  "generated_date": "May 11, 2026",
   "overview": {
-    "combined_pnl": 6.64,
-    "combined_roi": 7.38,
-    "combined_record": "49W-41L (54.4%)",
-    "total_bets": 90,
-    "k_pnl": 6.83,
-    "k_roi": 21.34,
-    "k_record": "20W-12L (62.5%)",
-    "totals_pnl": -3.56,
-    "totals_roi": -9.37,
-    "totals_record": "18W-20L (47.4%)",
+    "combined_pnl": 5.72,
+    "combined_roi": 6.15,
+    "combined_record": "50W-43L (53.8%)",
+    "total_bets": 93,
+    "k_pnl": 6.91,
+    "k_roi": 20.32,
+    "k_record": "21W-13L (61.8%)",
+    "totals_pnl": -4.56,
+    "totals_roi": -11.69,
+    "totals_record": "18W-21L (46.2%)",
     "mlrl_pnl": 3.37,
     "mlrl_roi": 16.85,
     "mlrl_record": "11W-9L (55.0%)"
@@ -143,81 +143,52 @@
     {
       "date": "2026-05-09",
       "cumPnl": 6.64
+    },
+    {
+      "date": "2026-05-10",
+      "cumPnl": 5.72
     }
   ],
   "yesterday": {
-    "date": "2026-05-09",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-05-10",
+    "day_pnl": -0.92,
+    "day_record": "1W-2L (33.3%)",
     "best_bet": {
-      "label": "SF@PIT \u2014 Braxton Ashcraft U 17.5 Outs",
-      "pnl": -1.0
+      "label": "Andrew Abbott \u2014 HOU@CIN \u2014 Over 4.5 K",
+      "pnl": 1.08
     },
-    "last_10_record": "1-9",
+    "last_10_record": "2-8",
     "bets": [
       {
+        "market": "totals",
+        "matchup": "PIT@SF",
+        "play": "Under 8.0",
+        "info": "-104 \u00b7 Model: 7.6 \u00b7 04:05 PM ET \u00b7 Result: 13 runs",
+        "pnl": -1.0,
+        "edge_pct": 5.01
+      },
+      {
         "market": "props",
-        "matchup": "SF@PIT",
-        "play": "Braxton Ashcraft U 17.5 Outs",
-        "info": "-129 \u00b7 Line: 17.5 \u00b7 09:05 PM ET \u00b7 Result: 21 outs",
+        "matchup": "Andrew Abbott \u2014 HOU@CIN",
+        "play": "Over 4.5 K",
+        "info": "+108 \u00b7 Model: 5.3 K \u00b7 01:40 PM ET \u00b7 Result: 5 K",
+        "pnl": 1.08,
+        "edge_pct": 30.41
+      },
+      {
+        "market": "props",
+        "matchup": "CHC@TEX",
+        "play": "Jacob deGrom U 17.5 Outs",
+        "info": "-107 \u00b7 Line: 17.5 \u00b7 02:35 PM ET \u00b7 Result: 21 outs",
         "pnl": -1.0,
         "edge_pct": 0.0
       }
     ]
   },
   "today": {
-    "first_pitch": "01:40 PM ET",
-    "picks": [
-      {
-        "market": "props",
-        "matchup": "Andrew Abbott \u2014 HOU@CIN",
-        "play": "Over 4.5 K",
-        "info": "+108 \u00b7 Model: 5.3 K \u00b7 01:40 PM ET",
-        "edge_pct": 30.41,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 53,
-        "game_date": "2026-05-10",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "props",
-        "matchup": "CHC@TEX",
-        "play": "Jacob deGrom U 17.5 Outs",
-        "info": "-107 \u00b7 Line: 17.5 \u00b7 02:35 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-10",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "PIT@SF",
-        "play": "Under 8.0",
-        "info": "-104 \u00b7 Model: 7.6 \u00b7 04:05 PM ET",
-        "edge_pct": 5.01,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 68,
-        "game_date": "2026-05-10",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "06:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
   }
 }
