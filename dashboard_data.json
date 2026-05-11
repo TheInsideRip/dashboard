@@ -186,9 +186,26 @@
     ]
   },
   "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [],
+    "first_pitch": "08:10 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "George Kirby \u2014 SEA@HOU",
+        "play": "Over 5.5 K",
+        "info": "+104 \u00b7 Model: 5.6 K \u00b7 08:10 PM ET",
+        "edge_pct": 5.29,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 53,
+        "game_date": "2026-05-11",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
+    "status_message": ""
   }
 }
