@@ -1,13 +1,13 @@
 {
-  "generated_date": "May 11, 2026",
+  "generated_date": "May 12, 2026",
   "overview": {
-    "combined_pnl": 5.72,
-    "combined_roi": 6.15,
-    "combined_record": "50W-43L (53.8%)",
-    "total_bets": 93,
-    "k_pnl": 6.91,
-    "k_roi": 20.32,
-    "k_record": "21W-13L (61.8%)",
+    "combined_pnl": 6.76,
+    "combined_roi": 7.19,
+    "combined_record": "51W-43L (54.3%)",
+    "total_bets": 94,
+    "k_pnl": 7.95,
+    "k_roi": 22.71,
+    "k_record": "22W-13L (62.9%)",
     "totals_pnl": -4.56,
     "totals_roi": -11.69,
     "totals_record": "18W-21L (46.2%)",
@@ -147,65 +147,36 @@
     {
       "date": "2026-05-10",
       "cumPnl": 5.72
+    },
+    {
+      "date": "2026-05-11",
+      "cumPnl": 6.76
     }
   ],
   "yesterday": {
-    "date": "2026-05-10",
-    "day_pnl": -0.92,
-    "day_record": "1W-2L (33.3%)",
+    "date": "2026-05-11",
+    "day_pnl": 1.04,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "Andrew Abbott \u2014 HOU@CIN \u2014 Over 4.5 K",
-      "pnl": 1.08
+      "label": "George Kirby \u2014 SEA@HOU \u2014 Over 5.5 K",
+      "pnl": 1.04
     },
-    "last_10_record": "2-8",
+    "last_10_record": "3-7",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "PIT@SF",
-        "play": "Under 8.0",
-        "info": "-104 \u00b7 Model: 7.6 \u00b7 04:05 PM ET \u00b7 Result: 13 runs",
-        "pnl": -1.0,
-        "edge_pct": 5.01
-      },
-      {
-        "market": "props",
-        "matchup": "Andrew Abbott \u2014 HOU@CIN",
-        "play": "Over 4.5 K",
-        "info": "+108 \u00b7 Model: 5.3 K \u00b7 01:40 PM ET \u00b7 Result: 5 K",
-        "pnl": 1.08,
-        "edge_pct": 30.41
-      },
-      {
-        "market": "props",
-        "matchup": "CHC@TEX",
-        "play": "Jacob deGrom U 17.5 Outs",
-        "info": "-107 \u00b7 Line: 17.5 \u00b7 02:35 PM ET \u00b7 Result: 21 outs",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "08:10 PM ET",
-    "picks": [
       {
         "market": "props",
         "matchup": "George Kirby \u2014 SEA@HOU",
         "play": "Over 5.5 K",
-        "info": "+104 \u00b7 Model: 5.6 K \u00b7 08:10 PM ET",
-        "edge_pct": 5.29,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 53,
-        "game_date": "2026-05-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+104 \u00b7 Model: 5.6 K \u00b7 08:10 PM ET \u00b7 Result: 7 K",
+        "pnl": 1.04,
+        "edge_pct": 5.29
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "TBD",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch TBD."
   }
 }
