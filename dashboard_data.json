@@ -174,9 +174,85 @@
     ]
   },
   "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [],
-    "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
+    "first_pitch": "06:35 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "NYY@BAL",
+        "play": "NYY ML -145",
+        "info": "-145 \u00b7 06:35 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-05-12",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Bailey Ober \u2014 MIA@MIN",
+        "play": "Over 4.5 K",
+        "info": "+118 \u00b7 Model: 5.1 K \u00b7 07:40 PM ET",
+        "edge_pct": 29.92,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 53,
+        "game_date": "2026-05-12",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Grant Holmes \u2014 CHC@ATL",
+        "play": "Over 4.5 K",
+        "info": "+112 \u00b7 Model: 5.1 K \u00b7 07:15 PM ET",
+        "edge_pct": 26.34,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 53,
+        "game_date": "2026-05-12",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Miles Mikolas \u2014 WSH@CIN",
+        "play": "Over 3.5 K",
+        "info": "+114 \u00b7 Model: 3.8 K \u00b7 06:40 PM ET",
+        "edge_pct": 17.34,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 53,
+        "game_date": "2026-05-12",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
+    "watchlist": [
+      {
+        "play": "Michael Lorenzen O 3.5 K @ -138",
+        "time": "06:40 PM ET",
+        "tier": "STRONG"
+      },
+      {
+        "play": "MacKenzie Gore U 5.5 K @ -154",
+        "time": "08:05 PM ET",
+        "tier": "STRONG"
+      }
+    ],
+    "status_message": ""
   }
 }
