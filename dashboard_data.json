@@ -241,18 +241,7 @@
         "voided": false
       }
     ],
-    "watchlist": [
-      {
-        "play": "Michael Lorenzen O 3.5 K @ -138",
-        "time": "06:40 PM ET",
-        "tier": "STRONG"
-      },
-      {
-        "play": "MacKenzie Gore U 5.5 K @ -154",
-        "time": "08:05 PM ET",
-        "tier": "STRONG"
-      }
-    ],
+    "watchlist": [],
     "status_message": ""
   }
 }
