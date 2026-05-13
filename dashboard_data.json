@@ -202,9 +202,69 @@
     ]
   },
   "today": {
-    "first_pitch": "01:05 PM ET",
-    "picks": [],
-    "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:05 PM ET."
+    "first_pitch": "06:40 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "TB@TOR",
+        "play": "Dylan Cease U 17.5 Outs",
+        "info": "+115 \u00b7 Line: 17.5 \u00b7 07:07 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-13",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "NYM@DET",
+        "play": "Framber Valdez U 17.5 Outs",
+        "info": "+155 \u00b7 Line: 17.5 \u00b7 07:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-13",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "SD@MIL",
+        "play": "Jacob Misiorowski U 17.5 Outs",
+        "info": "-122 \u00b7 Line: 17.5 \u00b7 07:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-13",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
+    "watchlist": [
+      {
+        "play": "Jose Quintana O 3.5 K @ -106",
+        "time": "06:40 PM ET",
+        "tier": "STRONG"
+      },
+      {
+        "play": "Mitch Keller O 4.5 K @ -144",
+        "time": "06:40 PM ET",
+        "tier": "STRONG"
+      }
+    ],
+    "status_message": ""
   }
 }
