@@ -202,7 +202,7 @@
     ]
   },
   "today": {
-    "first_pitch": "06:40 PM ET",
+    "first_pitch": "07:07 PM ET",
     "picks": [
       {
         "market": "props",
@@ -253,18 +253,7 @@
         "voided": false
       }
     ],
-    "watchlist": [
-      {
-        "play": "Jose Quintana O 3.5 K @ -106",
-        "time": "06:40 PM ET",
-        "tier": "STRONG"
-      },
-      {
-        "play": "Mitch Keller O 4.5 K @ -144",
-        "time": "06:40 PM ET",
-        "tier": "STRONG"
-      }
-    ],
+    "watchlist": [],
     "status_message": ""
   }
 }
