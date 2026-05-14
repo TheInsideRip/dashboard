@@ -1,13 +1,13 @@
 {
-  "generated_date": "May 13, 2026",
+  "generated_date": "May 14, 2026",
   "overview": {
-    "combined_pnl": 8.75,
-    "combined_roi": 8.93,
-    "combined_record": "54W-44L (55.1%)",
-    "total_bets": 98,
-    "k_pnl": 9.25,
-    "k_roi": 24.34,
-    "k_record": "24W-14L (63.2%)",
+    "combined_pnl": 5.75,
+    "combined_roi": 5.69,
+    "combined_record": "54W-47L (53.5%)",
+    "total_bets": 101,
+    "k_pnl": 6.25,
+    "k_roi": 15.24,
+    "k_record": "24W-17L (58.5%)",
     "totals_pnl": -4.56,
     "totals_roi": -11.69,
     "totals_record": "18W-21L (46.2%)",
@@ -155,105 +155,52 @@
     {
       "date": "2026-05-12",
       "cumPnl": 8.75
+    },
+    {
+      "date": "2026-05-13",
+      "cumPnl": 5.75
     }
   ],
   "yesterday": {
-    "date": "2026-05-12",
-    "day_pnl": 1.99,
-    "day_record": "3W-1L (75.0%)",
+    "date": "2026-05-13",
+    "day_pnl": -3.0,
+    "day_record": "0W-3L (0.0%)",
     "best_bet": {
-      "label": "Bailey Ober \u2014 MIA@MIN \u2014 Over 4.5 K",
-      "pnl": 1.18
+      "label": "TB@TOR \u2014 Dylan Cease U 17.5 Outs",
+      "pnl": -1.0
     },
-    "last_10_record": "6-4",
+    "last_10_record": "5-5",
     "bets": [
-      {
-        "market": "mlrl",
-        "matchup": "NYY@BAL",
-        "play": "NYY ML -145",
-        "info": "-145 \u00b7 06:35 PM ET \u00b7 Result: NYY",
-        "pnl": 0.69,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "Bailey Ober \u2014 MIA@MIN",
-        "play": "Over 4.5 K",
-        "info": "+118 \u00b7 Model: 5.1 K \u00b7 07:40 PM ET \u00b7 Result: 7 K",
-        "pnl": 1.18,
-        "edge_pct": 29.92
-      },
-      {
-        "market": "props",
-        "matchup": "Grant Holmes \u2014 CHC@ATL",
-        "play": "Over 4.5 K",
-        "info": "+112 \u00b7 Model: 5.1 K \u00b7 07:15 PM ET \u00b7 Result: 5 K",
-        "pnl": 1.12,
-        "edge_pct": 26.34
-      },
-      {
-        "market": "props",
-        "matchup": "Miles Mikolas \u2014 WSH@CIN",
-        "play": "Over 3.5 K",
-        "info": "+114 \u00b7 Model: 3.8 K \u00b7 06:40 PM ET \u00b7 Result: 2 K",
-        "pnl": -1.0,
-        "edge_pct": 17.34
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:07 PM ET",
-    "picks": [
       {
         "market": "props",
         "matchup": "TB@TOR",
         "play": "Dylan Cease U 17.5 Outs",
-        "info": "+115 \u00b7 Line: 17.5 \u00b7 07:07 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-13",
-        "book": "Fanatics",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+115 \u00b7 Line: 17.5 \u00b7 07:07 PM ET \u00b7 Result: 21 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "NYM@DET",
         "play": "Framber Valdez U 17.5 Outs",
-        "info": "+155 \u00b7 Line: 17.5 \u00b7 07:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-13",
-        "book": "Caesars",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+155 \u00b7 Line: 17.5 \u00b7 07:10 PM ET \u00b7 Result: 20 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       },
       {
         "market": "props",
         "matchup": "SD@MIL",
         "play": "Jacob Misiorowski U 17.5 Outs",
-        "info": "-122 \u00b7 Line: 17.5 \u00b7 07:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-13",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-122 \u00b7 Line: 17.5 \u00b7 07:40 PM ET \u00b7 Result: 21 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
   }
 }
