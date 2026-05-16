@@ -1,13 +1,13 @@
 {
-  "generated_date": "May 15, 2026",
+  "generated_date": "May 16, 2026",
   "overview": {
-    "combined_pnl": 5.75,
-    "combined_roi": 5.69,
-    "combined_record": "54W-47L (53.5%)",
-    "total_bets": 101,
-    "k_pnl": 6.25,
-    "k_roi": 15.24,
-    "k_record": "24W-17L (58.5%)",
+    "combined_pnl": 1.75,
+    "combined_roi": 1.67,
+    "combined_record": "54W-51L (51.4%)",
+    "total_bets": 105,
+    "k_pnl": 2.25,
+    "k_roi": 5.0,
+    "k_record": "24W-21L (53.3%)",
     "totals_pnl": -4.56,
     "totals_roi": -11.69,
     "totals_record": "18W-21L (46.2%)",
@@ -159,113 +159,60 @@
     {
       "date": "2026-05-13",
       "cumPnl": 5.75
+    },
+    {
+      "date": "2026-05-15",
+      "cumPnl": 1.75
     }
   ],
   "yesterday": {
-    "date": "2026-05-13",
-    "day_pnl": -3.0,
-    "day_record": "0W-3L (0.0%)",
+    "date": "2026-05-15",
+    "day_pnl": -4.0,
+    "day_record": "0W-4L (0.0%)",
     "best_bet": {
-      "label": "TB@TOR \u2014 Dylan Cease U 17.5 Outs",
+      "label": "NYM@NYY \u2014 Cam Schlittler U 17.5 Outs",
       "pnl": -1.0
     },
-    "last_10_record": "5-5",
+    "last_10_record": "3-7",
     "bets": [
       {
         "market": "props",
-        "matchup": "TB@TOR",
-        "play": "Dylan Cease U 17.5 Outs",
-        "info": "+115 \u00b7 Line: 17.5 \u00b7 07:07 PM ET \u00b7 Result: 21 outs",
+        "matchup": "NYM@NYY",
+        "play": "Cam Schlittler U 17.5 Outs",
+        "info": "-104 \u00b7 Line: 17.5 \u00b7 07:15 PM ET \u00b7 Result: 20 outs",
         "pnl": -1.0,
         "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "NYM@DET",
-        "play": "Framber Valdez U 17.5 Outs",
-        "info": "+155 \u00b7 Line: 17.5 \u00b7 07:10 PM ET \u00b7 Result: 20 outs",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "SD@MIL",
-        "play": "Jacob Misiorowski U 17.5 Outs",
-        "info": "-122 \u00b7 Line: 17.5 \u00b7 07:40 PM ET \u00b7 Result: 21 outs",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:10 PM ET",
-    "picks": [
-      {
-        "market": "props",
-        "matchup": "Merrill Kelly \u2014 AZ@COL",
-        "play": "Over 4.5 K",
-        "info": "-102 \u00b7 Model: 5.5 K \u00b7 08:40 PM ET",
-        "edge_pct": 30.15,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-05-15",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
       },
       {
         "market": "props",
         "matchup": "Spencer Strider \u2014 BOS@ATL",
         "play": "Over 6.5 K",
-        "info": "+110 \u00b7 Model: 7.0 K \u00b7 07:15 PM ET",
-        "edge_pct": 21.84,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 53,
-        "game_date": "2026-05-15",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "props",
-        "matchup": "NYM@NYY",
-        "play": "Cam Schlittler U 17.5 Outs",
-        "info": "-104 \u00b7 Line: 17.5 \u00b7 07:15 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-15",
-        "book": "Caesars",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+110 \u00b7 Model: 7.0 K \u00b7 07:15 PM ET \u00b7 Result: 4 K",
+        "pnl": -1.0,
+        "edge_pct": 21.84
       },
       {
         "market": "props",
         "matchup": "MIL@MIN",
         "play": "Joe Ryan U 17.5 Outs",
-        "info": "-120 \u00b7 Line: 17.5 \u00b7 07:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-15",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-120 \u00b7 Line: 17.5 \u00b7 07:10 PM ET \u00b7 Result: 18 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
+      },
+      {
+        "market": "props",
+        "matchup": "Merrill Kelly \u2014 AZ@COL",
+        "play": "Over 4.5 K",
+        "info": "-102 \u00b7 Model: 5.5 K \u00b7 08:40 PM ET \u00b7 Result: 3 K",
+        "pnl": -1.0,
+        "edge_pct": 30.15
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
   }
 }
