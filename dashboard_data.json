@@ -210,9 +210,74 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [],
+    "first_pitch": "03:10 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "COL@AZ",
+        "play": "Eduardo Rodriguez U 17.5 Outs",
+        "info": "-105 \u00b7 Line: 17.5 \u00b7 03:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-16",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "MIA@TB",
+        "play": "Nick Martinez U 17.5 Outs",
+        "info": "-110 \u00b7 Line: 17.5 \u00b7 04:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-16",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "NYY@NYM",
+        "play": "Under 8.5",
+        "info": "-115 \u00b7 Model: 7.8 \u00b7 07:15 PM ET",
+        "edge_pct": 5.01,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-05-16",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "CIN@CLE",
+        "play": "Under 8.5",
+        "info": "-114 \u00b7 Model: 7.9 \u00b7 06:10 PM ET",
+        "edge_pct": 3.79,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-05-16",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
+    "status_message": ""
   }
 }
