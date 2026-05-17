@@ -214,9 +214,26 @@
     ]
   },
   "today": {
-    "first_pitch": "12:15 PM ET",
-    "picks": [],
+    "first_pitch": "04:07 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "LAD@LAA",
+        "play": "LAD ML -148",
+        "info": "-148 \u00b7 04:07 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-05-17",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
+    "status_message": ""
   }
 }
