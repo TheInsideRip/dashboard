@@ -1,19 +1,19 @@
 {
-  "generated_date": "May 17, 2026",
+  "generated_date": "May 18, 2026",
   "overview": {
-    "combined_pnl": -0.3,
-    "combined_roi": -0.28,
-    "combined_record": "55W-54L (50.5%)",
-    "total_bets": 109,
+    "combined_pnl": 0.38,
+    "combined_roi": 0.35,
+    "combined_record": "56W-54L (50.9%)",
+    "total_bets": 110,
     "k_pnl": 2.2,
     "k_roi": 4.68,
     "k_record": "25W-22L (53.2%)",
     "totals_pnl": -6.56,
     "totals_roi": -16.0,
     "totals_record": "18W-23L (43.9%)",
-    "mlrl_pnl": 4.06,
-    "mlrl_roi": 19.33,
-    "mlrl_record": "12W-9L (57.1%)"
+    "mlrl_pnl": 4.74,
+    "mlrl_roi": 21.55,
+    "mlrl_record": "13W-9L (59.1%)"
   },
   "cumulative_chart": [
     {
@@ -167,73 +167,36 @@
     {
       "date": "2026-05-16",
       "cumPnl": -0.3
+    },
+    {
+      "date": "2026-05-17",
+      "cumPnl": 0.38
     }
   ],
   "yesterday": {
-    "date": "2026-05-16",
-    "day_pnl": -2.05,
-    "day_record": "1W-3L (25.0%)",
+    "date": "2026-05-17",
+    "day_pnl": 0.68,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "COL@AZ \u2014 Eduardo Rodriguez U 17.5 Outs",
-      "pnl": 0.95
+      "label": "LAD@LAA \u2014 LAD ML -148",
+      "pnl": 0.68
     },
-    "last_10_record": "1-9",
+    "last_10_record": "2-8",
     "bets": [
       {
-        "market": "totals",
-        "matchup": "NYY@NYM",
-        "play": "Under 8.5",
-        "info": "-115 \u00b7 Model: 7.8 \u00b7 07:15 PM ET \u00b7 Result: 9 runs",
-        "pnl": -1.0,
-        "edge_pct": 5.01
-      },
-      {
-        "market": "totals",
-        "matchup": "CIN@CLE",
-        "play": "Under 8.5",
-        "info": "-114 \u00b7 Model: 7.9 \u00b7 06:10 PM ET \u00b7 Result: 11 runs",
-        "pnl": -1.0,
-        "edge_pct": 3.79
-      },
-      {
-        "market": "props",
-        "matchup": "COL@AZ",
-        "play": "Eduardo Rodriguez U 17.5 Outs",
-        "info": "-105 \u00b7 Line: 17.5 \u00b7 03:10 PM ET \u00b7 Result: 16 outs",
-        "pnl": 0.95,
-        "edge_pct": 0.0
-      },
-      {
-        "market": "props",
-        "matchup": "MIA@TB",
-        "play": "Nick Martinez U 17.5 Outs",
-        "info": "-110 \u00b7 Line: 17.5 \u00b7 04:10 PM ET \u00b7 Result: 18 outs",
-        "pnl": -1.0,
+        "market": "mlrl",
+        "matchup": "LAD@LAA",
+        "play": "LAD ML -148",
+        "info": "-148 \u00b7 04:07 PM ET \u00b7 Result: LAD",
+        "pnl": 0.68,
         "edge_pct": 0.0
       }
     ]
   },
   "today": {
-    "first_pitch": "04:07 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "LAD@LAA",
-        "play": "LAD ML -148",
-        "info": "-148 \u00b7 04:07 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-05-17",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
