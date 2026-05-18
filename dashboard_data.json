@@ -194,9 +194,26 @@
     ]
   },
   "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [],
+    "first_pitch": "07:40 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "BOS@KC",
+        "play": "Under 9.0",
+        "info": "-105 \u00b7 Model: 8.5 \u00b7 07:40 PM ET",
+        "edge_pct": 6.24,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-05-18",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
+    "status_message": ""
   }
 }
