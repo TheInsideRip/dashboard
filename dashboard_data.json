@@ -1,16 +1,16 @@
 {
-  "generated_date": "May 18, 2026",
+  "generated_date": "May 19, 2026",
   "overview": {
-    "combined_pnl": 0.38,
-    "combined_roi": 0.35,
-    "combined_record": "56W-54L (50.9%)",
-    "total_bets": 110,
+    "combined_pnl": 1.33,
+    "combined_roi": 1.2,
+    "combined_record": "57W-54L (51.4%)",
+    "total_bets": 111,
     "k_pnl": 2.2,
     "k_roi": 4.68,
     "k_record": "25W-22L (53.2%)",
-    "totals_pnl": -6.56,
-    "totals_roi": -16.0,
-    "totals_record": "18W-23L (43.9%)",
+    "totals_pnl": -5.61,
+    "totals_roi": -13.36,
+    "totals_record": "19W-23L (45.2%)",
     "mlrl_pnl": 4.74,
     "mlrl_roi": 21.55,
     "mlrl_record": "13W-9L (59.1%)"
@@ -171,49 +171,36 @@
     {
       "date": "2026-05-17",
       "cumPnl": 0.38
+    },
+    {
+      "date": "2026-05-18",
+      "cumPnl": 1.33
     }
   ],
   "yesterday": {
-    "date": "2026-05-17",
-    "day_pnl": 0.68,
+    "date": "2026-05-18",
+    "day_pnl": 0.95,
     "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "LAD@LAA \u2014 LAD ML -148",
-      "pnl": 0.68
+      "label": "BOS@KC \u2014 Under 9.0",
+      "pnl": 0.95
     },
-    "last_10_record": "2-8",
+    "last_10_record": "3-7",
     "bets": [
-      {
-        "market": "mlrl",
-        "matchup": "LAD@LAA",
-        "play": "LAD ML -148",
-        "info": "-148 \u00b7 04:07 PM ET \u00b7 Result: LAD",
-        "pnl": 0.68,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:40 PM ET",
-    "picks": [
       {
         "market": "totals",
         "matchup": "BOS@KC",
         "play": "Under 9.0",
-        "info": "-105 \u00b7 Model: 8.5 \u00b7 07:40 PM ET",
-        "edge_pct": 6.24,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-05-18",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-105 \u00b7 Model: 8.5 \u00b7 07:40 PM ET \u00b7 Result: 4 runs",
+        "pnl": 0.95,
+        "edge_pct": 6.24
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "04:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 04:10 PM ET."
   }
 }
