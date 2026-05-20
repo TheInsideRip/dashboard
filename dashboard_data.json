@@ -1,13 +1,13 @@
 {
-  "generated_date": "May 19, 2026",
+  "generated_date": "May 20, 2026",
   "overview": {
-    "combined_pnl": 1.33,
-    "combined_roi": 1.2,
-    "combined_record": "57W-54L (51.4%)",
-    "total_bets": 111,
-    "k_pnl": 2.2,
-    "k_roi": 4.68,
-    "k_record": "25W-22L (53.2%)",
+    "combined_pnl": -0.57,
+    "combined_roi": -0.5,
+    "combined_record": "58W-57L (50.4%)",
+    "total_bets": 115,
+    "k_pnl": 0.3,
+    "k_roi": 0.59,
+    "k_record": "26W-25L (51.0%)",
     "totals_pnl": -5.61,
     "totals_roi": -13.36,
     "totals_record": "19W-23L (45.2%)",
@@ -175,97 +175,60 @@
     {
       "date": "2026-05-18",
       "cumPnl": 1.33
+    },
+    {
+      "date": "2026-05-19",
+      "cumPnl": -0.57
     }
   ],
   "yesterday": {
-    "date": "2026-05-18",
-    "day_pnl": 0.95,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-05-19",
+    "day_pnl": -1.9,
+    "day_record": "1W-3L (25.0%)",
     "best_bet": {
-      "label": "BOS@KC \u2014 Under 9.0",
-      "pnl": 0.95
+      "label": "Bryce Miller \u2014 CWS@SEA \u2014 Over 4.5 K",
+      "pnl": 1.1
     },
-    "last_10_record": "3-7",
+    "last_10_record": "4-6",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "BOS@KC",
-        "play": "Under 9.0",
-        "info": "-105 \u00b7 Model: 8.5 \u00b7 07:40 PM ET \u00b7 Result: 4 runs",
-        "pnl": 0.95,
-        "edge_pct": 6.24
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [
       {
         "market": "props",
         "matchup": "Jacob Misiorowski \u2014 MIL@CHC",
         "play": "Under 7.5 K",
-        "info": "-138 \u00b7 Model: 5.8 K \u00b7 07:40 PM ET",
-        "edge_pct": 30.1,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 56,
-        "game_date": "2026-05-19",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-138 \u00b7 Model: 5.8 K \u00b7 07:40 PM ET \u00b7 Result: 8 K",
+        "pnl": -1.0,
+        "edge_pct": 30.1
       },
       {
         "market": "props",
         "matchup": "Mitch Keller \u2014 PIT@STL",
         "play": "Over 4.5 K",
-        "info": "+108 \u00b7 Model: 5.2 K \u00b7 07:45 PM ET",
-        "edge_pct": 27.21,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 53,
-        "game_date": "2026-05-19",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+108 \u00b7 Model: 5.2 K \u00b7 07:45 PM ET \u00b7 Result: 3 K",
+        "pnl": -1.0,
+        "edge_pct": 27.21
       },
       {
         "market": "props",
         "matchup": "Bryce Miller \u2014 CWS@SEA",
         "play": "Over 4.5 K",
-        "info": "+110 \u00b7 Model: 4.6 K \u00b7 09:40 PM ET",
-        "edge_pct": 8.39,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-05-19",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+110 \u00b7 Model: 4.6 K \u00b7 09:40 PM ET \u00b7 Result: 7 K",
+        "pnl": 1.1,
+        "edge_pct": 8.39
       },
       {
         "market": "props",
         "matchup": "CIN@PHI",
         "play": "Jesus Luzardo U 17.5 Outs",
-        "info": "+110 \u00b7 Line: 17.5 \u00b7 06:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 58,
-        "game_date": "2026-05-19",
-        "book": "Bovada",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+110 \u00b7 Line: 17.5 \u00b7 06:40 PM ET \u00b7 Result: 18 outs",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:05 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:05 PM ET."
   }
 }
