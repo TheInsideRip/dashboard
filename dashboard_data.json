@@ -1,19 +1,19 @@
 {
-  "generated_date": "May 20, 2026",
+  "generated_date": "May 21, 2026",
   "overview": {
-    "combined_pnl": -0.57,
-    "combined_roi": -0.5,
-    "combined_record": "58W-57L (50.4%)",
-    "total_bets": 115,
+    "combined_pnl": 0.21,
+    "combined_roi": 0.18,
+    "combined_record": "59W-57L (50.9%)",
+    "total_bets": 116,
     "k_pnl": 0.3,
     "k_roi": 0.59,
     "k_record": "26W-25L (51.0%)",
     "totals_pnl": -5.61,
     "totals_roi": -13.36,
     "totals_record": "19W-23L (45.2%)",
-    "mlrl_pnl": 4.74,
-    "mlrl_roi": 21.55,
-    "mlrl_record": "13W-9L (59.1%)"
+    "mlrl_pnl": 5.52,
+    "mlrl_roi": 24.0,
+    "mlrl_record": "14W-9L (60.9%)"
   },
   "cumulative_chart": [
     {
@@ -179,73 +179,36 @@
     {
       "date": "2026-05-19",
       "cumPnl": -0.57
+    },
+    {
+      "date": "2026-05-20",
+      "cumPnl": 0.21
     }
   ],
   "yesterday": {
-    "date": "2026-05-19",
-    "day_pnl": -1.9,
-    "day_record": "1W-3L (25.0%)",
+    "date": "2026-05-20",
+    "day_pnl": 0.78,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "Bryce Miller \u2014 CWS@SEA \u2014 Over 4.5 K",
-      "pnl": 1.1
+      "label": "CLE@DET \u2014 CLE ML -129",
+      "pnl": 0.78
     },
-    "last_10_record": "4-6",
+    "last_10_record": "5-5",
     "bets": [
       {
-        "market": "props",
-        "matchup": "Jacob Misiorowski \u2014 MIL@CHC",
-        "play": "Under 7.5 K",
-        "info": "-138 \u00b7 Model: 5.8 K \u00b7 07:40 PM ET \u00b7 Result: 8 K",
-        "pnl": -1.0,
-        "edge_pct": 30.1
-      },
-      {
-        "market": "props",
-        "matchup": "Mitch Keller \u2014 PIT@STL",
-        "play": "Over 4.5 K",
-        "info": "+108 \u00b7 Model: 5.2 K \u00b7 07:45 PM ET \u00b7 Result: 3 K",
-        "pnl": -1.0,
-        "edge_pct": 27.21
-      },
-      {
-        "market": "props",
-        "matchup": "Bryce Miller \u2014 CWS@SEA",
-        "play": "Over 4.5 K",
-        "info": "+110 \u00b7 Model: 4.6 K \u00b7 09:40 PM ET \u00b7 Result: 7 K",
-        "pnl": 1.1,
-        "edge_pct": 8.39
-      },
-      {
-        "market": "props",
-        "matchup": "CIN@PHI",
-        "play": "Jesus Luzardo U 17.5 Outs",
-        "info": "+110 \u00b7 Line: 17.5 \u00b7 06:40 PM ET \u00b7 Result: 18 outs",
-        "pnl": -1.0,
+        "market": "mlrl",
+        "matchup": "CLE@DET",
+        "play": "CLE ML -129",
+        "info": "-129 \u00b7 06:40 PM ET \u00b7 Result: CLE",
+        "pnl": 0.78,
         "edge_pct": 0.0
       }
     ]
   },
   "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "CLE@DET",
-        "play": "CLE ML -129",
-        "info": "-129 \u00b7 06:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-05-20",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "01:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
   }
 }
