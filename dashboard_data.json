@@ -238,9 +238,42 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [],
+    "first_pitch": "04:10 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "TEX@LAA",
+        "play": "TEX ML -145",
+        "info": "-145 \u00b7 10:05 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-05-23",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "SEA@KC",
+        "play": "SEA ML -141",
+        "info": "-141 \u00b7 04:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-05-23",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
+    "status_message": ""
   }
 }
