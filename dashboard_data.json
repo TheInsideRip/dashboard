@@ -1,19 +1,19 @@
 {
-  "generated_date": "May 23, 2026",
+  "generated_date": "May 24, 2026",
   "overview": {
-    "combined_pnl": -0.84,
-    "combined_roi": -0.69,
-    "combined_record": "61W-60L (50.4%)",
-    "total_bets": 121,
+    "combined_pnl": -2.84,
+    "combined_roi": -2.31,
+    "combined_record": "61W-62L (49.6%)",
+    "total_bets": 123,
     "k_pnl": 0.3,
     "k_roi": 0.59,
     "k_record": "26W-25L (51.0%)",
     "totals_pnl": -5.66,
     "totals_roi": -12.3,
     "totals_record": "21W-25L (45.7%)",
-    "mlrl_pnl": 4.52,
-    "mlrl_roi": 18.83,
-    "mlrl_record": "14W-10L (58.3%)"
+    "mlrl_pnl": 2.52,
+    "mlrl_roi": 9.69,
+    "mlrl_record": "14W-12L (53.8%)"
   },
   "cumulative_chart": [
     {
@@ -191,89 +191,44 @@
     {
       "date": "2026-05-22",
       "cumPnl": -0.84
+    },
+    {
+      "date": "2026-05-23",
+      "cumPnl": -2.84
     }
   ],
   "yesterday": {
-    "date": "2026-05-22",
-    "day_pnl": -0.05,
-    "day_record": "2W-2L (50.0%)",
+    "date": "2026-05-23",
+    "day_pnl": -2.0,
+    "day_record": "0W-2L (0.0%)",
     "best_bet": {
-      "label": "SEA@KC \u2014 Under 8.5",
-      "pnl": 1.0
+      "label": "TEX@LAA \u2014 TEX ML -145",
+      "pnl": -1.0
     },
-    "last_10_record": "4-6",
+    "last_10_record": "3-7",
     "bets": [
       {
-        "market": "totals",
-        "matchup": "MIN@BOS",
-        "play": "Over 7.5",
-        "info": "-105 \u00b7 Model: 8.9 \u00b7 07:10 PM ET \u00b7 Result: 14 runs",
-        "pnl": 0.95,
-        "edge_pct": 21.41
-      },
-      {
-        "market": "totals",
-        "matchup": "COL@AZ",
-        "play": "Over 9.0",
-        "info": "-104 \u00b7 Model: 10.3 \u00b7 09:40 PM ET \u00b7 Result: 5 runs",
+        "market": "mlrl",
+        "matchup": "TEX@LAA",
+        "play": "TEX ML -145",
+        "info": "-145 \u00b7 10:05 PM ET \u00b7 Result: LAA",
         "pnl": -1.0,
-        "edge_pct": 20.33
-      },
-      {
-        "market": "totals",
-        "matchup": "SEA@KC",
-        "play": "Under 8.5",
-        "info": "+100 \u00b7 Model: 7.8 \u00b7 07:40 PM ET \u00b7 Result: 2 runs",
-        "pnl": 1.0,
-        "edge_pct": 12.33
+        "edge_pct": 0.0
       },
       {
         "market": "mlrl",
-        "matchup": "DET@BAL",
-        "play": "DET ML -115",
-        "info": "-115 \u00b7 07:15 PM ET \u00b7 Result: BAL",
+        "matchup": "SEA@KC",
+        "play": "SEA ML -141",
+        "info": "-141 \u00b7 04:10 PM ET \u00b7 Result: KC",
         "pnl": -1.0,
         "edge_pct": 0.0
       }
     ]
   },
   "today": {
-    "first_pitch": "04:10 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "TEX@LAA",
-        "play": "TEX ML -145",
-        "info": "-145 \u00b7 10:05 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-05-23",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SEA@KC",
-        "play": "SEA ML -141",
-        "info": "-141 \u00b7 04:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-05-23",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "12:15 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
   }
 }
