@@ -226,9 +226,42 @@
     ]
   },
   "today": {
-    "first_pitch": "12:15 PM ET",
-    "picks": [],
+    "first_pitch": "04:10 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "Michael King \u2014 ATH@SD",
+        "play": "Under 5.5 K",
+        "info": "+122 \u00b7 Model: 5.0 K \u00b7 04:10 PM ET",
+        "edge_pct": 28.81,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 56,
+        "game_date": "2026-05-24",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "Reid Detmers \u2014 TEX@LAA",
+        "play": "Under 6.5 K",
+        "info": "-108 \u00b7 Model: 5.5 K \u00b7 07:20 PM ET",
+        "edge_pct": 26.57,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-05-24",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
+    "status_message": ""
   }
 }
