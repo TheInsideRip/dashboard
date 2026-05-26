@@ -234,9 +234,58 @@
     ]
   },
   "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [],
+    "first_pitch": "06:40 PM ET",
+    "picks": [
+      {
+        "market": "props",
+        "matchup": "KC@NYY",
+        "play": "Cam Schlittler U 17.5 Outs",
+        "info": "+140 \u00b7 Line: 17.5 \u00b7 07:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-26",
+        "book": "Fanatics",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "props",
+        "matchup": "DET@LAA",
+        "play": "Jack Kochanowicz U 17.5 Outs",
+        "info": "-110 \u00b7 Line: 17.5 \u00b7 06:40 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 58,
+        "game_date": "2026-05-26",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "CHC@PIT",
+        "play": "Under 8.5",
+        "info": "+102 \u00b7 Model: 8.2 \u00b7 06:40 PM ET",
+        "edge_pct": 6.36,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-05-26",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
+    "status_message": ""
   }
 }
