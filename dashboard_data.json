@@ -246,9 +246,26 @@
     ]
   },
   "today": {
-    "first_pitch": "01:07 PM ET",
-    "picks": [],
+    "first_pitch": "03:05 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "SEA@ATH",
+        "play": "Under 9.0",
+        "info": "-110 \u00b7 Model: 8.2 \u00b7 03:05 PM ET",
+        "edge_pct": 8.89,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-05-27",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:07 PM ET."
+    "status_message": ""
   }
 }
