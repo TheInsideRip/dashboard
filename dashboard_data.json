@@ -234,9 +234,26 @@
     ]
   },
   "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [],
+    "first_pitch": "07:40 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "DET@CWS",
+        "play": "Under 8.5",
+        "info": "-105 \u00b7 Model: 7.9 \u00b7 07:40 PM ET",
+        "edge_pct": 7.95,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-05-29",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
+    "status_message": ""
   }
 }
