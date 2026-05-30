@@ -1,16 +1,16 @@
 {
-  "generated_date": "May 29, 2026",
+  "generated_date": "May 30, 2026",
   "overview": {
-    "combined_pnl": -5.03,
-    "combined_roi": -3.84,
-    "combined_record": "64W-67L (48.9%)",
-    "total_bets": 131,
+    "combined_pnl": -4.08,
+    "combined_roi": -3.09,
+    "combined_record": "65W-67L (49.2%)",
+    "total_bets": 132,
     "k_pnl": 0.43,
     "k_roi": 0.78,
     "k_record": "28W-27L (50.9%)",
-    "totals_pnl": -7.66,
-    "totals_roi": -15.96,
-    "totals_record": "21W-27L (43.8%)",
+    "totals_pnl": -6.71,
+    "totals_roi": -13.69,
+    "totals_record": "22W-27L (44.9%)",
     "mlrl_pnl": 2.2,
     "mlrl_roi": 7.86,
     "mlrl_record": "15W-13L (53.6%)"
@@ -211,49 +211,36 @@
     {
       "date": "2026-05-27",
       "cumPnl": -5.03
+    },
+    {
+      "date": "2026-05-29",
+      "cumPnl": -4.08
     }
   ],
   "yesterday": {
-    "date": "2026-05-27",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-05-29",
+    "day_pnl": 0.95,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "SEA@ATH \u2014 Under 9.0",
-      "pnl": -1.0
+      "label": "DET@CWS \u2014 Under 8.5",
+      "pnl": 0.95
     },
-    "last_10_record": "3-7",
+    "last_10_record": "4-6",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "SEA@ATH",
-        "play": "Under 9.0",
-        "info": "-110 \u00b7 Model: 8.2 \u00b7 03:05 PM ET \u00b7 Result: 10 runs",
-        "pnl": -1.0,
-        "edge_pct": 8.89
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:40 PM ET",
-    "picks": [
       {
         "market": "totals",
         "matchup": "DET@CWS",
         "play": "Under 8.5",
-        "info": "-105 \u00b7 Model: 7.9 \u00b7 07:40 PM ET",
-        "edge_pct": 7.95,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-05-29",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-105 \u00b7 Model: 7.9 \u00b7 07:40 PM ET \u00b7 Result: 7 runs",
+        "pnl": 0.95,
+        "edge_pct": 7.95
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "02:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 02:10 PM ET."
   }
 }
