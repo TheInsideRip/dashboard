@@ -1,16 +1,16 @@
 {
-  "generated_date": "May 30, 2026",
+  "generated_date": "May 31, 2026",
   "overview": {
-    "combined_pnl": -4.08,
-    "combined_roi": -3.09,
-    "combined_record": "65W-67L (49.2%)",
-    "total_bets": 132,
+    "combined_pnl": -3.21,
+    "combined_roi": -2.41,
+    "combined_record": "66W-67L (49.6%)",
+    "total_bets": 133,
     "k_pnl": 0.43,
     "k_roi": 0.78,
     "k_record": "28W-27L (50.9%)",
-    "totals_pnl": -6.71,
-    "totals_roi": -13.69,
-    "totals_record": "22W-27L (44.9%)",
+    "totals_pnl": -5.84,
+    "totals_roi": -11.68,
+    "totals_record": "23W-27L (46.0%)",
     "mlrl_pnl": 2.2,
     "mlrl_roi": 7.86,
     "mlrl_record": "15W-13L (53.6%)"
@@ -215,49 +215,36 @@
     {
       "date": "2026-05-29",
       "cumPnl": -4.08
+    },
+    {
+      "date": "2026-05-30",
+      "cumPnl": -3.21
     }
   ],
   "yesterday": {
-    "date": "2026-05-29",
-    "day_pnl": 0.95,
+    "date": "2026-05-30",
+    "day_pnl": 0.87,
     "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "DET@CWS \u2014 Under 8.5",
-      "pnl": 0.95
+      "label": "SD@WSH \u2014 Over 7.5",
+      "pnl": 0.87
     },
-    "last_10_record": "4-6",
+    "last_10_record": "5-5",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "DET@CWS",
-        "play": "Under 8.5",
-        "info": "-105 \u00b7 Model: 7.9 \u00b7 07:40 PM ET \u00b7 Result: 7 runs",
-        "pnl": 0.95,
-        "edge_pct": 7.95
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "04:05 PM ET",
-    "picks": [
       {
         "market": "totals",
         "matchup": "SD@WSH",
         "play": "Over 7.5",
-        "info": "-115 \u00b7 Model: 9.1 \u00b7 04:05 PM ET",
-        "edge_pct": 19.39,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 67,
-        "game_date": "2026-05-30",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-115 \u00b7 Model: 9.1 \u00b7 04:05 PM ET \u00b7 Result: 13 runs",
+        "pnl": 0.87,
+        "edge_pct": 19.39
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:15 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
   }
 }
