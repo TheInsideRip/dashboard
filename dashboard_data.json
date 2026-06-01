@@ -1,13 +1,13 @@
 {
-  "generated_date": "May 31, 2026",
+  "generated_date": "June 01, 2026",
   "overview": {
-    "combined_pnl": -3.21,
-    "combined_roi": -2.41,
-    "combined_record": "66W-67L (49.6%)",
-    "total_bets": 133,
-    "k_pnl": 0.43,
-    "k_roi": 0.78,
-    "k_record": "28W-27L (50.9%)",
+    "combined_pnl": -2.11,
+    "combined_roi": -1.57,
+    "combined_record": "67W-67L (50.0%)",
+    "total_bets": 134,
+    "k_pnl": 1.53,
+    "k_roi": 2.73,
+    "k_record": "29W-27L (51.8%)",
     "totals_pnl": -5.84,
     "totals_roi": -11.68,
     "totals_record": "23W-27L (46.0%)",
@@ -219,49 +219,36 @@
     {
       "date": "2026-05-30",
       "cumPnl": -3.21
+    },
+    {
+      "date": "2026-05-31",
+      "cumPnl": -2.11
     }
   ],
   "yesterday": {
-    "date": "2026-05-30",
-    "day_pnl": 0.87,
+    "date": "2026-05-31",
+    "day_pnl": 1.1,
     "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "SD@WSH \u2014 Over 7.5",
-      "pnl": 0.87
+      "label": "Zack Littell \u2014 SD@WSH \u2014 Over 3.5 K",
+      "pnl": 1.1
     },
-    "last_10_record": "5-5",
+    "last_10_record": "6-4",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "SD@WSH",
-        "play": "Over 7.5",
-        "info": "-115 \u00b7 Model: 9.1 \u00b7 04:05 PM ET \u00b7 Result: 13 runs",
-        "pnl": 0.87,
-        "edge_pct": 19.39
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [
       {
         "market": "props",
         "matchup": "Zack Littell \u2014 SD@WSH",
         "play": "Over 3.5 K",
-        "info": "+110 \u00b7 Model: 4.0 K \u00b7 01:35 PM ET",
-        "edge_pct": 21.84,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 53,
-        "game_date": "2026-05-31",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+110 \u00b7 Model: 4.0 K \u00b7 01:35 PM ET \u00b7 Result: 5 K",
+        "pnl": 1.1,
+        "edge_pct": 21.84
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
