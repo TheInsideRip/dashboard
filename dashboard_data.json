@@ -258,9 +258,42 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [],
+    "first_pitch": "02:20 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "SF@CHC",
+        "play": "ML: SF",
+        "info": "+130 \u00b7 WP: 50.5% \u00b7 02:20 PM ET",
+        "edge_pct": 7.0,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-06-06",
+        "book": "BetOnline.ag",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "NYM@SD",
+        "play": "NYM ML -129",
+        "info": "-129 \u00b7 10:10 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-06-06",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
+    "status_message": ""
   }
 }
