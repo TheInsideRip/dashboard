@@ -275,8 +275,57 @@
   },
   "today": {
     "first_pitch": "06:35 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "SEA@BAL",
+        "play": "SEA ML -126",
+        "info": "-126 \u00b7 06:35 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-06-09",
+        "book": "DraftKings",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "NYY@CLE",
+        "play": "Under 8.5",
+        "info": "-104 \u00b7 Model: 7.6 \u00b7 06:40 PM ET",
+        "edge_pct": 13.59,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-06-09",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "ATL@CWS",
+        "play": "Under 9.5",
+        "info": "-128 \u00b7 Model: 8.5 \u00b7 07:40 PM ET",
+        "edge_pct": 4.69,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-06-09",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:35 PM ET."
+    "status_message": ""
   }
 }
