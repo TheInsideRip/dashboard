@@ -1,19 +1,19 @@
 {
-  "generated_date": "June 08, 2026",
+  "generated_date": "June 09, 2026",
   "overview": {
-    "combined_pnl": -3.24,
-    "combined_roi": -2.33,
-    "combined_record": "69W-70L (49.6%)",
-    "total_bets": 139,
+    "combined_pnl": -3.5,
+    "combined_roi": -2.48,
+    "combined_record": "70W-71L (49.6%)",
+    "total_bets": 141,
     "k_pnl": 1.53,
     "k_roi": 2.73,
     "k_record": "29W-27L (51.8%)",
     "totals_pnl": -4.97,
     "totals_roi": -9.38,
     "totals_record": "25W-28L (47.2%)",
-    "mlrl_pnl": 0.2,
-    "mlrl_roi": 0.67,
-    "mlrl_record": "15W-15L (50.0%)"
+    "mlrl_pnl": -0.06,
+    "mlrl_roi": -0.19,
+    "mlrl_record": "16W-16L (50.0%)"
   },
   "cumulative_chart": [
     {
@@ -239,73 +239,44 @@
     {
       "date": "2026-06-06",
       "cumPnl": -3.24
+    },
+    {
+      "date": "2026-06-08",
+      "cumPnl": -3.5
     }
   ],
   "yesterday": {
-    "date": "2026-06-06",
-    "day_pnl": -2.0,
-    "day_record": "0W-2L (0.0%)",
+    "date": "2026-06-08",
+    "day_pnl": -0.26,
+    "day_record": "1W-1L (50.0%)",
     "best_bet": {
-      "label": "NYM@SD \u2014 NYM ML -129",
-      "pnl": -1.0
+      "label": "NYY@CLE \u2014 NYY ML -135",
+      "pnl": 0.74
     },
-    "last_10_record": "5-5",
+    "last_10_record": "6-4",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "NYM@SD",
-        "play": "NYM ML -129",
-        "info": "-129 \u00b7 10:10 PM ET \u00b7 Result: SD",
+        "matchup": "BOS@TB",
+        "play": "BOS ML -115",
+        "info": "-115 \u00b7 06:40 PM ET \u00b7 Result: TB",
         "pnl": -1.0,
         "edge_pct": 0.0
       },
       {
         "market": "mlrl",
-        "matchup": "SF@CHC",
-        "play": "ML: SF",
-        "info": "+130 \u00b7 WP: 50.5% \u00b7 02:20 PM ET \u00b7 Result: CHC by 1.0",
-        "pnl": -1.0,
-        "edge_pct": 7.0
+        "matchup": "NYY@CLE",
+        "play": "NYY ML -135",
+        "info": "-135 \u00b7 06:40 PM ET \u00b7 Result: NYY",
+        "pnl": 0.74,
+        "edge_pct": 0.0
       }
     ]
   },
   "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "BOS@TB",
-        "play": "BOS ML -115",
-        "info": "-115 \u00b7 06:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-06-08",
-        "book": "Caesars",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "NYY@CLE",
-        "play": "NYY ML -135",
-        "info": "-135 \u00b7 06:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-06-08",
-        "book": "Bovada",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "06:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:35 PM ET."
   }
 }
