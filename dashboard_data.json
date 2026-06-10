@@ -286,9 +286,26 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [],
+    "first_pitch": "04:10 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "CIN@SD",
+        "play": "Under 8.0",
+        "info": "-104 \u00b7 Model: 7.6 \u00b7 04:10 PM ET",
+        "edge_pct": 5.01,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-06-10",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
+    "status_message": ""
   }
 }
