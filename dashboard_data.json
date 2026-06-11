@@ -1,16 +1,16 @@
 {
-  "generated_date": "June 10, 2026",
+  "generated_date": "June 11, 2026",
   "overview": {
-    "combined_pnl": -2.75,
-    "combined_roi": -1.91,
-    "combined_record": "72W-72L (50.0%)",
-    "total_bets": 144,
+    "combined_pnl": -3.75,
+    "combined_roi": -2.59,
+    "combined_record": "72W-73L (49.7%)",
+    "total_bets": 145,
     "k_pnl": 1.53,
     "k_roi": 2.73,
     "k_record": "29W-27L (51.8%)",
-    "totals_pnl": -5.01,
-    "totals_roi": -9.11,
-    "totals_record": "26W-29L (47.3%)",
+    "totals_pnl": -6.01,
+    "totals_roi": -10.73,
+    "totals_record": "26W-30L (46.4%)",
     "mlrl_pnl": 0.73,
     "mlrl_roi": 2.21,
     "mlrl_record": "17W-16L (51.5%)"
@@ -247,65 +247,36 @@
     {
       "date": "2026-06-09",
       "cumPnl": -2.75
+    },
+    {
+      "date": "2026-06-10",
+      "cumPnl": -3.75
     }
   ],
   "yesterday": {
-    "date": "2026-06-09",
-    "day_pnl": 0.75,
-    "day_record": "2W-1L (66.7%)",
+    "date": "2026-06-10",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "NYY@CLE \u2014 Under 8.5",
-      "pnl": 0.96
+      "label": "CIN@SD \u2014 Under 8.0",
+      "pnl": -1.0
     },
-    "last_10_record": "5-5",
+    "last_10_record": "4-6",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "NYY@CLE",
-        "play": "Under 8.5",
-        "info": "-104 \u00b7 Model: 7.6 \u00b7 06:40 PM ET \u00b7 Result: 5 runs",
-        "pnl": 0.96,
-        "edge_pct": 13.59
-      },
-      {
-        "market": "totals",
-        "matchup": "ATL@CWS",
-        "play": "Under 9.5",
-        "info": "-128 \u00b7 Model: 8.5 \u00b7 07:40 PM ET \u00b7 Result: 11 runs",
-        "pnl": -1.0,
-        "edge_pct": 4.69
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SEA@BAL",
-        "play": "SEA ML -126",
-        "info": "-126 \u00b7 06:35 PM ET \u00b7 Result: SEA",
-        "pnl": 0.79,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "04:10 PM ET",
-    "picks": [
       {
         "market": "totals",
         "matchup": "CIN@SD",
         "play": "Under 8.0",
-        "info": "-104 \u00b7 Model: 7.6 \u00b7 04:10 PM ET",
-        "edge_pct": 5.01,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-06-10",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-104 \u00b7 Model: 7.6 \u00b7 04:10 PM ET \u00b7 Result: 9 runs",
+        "pnl": -1.0,
+        "edge_pct": 5.01
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
   }
 }
