@@ -1,19 +1,19 @@
 {
-  "generated_date": "June 11, 2026",
+  "generated_date": "June 12, 2026",
   "overview": {
-    "combined_pnl": -3.75,
-    "combined_roi": -2.59,
-    "combined_record": "72W-73L (49.7%)",
-    "total_bets": 145,
+    "combined_pnl": -4.75,
+    "combined_roi": -3.25,
+    "combined_record": "72W-74L (49.3%)",
+    "total_bets": 146,
     "k_pnl": 1.53,
     "k_roi": 2.73,
     "k_record": "29W-27L (51.8%)",
     "totals_pnl": -6.01,
     "totals_roi": -10.73,
     "totals_record": "26W-30L (46.4%)",
-    "mlrl_pnl": 0.73,
-    "mlrl_roi": 2.21,
-    "mlrl_record": "17W-16L (51.5%)"
+    "mlrl_pnl": -0.27,
+    "mlrl_roi": -0.79,
+    "mlrl_record": "17W-17L (50.0%)"
   },
   "cumulative_chart": [
     {
@@ -251,49 +251,36 @@
     {
       "date": "2026-06-10",
       "cumPnl": -3.75
+    },
+    {
+      "date": "2026-06-11",
+      "cumPnl": -4.75
     }
   ],
   "yesterday": {
-    "date": "2026-06-10",
+    "date": "2026-06-11",
     "day_pnl": -1.0,
     "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "CIN@SD \u2014 Under 8.0",
+      "label": "SEA@BAL \u2014 SEA ML -120",
       "pnl": -1.0
     },
-    "last_10_record": "4-6",
+    "last_10_record": "3-7",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "CIN@SD",
-        "play": "Under 8.0",
-        "info": "-104 \u00b7 Model: 7.6 \u00b7 04:10 PM ET \u00b7 Result: 9 runs",
-        "pnl": -1.0,
-        "edge_pct": 5.01
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:05 PM ET",
-    "picks": [
       {
         "market": "mlrl",
         "matchup": "SEA@BAL",
         "play": "SEA ML -120",
-        "info": "-120 \u00b7 07:05 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-06-11",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-120 \u00b7 07:05 PM ET \u00b7 Result: BAL",
+        "pnl": -1.0,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
