@@ -1,19 +1,19 @@
 {
-  "generated_date": "June 13, 2026",
+  "generated_date": "June 14, 2026",
   "overview": {
-    "combined_pnl": -3.8,
-    "combined_roi": -2.59,
-    "combined_record": "73W-74L (49.7%)",
-    "total_bets": 147,
+    "combined_pnl": -4.02,
+    "combined_roi": -2.7,
+    "combined_record": "74W-75L (49.7%)",
+    "total_bets": 149,
     "k_pnl": 1.53,
     "k_roi": 2.73,
     "k_record": "29W-27L (51.8%)",
-    "totals_pnl": -5.06,
-    "totals_roi": -8.88,
-    "totals_record": "27W-30L (47.4%)",
-    "mlrl_pnl": -0.27,
-    "mlrl_roi": -0.79,
-    "mlrl_record": "17W-17L (50.0%)"
+    "totals_pnl": -6.06,
+    "totals_roi": -10.45,
+    "totals_record": "27W-31L (46.6%)",
+    "mlrl_pnl": 0.51,
+    "mlrl_roi": 1.46,
+    "mlrl_record": "18W-17L (51.4%)"
   },
   "cumulative_chart": [
     {
@@ -259,65 +259,44 @@
     {
       "date": "2026-06-12",
       "cumPnl": -3.8
+    },
+    {
+      "date": "2026-06-13",
+      "cumPnl": -4.02
     }
   ],
   "yesterday": {
-    "date": "2026-06-12",
-    "day_pnl": 0.95,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-06-13",
+    "day_pnl": -0.22,
+    "day_record": "1W-1L (50.0%)",
     "best_bet": {
-      "label": "DET@CLE \u2014 Under 8.5",
-      "pnl": 0.95
+      "label": "CHC@SF \u2014 CHC ML -129",
+      "pnl": 0.78
     },
-    "last_10_record": "4-6",
+    "last_10_record": "5-5",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "DET@CLE",
-        "play": "Under 8.5",
-        "info": "-105 \u00b7 Model: 7.5 \u00b7 07:10 PM ET \u00b7 Result: 5 runs",
-        "pnl": 0.95,
-        "edge_pct": 14.75
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:10 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "CHC@SF",
-        "play": "CHC ML -129",
-        "info": "-129 \u00b7 10:05 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-06-13",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      },
       {
         "market": "totals",
         "matchup": "HOU@KC",
         "play": "Under 9.5",
-        "info": "-114 \u00b7 Model: 8.9 \u00b7 07:10 PM ET",
-        "edge_pct": 3.79,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-06-13",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-114 \u00b7 Model: 8.9 \u00b7 07:10 PM ET \u00b7 Result: 15 runs",
+        "pnl": -1.0,
+        "edge_pct": 3.79
+      },
+      {
+        "market": "mlrl",
+        "matchup": "CHC@SF",
+        "play": "CHC ML -129",
+        "info": "-129 \u00b7 10:05 PM ET \u00b7 Result: CHC",
+        "pnl": 0.78,
+        "edge_pct": 0.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:15 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
   }
 }
