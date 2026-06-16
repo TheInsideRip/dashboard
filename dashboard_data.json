@@ -1,16 +1,16 @@
 {
-  "generated_date": "June 15, 2026",
+  "generated_date": "June 16, 2026",
   "overview": {
-    "combined_pnl": -4.15,
-    "combined_roi": -2.75,
-    "combined_record": "75W-76L (49.7%)",
-    "total_bets": 151,
+    "combined_pnl": -3.13,
+    "combined_roi": -2.06,
+    "combined_record": "76W-76L (50.0%)",
+    "total_bets": 152,
     "k_pnl": 1.53,
     "k_roi": 2.73,
     "k_record": "29W-27L (51.8%)",
-    "totals_pnl": -6.19,
-    "totals_roi": -10.32,
-    "totals_record": "28W-32L (46.7%)",
+    "totals_pnl": -5.17,
+    "totals_roi": -8.48,
+    "totals_record": "29W-32L (47.5%)",
     "mlrl_pnl": 0.51,
     "mlrl_roi": 1.46,
     "mlrl_record": "18W-17L (51.4%)"
@@ -267,57 +267,36 @@
     {
       "date": "2026-06-14",
       "cumPnl": -4.15
+    },
+    {
+      "date": "2026-06-15",
+      "cumPnl": -3.13
     }
   ],
   "yesterday": {
-    "date": "2026-06-14",
-    "day_pnl": -0.13,
-    "day_record": "1W-1L (50.0%)",
+    "date": "2026-06-15",
+    "day_pnl": 1.02,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "AZ@CIN \u2014 Under 10.0",
-      "pnl": 0.87
+      "label": "COL@CHC \u2014 Under 9.5",
+      "pnl": 1.02
     },
     "last_10_record": "5-5",
     "bets": [
       {
         "market": "totals",
-        "matchup": "LAD@CWS",
+        "matchup": "COL@CHC",
         "play": "Under 9.5",
-        "info": "-110 \u00b7 Model: 8.5 \u00b7 02:10 PM ET \u00b7 Result: 10 runs",
-        "pnl": -1.0,
-        "edge_pct": 12.2
-      },
-      {
-        "market": "totals",
-        "matchup": "AZ@CIN",
-        "play": "Under 10.0",
-        "info": "-115 \u00b7 Model: 9.4 \u00b7 01:40 PM ET \u00b7 Result: 8 runs",
-        "pnl": 0.87,
-        "edge_pct": 3.37
+        "info": "+102 \u00b7 Model: 8.4 \u00b7 08:05 PM ET \u00b7 Result: 9 runs",
+        "pnl": 1.02,
+        "edge_pct": 20.46
       }
     ]
   },
   "today": {
-    "first_pitch": "08:05 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "COL@CHC",
-        "play": "Under 9.5",
-        "info": "+102 \u00b7 Model: 8.4 \u00b7 08:05 PM ET",
-        "edge_pct": 20.46,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-06-15",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
