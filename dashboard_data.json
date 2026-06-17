@@ -1,16 +1,16 @@
 {
-  "generated_date": "June 16, 2026",
+  "generated_date": "June 17, 2026",
   "overview": {
-    "combined_pnl": -3.13,
-    "combined_roi": -2.06,
-    "combined_record": "76W-76L (50.0%)",
-    "total_bets": 152,
+    "combined_pnl": -2.21,
+    "combined_roi": -1.43,
+    "combined_record": "78W-77L (50.3%)",
+    "total_bets": 155,
     "k_pnl": 1.53,
     "k_roi": 2.73,
     "k_record": "29W-27L (51.8%)",
-    "totals_pnl": -5.17,
-    "totals_roi": -8.48,
-    "totals_record": "29W-32L (47.5%)",
+    "totals_pnl": -4.25,
+    "totals_roi": -6.64,
+    "totals_record": "31W-33L (48.4%)",
     "mlrl_pnl": 0.51,
     "mlrl_roi": 1.46,
     "mlrl_record": "18W-17L (51.4%)"
@@ -271,81 +271,52 @@
     {
       "date": "2026-06-15",
       "cumPnl": -3.13
+    },
+    {
+      "date": "2026-06-16",
+      "cumPnl": -2.21
     }
   ],
   "yesterday": {
-    "date": "2026-06-15",
-    "day_pnl": 1.02,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-06-16",
+    "day_pnl": 0.92,
+    "day_record": "2W-1L (66.7%)",
     "best_bet": {
-      "label": "COL@CHC \u2014 Under 9.5",
-      "pnl": 1.02
+      "label": "NYM@CIN \u2014 Under 9.5",
+      "pnl": 0.96
     },
-    "last_10_record": "5-5",
+    "last_10_record": "6-4",
     "bets": [
-      {
-        "market": "totals",
-        "matchup": "COL@CHC",
-        "play": "Under 9.5",
-        "info": "+102 \u00b7 Model: 8.4 \u00b7 08:05 PM ET \u00b7 Result: 9 runs",
-        "pnl": 1.02,
-        "edge_pct": 20.46
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "07:10 PM ET",
-    "picks": [
       {
         "market": "totals",
         "matchup": "PIT@ATH",
         "play": "Under 10.5",
-        "info": "+102 \u00b7 Model: 9.5 \u00b7 09:40 PM ET",
-        "edge_pct": 18.72,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-06-16",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+102 \u00b7 Model: 9.5 \u00b7 09:40 PM ET \u00b7 Result: 11 runs",
+        "pnl": -1.0,
+        "edge_pct": 18.72
       },
       {
         "market": "totals",
         "matchup": "NYM@CIN",
         "play": "Under 9.5",
-        "info": "-104 \u00b7 Model: 8.8 \u00b7 07:10 PM ET",
-        "edge_pct": 10.17,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-06-16",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-104 \u00b7 Model: 8.8 \u00b7 07:10 PM ET \u00b7 Result: 8 runs",
+        "pnl": 0.96,
+        "edge_pct": 10.17
       },
       {
         "market": "totals",
         "matchup": "COL@CHC",
         "play": "Under 9.5",
-        "info": "-104 \u00b7 Model: 9.0 \u00b7 08:05 PM ET",
-        "edge_pct": 6.73,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-06-16",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-104 \u00b7 Model: 9.0 \u00b7 08:05 PM ET \u00b7 Result: 7 runs",
+        "pnl": 0.96,
+        "edge_pct": 6.73
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "12:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:40 PM ET."
   }
 }
