@@ -315,8 +315,57 @@
   },
   "today": {
     "first_pitch": "12:40 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "PIT@ATH",
+        "play": "Under 10.0",
+        "info": "-104 \u00b7 Model: 9.4 \u00b7 09:40 PM ET",
+        "edge_pct": 8.46,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-06-17",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "MIA@PHI",
+        "play": "Under 9.5",
+        "info": "-122 \u00b7 Model: 8.6 \u00b7 01:05 PM ET",
+        "edge_pct": 5.37,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-06-17",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "NYM@CIN",
+        "play": "Under 9.0",
+        "info": "-114 \u00b7 Model: 8.4 \u00b7 12:40 PM ET",
+        "edge_pct": 3.79,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-06-17",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:40 PM ET."
+    "status_message": ""
   }
 }
