@@ -347,6 +347,22 @@
         "result_hit": null,
         "pnl": null,
         "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "LAA@ATH",
+        "play": "Under 9.5",
+        "info": "-102 \u00b7 Model: 9.1 \u00b7 10:05 PM ET",
+        "edge_pct": 6.02,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-06-20",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
       }
     ],
     "watchlist": [],
