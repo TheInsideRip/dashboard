@@ -1,16 +1,16 @@
 {
-  "generated_date": "June 20, 2026",
+  "generated_date": "June 21, 2026",
   "overview": {
-    "combined_pnl": -9.21,
-    "combined_roi": -5.69,
-    "combined_record": "78W-84L (48.1%)",
-    "total_bets": 162,
+    "combined_pnl": -9.23,
+    "combined_roi": -5.63,
+    "combined_record": "79W-85L (48.2%)",
+    "total_bets": 164,
     "k_pnl": -1.47,
     "k_roi": -2.49,
     "k_record": "29W-30L (49.2%)",
-    "totals_pnl": -8.25,
-    "totals_roi": -12.13,
-    "totals_record": "31W-37L (45.6%)",
+    "totals_pnl": -8.27,
+    "totals_roi": -11.81,
+    "totals_record": "32W-38L (45.7%)",
     "mlrl_pnl": 0.51,
     "mlrl_roi": 1.46,
     "mlrl_record": "18W-17L (51.4%)"
@@ -283,89 +283,44 @@
     {
       "date": "2026-06-19",
       "cumPnl": -9.21
+    },
+    {
+      "date": "2026-06-20",
+      "cumPnl": -9.23
     }
   ],
   "yesterday": {
-    "date": "2026-06-19",
-    "day_pnl": -4.0,
-    "day_record": "0W-4L (0.0%)",
+    "date": "2026-06-20",
+    "day_pnl": -0.02,
+    "day_record": "1W-1L (50.0%)",
     "best_bet": {
-      "label": "Kyle Freeland \u2014 PIT@COL \u2014 Under 3.5 K",
-      "pnl": -1.0
+      "label": "LAA@ATH \u2014 Under 9.5",
+      "pnl": 0.98
     },
-    "last_10_record": "2-8",
+    "last_10_record": "1-9",
     "bets": [
-      {
-        "market": "props",
-        "matchup": "Kyle Freeland \u2014 PIT@COL",
-        "play": "Under 3.5 K",
-        "info": "+122 \u00b7 Model: 3.6 K \u00b7 08:40 PM ET \u00b7 Result: 8 K",
-        "pnl": -1.0,
-        "edge_pct": 7.42
-      },
-      {
-        "market": "props",
-        "matchup": "Michael McGreevy \u2014 STL@KC",
-        "play": "Over 3.5 K",
-        "info": "+104 \u00b7 Model: 3.6 K \u00b7 08:15 PM ET \u00b7 Result: 2 K",
-        "pnl": -1.0,
-        "edge_pct": 5.29
-      },
-      {
-        "market": "props",
-        "matchup": "Rhett Lowder \u2014 CIN@NYY",
-        "play": "Under 4.5 K",
-        "info": "-158 \u00b7 Model: 3.1 K \u00b7 07:05 PM ET \u00b7 Result: 5 K",
-        "pnl": -1.0,
-        "edge_pct": 16.68
-      },
-      {
-        "market": "totals",
-        "matchup": "LAA@ATH",
-        "play": "Under 10.0",
-        "info": "-115 \u00b7 Model: 9.3 \u00b7 09:40 PM ET \u00b7 Result: 23 runs",
-        "pnl": -1.0,
-        "edge_pct": 5.01
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "09:10 PM ET",
-    "picks": [
       {
         "market": "totals",
         "matchup": "PIT@COL",
         "play": "Over 10.5",
-        "info": "-110 \u00b7 Model: 11.8 \u00b7 09:10 PM ET",
-        "edge_pct": 17.11,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 67,
-        "game_date": "2026-06-20",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-110 \u00b7 Model: 11.8 \u00b7 09:10 PM ET \u00b7 Result: 3 runs",
+        "pnl": -1.0,
+        "edge_pct": 17.11
       },
       {
         "market": "totals",
         "matchup": "LAA@ATH",
         "play": "Under 9.5",
-        "info": "-102 \u00b7 Model: 9.1 \u00b7 10:05 PM ET",
-        "edge_pct": 6.02,
-        "confidence": "MEDIUM",
-        "tier": "STRONG",
-        "tier_wr": 57,
-        "game_date": "2026-06-20",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-102 \u00b7 Model: 9.1 \u00b7 10:05 PM ET \u00b7 Result: 7 runs",
+        "pnl": 0.98,
+        "edge_pct": 6.02
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
   }
 }
