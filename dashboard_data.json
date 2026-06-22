@@ -314,9 +314,26 @@
     ]
   },
   "today": {
-    "first_pitch": "06:10 PM ET",
-    "picks": [],
+    "first_pitch": "06:40 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "KC@TB",
+        "play": "Over 7.5",
+        "info": "+100 \u00b7 Model: 8.5 \u00b7 06:40 PM ET",
+        "edge_pct": 17.55,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-06-22",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:10 PM ET."
+    "status_message": ""
   }
 }
