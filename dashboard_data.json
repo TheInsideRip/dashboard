@@ -1,16 +1,16 @@
 {
-  "generated_date": "June 22, 2026",
+  "generated_date": "June 23, 2026",
   "overview": {
-    "combined_pnl": -10.23,
-    "combined_roi": -6.2,
-    "combined_record": "79W-86L (47.9%)",
-    "total_bets": 165,
+    "combined_pnl": -11.23,
+    "combined_roi": -6.77,
+    "combined_record": "79W-87L (47.6%)",
+    "total_bets": 166,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -8.27,
-    "totals_roi": -11.81,
-    "totals_record": "32W-38L (45.7%)",
+    "totals_pnl": -9.27,
+    "totals_roi": -13.06,
+    "totals_record": "32W-39L (45.1%)",
     "mlrl_pnl": 0.51,
     "mlrl_roi": 1.46,
     "mlrl_record": "18W-17L (51.4%)"
@@ -291,49 +291,36 @@
     {
       "date": "2026-06-21",
       "cumPnl": -10.23
+    },
+    {
+      "date": "2026-06-22",
+      "cumPnl": -11.23
     }
   ],
   "yesterday": {
-    "date": "2026-06-21",
+    "date": "2026-06-22",
     "day_pnl": -1.0,
     "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "Jared Jones \u2014 PIT@COL \u2014 Over 5.5 K",
+      "label": "KC@TB \u2014 Over 7.5",
       "pnl": -1.0
     },
     "last_10_record": "1-9",
     "bets": [
       {
-        "market": "props",
-        "matchup": "Jared Jones \u2014 PIT@COL",
-        "play": "Over 5.5 K",
-        "info": "+120 \u00b7 Model: 5.5 K \u00b7 03:10 PM ET \u00b7 Result: 3 K",
+        "market": "totals",
+        "matchup": "KC@TB",
+        "play": "Over 7.5",
+        "info": "+100 \u00b7 Model: 8.5 \u00b7 06:40 PM ET \u00b7 Result: 3 runs",
         "pnl": -1.0,
-        "edge_pct": 10.0
+        "edge_pct": 17.55
       }
     ]
   },
   "today": {
-    "first_pitch": "06:40 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "KC@TB",
-        "play": "Over 7.5",
-        "info": "+100 \u00b7 Model: 8.5 \u00b7 06:40 PM ET",
-        "edge_pct": 17.55,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-06-22",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "04:07 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 04:07 PM ET."
   }
 }
