@@ -318,9 +318,26 @@
     ]
   },
   "today": {
-    "first_pitch": "04:07 PM ET",
-    "picks": [],
+    "first_pitch": "09:45 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "ATH@SF",
+        "play": "Under 8.5",
+        "info": "+102 \u00b7 Model: 8.0 \u00b7 09:45 PM ET",
+        "edge_pct": 9.92,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 68,
+        "game_date": "2026-06-23",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 04:07 PM ET."
+    "status_message": ""
   }
 }
