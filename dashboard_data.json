@@ -1,19 +1,19 @@
 {
-  "generated_date": "June 27, 2026",
+  "generated_date": "June 28, 2026",
   "overview": {
-    "combined_pnl": -12.21,
-    "combined_roi": -7.22,
-    "combined_record": "80W-89L (47.3%)",
-    "total_bets": 169,
+    "combined_pnl": -10.57,
+    "combined_roi": -6.22,
+    "combined_record": "81W-89L (47.6%)",
+    "total_bets": 170,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
     "totals_pnl": -9.25,
     "totals_roi": -12.67,
     "totals_record": "33W-40L (45.2%)",
-    "mlrl_pnl": -0.49,
-    "mlrl_roi": -1.36,
-    "mlrl_record": "18W-18L (50.0%)"
+    "mlrl_pnl": 1.15,
+    "mlrl_roi": 3.11,
+    "mlrl_record": "19W-18L (51.4%)"
   },
   "cumulative_chart": [
     {
@@ -307,49 +307,36 @@
     {
       "date": "2026-06-25",
       "cumPnl": -12.21
+    },
+    {
+      "date": "2026-06-27",
+      "cumPnl": -10.57
     }
   ],
   "yesterday": {
-    "date": "2026-06-25",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-06-27",
+    "day_pnl": 1.64,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "SEA@PIT \u2014 SEA ML -157",
-      "pnl": -1.0
+      "label": "TEX@TOR \u2014 ML: TEX",
+      "pnl": 1.64
     },
-    "last_10_record": "2-8",
+    "last_10_record": "3-7",
     "bets": [
-      {
-        "market": "mlrl",
-        "matchup": "SEA@PIT",
-        "play": "SEA ML -157",
-        "info": "-157 \u00b7 12:35 PM ET \u00b7 Result: PIT",
-        "pnl": -1.0,
-        "edge_pct": 0.0
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "03:07 PM ET",
-    "picks": [
       {
         "market": "mlrl",
         "matchup": "TEX@TOR",
         "play": "ML: TEX",
-        "info": "+164 \u00b7 WP: 43.9% \u00b7 03:07 PM ET",
-        "edge_pct": 6.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-06-27",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+164 \u00b7 WP: 43.9% \u00b7 03:07 PM ET \u00b7 Result: TEX by 3.0",
+        "pnl": 1.64,
+        "edge_pct": 6.0
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "01:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
   }
 }
