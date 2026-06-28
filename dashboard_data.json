@@ -334,9 +334,26 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [],
+    "first_pitch": "03:15 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "ATH@LAA",
+        "play": "Under 9.5",
+        "info": "+100 \u00b7 Model: 9.2 \u00b7 03:15 PM ET",
+        "edge_pct": 5.3,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-06-28",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
+    "status_message": ""
   }
 }
