@@ -1,16 +1,16 @@
 {
-  "generated_date": "June 29, 2026",
+  "generated_date": "June 30, 2026",
   "overview": {
-    "combined_pnl": -9.57,
-    "combined_roi": -5.6,
-    "combined_record": "82W-89L (48.0%)",
-    "total_bets": 171,
+    "combined_pnl": -10.57,
+    "combined_roi": -6.15,
+    "combined_record": "82W-90L (47.7%)",
+    "total_bets": 172,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -8.25,
-    "totals_roi": -11.15,
-    "totals_record": "34W-40L (45.9%)",
+    "totals_pnl": -9.25,
+    "totals_roi": -12.33,
+    "totals_record": "34W-41L (45.3%)",
     "mlrl_pnl": 1.15,
     "mlrl_roi": 3.11,
     "mlrl_record": "19W-18L (51.4%)"
@@ -315,49 +315,36 @@
     {
       "date": "2026-06-28",
       "cumPnl": -9.57
+    },
+    {
+      "date": "2026-06-29",
+      "cumPnl": -10.57
     }
   ],
   "yesterday": {
-    "date": "2026-06-28",
-    "day_pnl": 1.0,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-06-29",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "ATH@LAA \u2014 Under 9.5",
-      "pnl": 1.0
+      "label": "TEX@CLE \u2014 Under 7.5",
+      "pnl": -1.0
     },
     "last_10_record": "4-6",
     "bets": [
       {
         "market": "totals",
-        "matchup": "ATH@LAA",
-        "play": "Under 9.5",
-        "info": "+100 \u00b7 Model: 9.2 \u00b7 03:15 PM ET \u00b7 Result: 5 runs",
-        "pnl": 1.0,
-        "edge_pct": 5.3
+        "matchup": "TEX@CLE",
+        "play": "Under 7.5",
+        "info": "-104 \u00b7 Model: 7.2 \u00b7 07:10 PM ET \u00b7 Result: 9 runs",
+        "pnl": -1.0,
+        "edge_pct": 3.28
       }
     ]
   },
   "today": {
-    "first_pitch": "07:10 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "TEX@CLE",
-        "play": "Under 7.5",
-        "info": "-104 \u00b7 Model: 7.2 \u00b7 07:10 PM ET",
-        "edge_pct": 3.28,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-06-29",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "06:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:35 PM ET."
   }
 }
