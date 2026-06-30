@@ -342,9 +342,42 @@
     ]
   },
   "today": {
-    "first_pitch": "06:35 PM ET",
-    "picks": [],
+    "first_pitch": "07:10 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "TB@KC",
+        "play": "Under 9.5",
+        "info": "+100 \u00b7 Model: 8.5 \u00b7 07:40 PM ET",
+        "edge_pct": 17.55,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 57,
+        "game_date": "2026-06-30",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "WSH@BOS",
+        "play": "Under 9.5",
+        "info": "+100 \u00b7 Model: 9.2 \u00b7 07:10 PM ET",
+        "edge_pct": 5.3,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-06-30",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:35 PM ET."
+    "status_message": ""
   }
 }
