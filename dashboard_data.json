@@ -1,19 +1,19 @@
 {
-  "generated_date": "July 01, 2026",
+  "generated_date": "July 02, 2026",
   "overview": {
-    "combined_pnl": -10.57,
-    "combined_roi": -6.07,
-    "combined_record": "83W-91L (47.7%)",
-    "total_bets": 174,
+    "combined_pnl": -11.57,
+    "combined_roi": -6.61,
+    "combined_record": "83W-92L (47.4%)",
+    "total_bets": 175,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
     "totals_pnl": -9.25,
     "totals_roi": -12.01,
     "totals_record": "35W-42L (45.5%)",
-    "mlrl_pnl": 1.15,
-    "mlrl_roi": 3.11,
-    "mlrl_record": "19W-18L (51.4%)"
+    "mlrl_pnl": 0.15,
+    "mlrl_roi": 0.39,
+    "mlrl_record": "19W-19L (50.0%)"
   },
   "cumulative_chart": [
     {
@@ -323,57 +323,36 @@
     {
       "date": "2026-06-30",
       "cumPnl": -10.57
+    },
+    {
+      "date": "2026-07-01",
+      "cumPnl": -11.57
     }
   ],
   "yesterday": {
-    "date": "2026-06-30",
-    "day_pnl": 0.0,
-    "day_record": "1W-1L (50.0%)",
+    "date": "2026-07-01",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "WSH@BOS \u2014 Under 9.5",
-      "pnl": 1.0
+      "label": "NYM@TOR \u2014 NYM ML -117",
+      "pnl": -1.0
     },
     "last_10_record": "4-6",
     "bets": [
       {
-        "market": "totals",
-        "matchup": "TB@KC",
-        "play": "Under 9.5",
-        "info": "+100 \u00b7 Model: 8.5 \u00b7 07:40 PM ET \u00b7 Result: 14 runs",
+        "market": "mlrl",
+        "matchup": "NYM@TOR",
+        "play": "NYM ML -117",
+        "info": "-117 \u00b7 03:07 PM ET \u00b7 Result: TOR",
         "pnl": -1.0,
-        "edge_pct": 17.55
-      },
-      {
-        "market": "totals",
-        "matchup": "WSH@BOS",
-        "play": "Under 9.5",
-        "info": "+100 \u00b7 Model: 9.2 \u00b7 07:10 PM ET \u00b7 Result: 9 runs",
-        "pnl": 1.0,
-        "edge_pct": 5.3
+        "edge_pct": 0.0
       }
     ]
   },
   "today": {
-    "first_pitch": "03:07 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "NYM@TOR",
-        "play": "NYM ML -117",
-        "info": "-117 \u00b7 03:07 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "HIGH",
-        "tier": "ELITE",
-        "tier_wr": 67,
-        "game_date": "2026-07-01",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "12:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
   }
 }
