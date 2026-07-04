@@ -1,0 +1,4 @@
+﻿adr/
+*.bak*
+recon_2inrow.py
+patch_index_html_watchlist_render.py
