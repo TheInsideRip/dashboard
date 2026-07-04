@@ -1,0 +1,196 @@
+# ADR-028: 06a outer-loop bug — undercounting cumulative pitcher metrics
+
+Status: Accepted
+Date: 2026-04-27
+Session: 27
+
+## Context
+
+`06a_cumulative_pitcher_metrics.py` is the foundation of every starter-
+based prediction in the system. It produces `pitcher_cumulative`, a
+table read by 07, 11, 11b, 22l (via tag thresholds), 26e, 27i, 28i,
+and the entire validated-edges substrate (verify_edges_v4 etc.).
+
+A diagnostic chain originating in the UNDER_VALIDATED L6 losing streak
+investigation (Session 27) surfaced a logic bug in 06a's
+`compute_pitcher_cumulative` function:
+
+```python
+# Filter to only games where this pitcher STARTED
+starter_game_pks = {gpk for (pid, gpk) in starter_games if pid == pitcher_id}
+start_games = game_info[game_info['game_pk'].isin(starter_game_pks)].copy()
+...
+# Process each game chronologically
+for _, start_row in start_games.iterrows():
+    ...
+    if cum_starts >= 1 and cum_pitches >= MIN_PITCHES_FOR_METRICS:
+        results.append(row)
+    # Now process this game's pitches to update running totals
+    game_pitches = pitcher_df[pitcher_df['game_pk'] == current_game_pk].copy()
+    ...
+```
+
+The outer loop iterates over `start_games` (only the pitcher's STARTS),
+not `game_info` (all of the pitcher's appearances). Pitches thrown in
+relief outings between starts are never added to `cum_pitches`,
+`cum_k`, `cum_bb`, `cum_xwoba`, or any other cumulative counter.
+
+### Manifestation
+
+Verified concrete cases (`diag_montgomery_threshold_check_20260427.py`):
+  - **PJ Poulin**: 5 starts, 11 relief appearances. Real cum_before at
+    last start = 245. 06a sees cum_before = 18. Gate fails. 0 rows
+    written despite 3 starts that should have qualified.
+  - **Mason Montgomery**: 1 start preceded by 8 relief appearances
+    (159 pitches). 06a sees cum_before = 0. Gate fails. 0 rows
+    written despite the start qualifying with corrected count of 159.
+  - **Connor Prielipp**: 1 start, no relief. Working as designed
+    (genuine opener under 100-pitch threshold). Confirms diagnostic
+    logic.
+
+### Scope of damage
+
+Two populations are affected:
+  - **39 pitchers currently MISSING from pitcher_cumulative entirely**
+    in 2026 (some legitimately under threshold; some bug-victims like
+    Poulin/Montgomery whose corrected counts would qualify).
+  - **All 180 FRESH pitchers** in pitcher_cumulative for 2026 have
+    UNDERCOUNTED `cum_*` values to varying degrees, depending on how
+    much relief work they did.
+
+The bug has been present since 06a was built (Phase 4, March 29, 2026).
+**All triple-verified edge stats** — UNDER_VALIDATED 58.1% WR,
+HIGH_PARK_GAP 69.9% WR, K_OVER_OPP_K, K_UNDER_WHIFF_CONTACT,
+OUTS_UNDER_STRONG, etc. — were computed against the buggy substrate.
+
+## Decision
+
+**DO NOT patch 06a in a single step.** The fix is small in code but
+invalidates the validation substrate for every edge that reads
+pitcher_cumulative. This is the same trust-the-system problem ADR-024
+walked back with park factors, at larger scale.
+
+Instead, follow a **5-phase permanent fix**:
+
+**Phase 1: Quantify the damage.**
+Read-only diagnostic. Compute STORED vs CORRECTED `cum_pitches` at
+each starter game for every 2026 pitcher. Histogram of relative
+undercounting. Identify which validated edges' qualifying populations
+shift on corrected substrate.
+  - Output: `diag_06a_quantify_damage_phase1.py` (delivered Session 27)
+  - Cost: 1 session
+
+**Phase 2: Build pitcher_cumulative_v2 side-by-side.**
+Patched 06a writes to `pitcher_cumulative_v2` instead of dropping and
+rebuilding `pitcher_cumulative`. Production scripts continue reading
+the original. Allows validation work without pipeline disruption.
+  - Cost: 1 session
+  - **STATUS: COMPLETE (Session 27, 2026-04-27).**
+  - **Output table**: `pitcher_cumulative_v2` (14,451 rows, +322 vs v1)
+  - **Verification**: ground-truth count of actual prior pitches in
+    pitches_historical matched v2 on 4/4 mismatch suspects (Fried,
+    Manoah, Williams, Garcia). v1 short on 4/4.
+  - **Secondary bug found and fixed**: original 06a's
+    `identify_starter_games` at line 214 uses
+    `sort_values('pitch_number').iloc[0]` which is ambiguous when
+    multiple pitchers each have pitch_number=1 in the same half-inning
+    (occurs whenever a starter faces multiple batters and each
+    at_bat starts with pitch_number=1). v2 incidentally avoids this
+    via its iterate-all-appearances design.
+  - **Methodology lesson**: "match the legacy" is NOT a valid
+    invariant when the legacy is itself the bug. Test against ground
+    truth from raw data, not legacy output.
+
+**Phase 3: Re-validate every edge against pitcher_cumulative_v2.**
+Run `verify_edges_v4` (or equivalent) against the new substrate for:
+UNDER_VALIDATED, HIGH_PARK_GAP, UNDER_WEATHER_3, UNDER_WEATHER_2,
+K_OVER_OPP_K, K_UNDER_WHIFF_CONTACT, K_OVER_WHIFF_VULN,
+OUTS_UNDER_STRONG, OUTS_UNDER_ELITE.
+Document new WR/ROI numbers for each. Demote any that fail triple
+verification on the corrected substrate.
+  - Cost: 2-3 sessions
+
+**Phase 4: Cutover.**
+Drop and rebuild canonical `pitcher_cumulative` with patched 06a.
+Update ROADMAP.py and DECISIONS.py with new validated stats.
+Update 22l filter thresholds if any edges shifted qualifying ranges.
+Pre-patch and post-patch picks are different populations (operational
+caveat, same as ADR-024 park-factor alignment).
+  - Cost: 1 session
+
+**Phase 5: Archive.**
+Rename original `pitcher_cumulative` to
+`pitcher_cumulative_pre_fix_<date>`. Document caveat for forward
+analysis.
+  - Cost: 0.5 session
+
+### Alternatives considered and rejected
+
+**(a) Patch 06a in a single step today.**
+Rejected. Every validated edge claim becomes unverified on the
+corrected substrate. Continuing to publish on edges with stats from
+buggy data is precisely the trust-the-system violation ADR-024 fixed.
+
+**(b) Patch 06a, accept that historical numbers may drift, defer
+re-validation.**
+Rejected. The bug magnitude is unknown. Could be small (<5% mean
+error) or large (20%+). Without Phase 1 data, deferring re-validation
+is choosing without information.
+
+**(c) Leave the bug in place permanently.**
+Rejected. Live underperformance of validated edges (UNDER_VALIDATED
+L6, HIGH_PARK_GAP -23.8% gap) may be partially driven by this bug.
+Leaving it means we never know.
+
+**(d) Patch only one edge's pipeline at a time.**
+Rejected. The substrate is shared across all consumers; partial
+patches create downstream inconsistency.
+
+## Consequences
+
+### Positive
+  - Permanent correctness restoration on the foundation table.
+  - Re-validation produces honest forward stats on which to base
+    sizing and tier decisions.
+  - Future research scripts (verify_edges_v5, etc.) read clean data.
+
+### Negative / Caveats
+  - Pre-patch and post-patch tracked bets are different populations.
+    Aggregate live performance comparisons across the cutover are
+    invalid.
+  - Some currently-validated edges may fail on corrected substrate.
+    Demotions are an expected outcome, not a project failure mode.
+  - Total work: 5-7 sessions end to end. Cannot be compressed without
+    skipping validation phases.
+
+## Today's operational implications (2026-04-27)
+
+  - 06a-affected pitchers fall back to AVG_SP in 11_predict_totals.py.
+    Memory rule: AVG_SP UNDER picks failed validation at -120 juice.
+  - `opener_flag_check.py` (built this session) flags these games for
+    operator visibility. Today: drop totals tags on STL@PIT
+    (Montgomery) and SEA@MIN (Prielipp).
+  - UNDER_VALIDATED hold (separately recommended after L6 streak
+    diagnosis) remains in effect.
+
+## Implementation artifacts (Session 27, all read-only unless noted)
+
+  - `diag_under_validated_l6_streak.py`
+  - `audit_park_factors_for_11_predict_totals.py`
+  - `opener_flag_check.py`
+  - `diag_dh_kprop_unresolved_20260426.py`
+  - `fix_dh_kprop_resolve_20260427.py` (only writer this session;
+    re-applied DH starter swap + resolved 2 stuck K-prop rows)
+  - `diag_06a_filter_audit_broad_20260427.py` (had pitch-counting bug)
+  - `diag_montgomery_threshold_check_20260427.py`
+  - `diag_06a_bug_location_20260427.py`
+  - `diag_06a_filter_audit_corrected_FAST_20260427.py`
+  - `diag_06a_quantify_damage_phase1.py` (Phase 1 of permanent fix)
+
+## References
+
+  - ADR-024 — park-factor alignment, the precedent for handling
+    substrate drift carefully via ADR + alternatives + caveats
+  - DECISIONS.py "SESSION 27 — UNDER_VALIDATED L6 ROOT CAUSE"
+  - HISTORY.py "PHASE 15: 06A OUTER-LOOP BUG DISCOVERY"
+  - ROADMAP.py "Active open items" → 06a OUTER LOOP BUG
