@@ -1,16 +1,16 @@
 {
-  "generated_date": "July 07, 2026",
+  "generated_date": "July 08, 2026",
   "overview": {
-    "combined_pnl": -10.98,
-    "combined_roi": -6.03,
-    "combined_record": "87W-95L (47.8%)",
-    "total_bets": 182,
+    "combined_pnl": -9.11,
+    "combined_roi": -4.95,
+    "combined_record": "89W-95L (48.4%)",
+    "total_bets": 184,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -8.66,
-    "totals_roi": -10.31,
-    "totals_record": "39W-45L (46.4%)",
+    "totals_pnl": -6.79,
+    "totals_roi": -7.9,
+    "totals_record": "41W-45L (47.7%)",
     "mlrl_pnl": 0.15,
     "mlrl_roi": 0.39,
     "mlrl_record": "19W-19L (50.0%)"
@@ -347,73 +347,44 @@
     {
       "date": "2026-07-06",
       "cumPnl": -10.98
+    },
+    {
+      "date": "2026-07-07",
+      "cumPnl": -9.11
     }
   ],
   "yesterday": {
-    "date": "2026-07-06",
-    "day_pnl": -0.12,
-    "day_record": "1W-1L (50.0%)",
+    "date": "2026-07-07",
+    "day_pnl": 1.87,
+    "day_record": "2W-0L (100.0%)",
     "best_bet": {
       "label": "AZ@SD \u2014 Under 8.5",
-      "pnl": 0.88
+      "pnl": 1.02
     },
-    "last_10_record": "5-5",
+    "last_10_record": "6-4",
     "bets": [
       {
         "market": "totals",
-        "matchup": "NYM@ATL",
-        "play": "Under 9.0",
-        "info": "-108 \u00b7 Model: 8.0 \u00b7 07:15 PM ET \u00b7 Result: 13 runs",
-        "pnl": -1.0,
-        "edge_pct": 13.19
-      },
-      {
-        "market": "totals",
         "matchup": "AZ@SD",
         "play": "Under 8.5",
-        "info": "-114 \u00b7 Model: 7.5 \u00b7 09:40 PM ET \u00b7 Result: 8 runs",
-        "pnl": 0.88,
-        "edge_pct": 10.33
-      }
-    ]
-  },
-  "today": {
-    "first_pitch": "06:35 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "AZ@SD",
-        "play": "Under 8.5",
-        "info": "+102 \u00b7 Model: 7.6 \u00b7 09:40 PM ET",
-        "edge_pct": 16.98,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-07",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "+102 \u00b7 Model: 7.6 \u00b7 09:40 PM ET \u00b7 Result: 5 runs",
+        "pnl": 1.02,
+        "edge_pct": 16.98
       },
       {
         "market": "totals",
         "matchup": "CHC@BAL",
         "play": "Under 9.5",
-        "info": "-118 \u00b7 Model: 8.5 \u00b7 06:35 PM ET",
-        "edge_pct": 8.58,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-07",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
+        "info": "-118 \u00b7 Model: 8.5 \u00b7 06:35 PM ET \u00b7 Result: 7 runs",
+        "pnl": 0.85,
+        "edge_pct": 8.58
       }
-    ],
+    ]
+  },
+  "today": {
+    "first_pitch": "03:45 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 03:45 PM ET."
   }
 }
