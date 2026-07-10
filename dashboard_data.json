@@ -1,16 +1,16 @@
 {
-  "generated_date": "July 09, 2026",
+  "generated_date": "July 10, 2026",
   "overview": {
-    "combined_pnl": -11.11,
-    "combined_roi": -5.97,
-    "combined_record": "89W-97L (47.8%)",
-    "total_bets": 186,
+    "combined_pnl": -10.26,
+    "combined_roi": -5.49,
+    "combined_record": "90W-97L (48.1%)",
+    "total_bets": 187,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -8.79,
-    "totals_roi": -9.99,
-    "totals_record": "41W-47L (46.6%)",
+    "totals_pnl": -7.94,
+    "totals_roi": -8.92,
+    "totals_record": "42W-47L (47.2%)",
     "mlrl_pnl": 0.15,
     "mlrl_roi": 0.39,
     "mlrl_record": "19W-19L (50.0%)"
@@ -355,57 +355,36 @@
     {
       "date": "2026-07-08",
       "cumPnl": -11.11
+    },
+    {
+      "date": "2026-07-09",
+      "cumPnl": -10.26
     }
   ],
   "yesterday": {
-    "date": "2026-07-08",
-    "day_pnl": -2.0,
-    "day_record": "0W-2L (0.0%)",
+    "date": "2026-07-09",
+    "day_pnl": 0.85,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "AZ@SD \u2014 Under 8.5",
-      "pnl": -1.0
+      "label": "LAA@TEX \u2014 Over 7.0",
+      "pnl": 0.85
     },
     "last_10_record": "6-4",
     "bets": [
       {
         "market": "totals",
-        "matchup": "AZ@SD",
-        "play": "Under 8.5",
-        "info": "-118 \u00b7 Model: 7.2 \u00b7 10:10 PM ET \u00b7 Result: 14 runs",
-        "pnl": -1.0,
-        "edge_pct": 13.33
-      },
-      {
-        "market": "totals",
-        "matchup": "NYY@TB",
+        "matchup": "LAA@TEX",
         "play": "Over 7.0",
-        "info": "-122 \u00b7 Model: 8.4 \u00b7 06:40 PM ET \u00b7 Result: 3 runs",
-        "pnl": -1.0,
-        "edge_pct": 13.16
+        "info": "-118 \u00b7 Model: 7.8 \u00b7 08:05 PM ET \u00b7 Result: 13 runs",
+        "pnl": 0.85,
+        "edge_pct": 5.38
       }
     ]
   },
   "today": {
-    "first_pitch": "08:05 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "LAA@TEX",
-        "play": "Over 7.0",
-        "info": "-118 \u00b7 Model: 7.8 \u00b7 08:05 PM ET",
-        "edge_pct": 5.38,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-09",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false
-      }
-    ],
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
