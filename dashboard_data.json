@@ -394,9 +394,26 @@
     ]
   },
   "today": {
-    "first_pitch": "12:05 PM ET",
-    "picks": [],
+    "first_pitch": "04:10 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "SEA@TB",
+        "play": "Over 7.0",
+        "info": "-115 \u00b7 Model: 8.1 \u00b7 04:10 PM ET",
+        "edge_pct": 11.49,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-07-11",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:05 PM ET."
+    "status_message": ""
   }
 }
