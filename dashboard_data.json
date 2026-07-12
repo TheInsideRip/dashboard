@@ -1,16 +1,16 @@
 {
   "generated_date": "July 12, 2026",
   "overview": {
-    "combined_pnl": -13.26,
-    "combined_roi": -6.98,
-    "combined_record": "90W-100L (47.4%)",
-    "total_bets": 190,
+    "combined_pnl": -12.26,
+    "combined_roi": -6.49,
+    "combined_record": "90W-99L (47.6%)",
+    "total_bets": 189,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -10.94,
-    "totals_roi": -11.89,
-    "totals_record": "42W-50L (45.7%)",
+    "totals_pnl": -9.94,
+    "totals_roi": -10.92,
+    "totals_record": "42W-49L (46.2%)",
     "mlrl_pnl": 0.15,
     "mlrl_roi": 0.39,
     "mlrl_record": "19W-19L (50.0%)"
@@ -366,26 +366,25 @@
     },
     {
       "date": "2026-07-11",
-      "cumPnl": -13.26
+      "cumPnl": -12.26
     }
   ],
   "yesterday": {
     "date": "2026-07-11",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
-    "best_bet": {
-      "label": "SEA@TB \u2014 Over 7.0",
-      "pnl": -1.0
-    },
-    "last_10_record": "4-6",
+    "day_pnl": 0.0,
+    "day_record": "0W-0L (0.0%)",
+    "best_bet": null,
+    "last_10_record": "4-5",
     "bets": [
       {
         "market": "totals",
         "matchup": "SEA@TB",
         "play": "Over 7.0",
         "info": "-115 \u00b7 Model: 8.1 \u00b7 04:10 PM ET \u00b7 Result: 7 runs",
-        "pnl": -1.0,
-        "edge_pct": 11.49
+        "pnl": null,
+        "edge_pct": 11.49,
+        "push": true,
+        "voided": false
       }
     ]
   },
