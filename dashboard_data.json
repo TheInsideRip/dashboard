@@ -1,16 +1,16 @@
 {
-  "generated_date": "July 16, 2026",
+  "generated_date": "July 17, 2026",
   "overview": {
-    "combined_pnl": -13.26,
-    "combined_roi": -6.98,
-    "combined_record": "90W-100L (47.4%)",
-    "total_bets": 190,
+    "combined_pnl": -12.35,
+    "combined_roi": -6.47,
+    "combined_record": "91W-100L (47.6%)",
+    "total_bets": 191,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -10.94,
-    "totals_roi": -11.89,
-    "totals_record": "42W-50L (45.7%)",
+    "totals_pnl": -10.03,
+    "totals_roi": -10.78,
+    "totals_record": "43W-50L (46.2%)",
     "mlrl_pnl": 0.15,
     "mlrl_roi": 0.39,
     "mlrl_record": "19W-19L (50.0%)"
@@ -371,52 +371,38 @@
     {
       "date": "2026-07-12",
       "cumPnl": -13.26
+    },
+    {
+      "date": "2026-07-16",
+      "cumPnl": -12.35
     }
   ],
   "yesterday": {
-    "date": "2026-07-12",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-07-16",
+    "day_pnl": 0.91,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "TOR@SD \u2014 Under 8.5",
-      "pnl": -1.0
+      "label": "NYM@PHI \u2014 Under 9.5",
+      "pnl": 0.91
     },
-    "last_10_record": "3-6",
+    "last_10_record": "4-5",
     "bets": [
       {
         "market": "totals",
-        "matchup": "TOR@SD",
-        "play": "Under 8.5",
-        "info": "-102 \u00b7 Model: 7.7 \u00b7 04:10 PM ET \u00b7 Result: 9 runs",
-        "pnl": -1.0,
-        "edge_pct": 12.96,
+        "matchup": "NYM@PHI",
+        "play": "Under 9.5",
+        "info": "-105 \u00b7 LEAN \u00b7 07:10 PM ET \u00b7 Result: 5 runs",
+        "pnl": 0.91,
+        "edge_pct": 0.0,
         "push": false,
         "voided": false
       }
     ]
   },
   "today": {
-    "first_pitch": "07:10 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "NYM@PHI",
-        "play": "Under 9.5",
-        "info": "-105 \u00b7 LEAN \u00b7 07:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-16",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "01:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
   }
 }
