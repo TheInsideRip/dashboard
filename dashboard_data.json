@@ -1,19 +1,19 @@
 {
-  "generated_date": "July 18, 2026",
+  "generated_date": "July 19, 2026",
   "overview": {
-    "combined_pnl": -13.35,
-    "combined_roi": -6.95,
-    "combined_record": "91W-101L (47.4%)",
-    "total_bets": 192,
+    "combined_pnl": -12.33,
+    "combined_roi": -6.39,
+    "combined_record": "92W-101L (47.7%)",
+    "total_bets": 193,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
     "totals_pnl": -10.03,
     "totals_roi": -10.78,
     "totals_record": "43W-50L (46.2%)",
-    "mlrl_pnl": -0.85,
-    "mlrl_roi": -2.18,
-    "mlrl_record": "19W-20L (48.7%)"
+    "mlrl_pnl": 0.17,
+    "mlrl_roi": 0.43,
+    "mlrl_record": "20W-20L (50.0%)"
   },
   "cumulative_chart": [
     {
@@ -379,24 +379,28 @@
     {
       "date": "2026-07-17",
       "cumPnl": -13.35
+    },
+    {
+      "date": "2026-07-18",
+      "cumPnl": -12.33
     }
   ],
   "yesterday": {
-    "date": "2026-07-17",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-07-18",
+    "day_pnl": 1.02,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "LAD@NYY \u2014 ML: NYY",
-      "pnl": -1.0
+      "label": "TEX@ATL \u2014 ML: TEX",
+      "pnl": 1.02
     },
     "last_10_record": "3-6",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "LAD@NYY",
-        "play": "ML: NYY",
-        "info": "-110 \u00b7 LEAN \u00b7 07:05 PM ET \u00b7 Result: LAD by 1.0",
-        "pnl": -1.0,
+        "matchup": "TEX@ATL",
+        "play": "ML: TEX",
+        "info": "+102 \u00b7 LEAN \u00b7 04:10 PM ET \u00b7 Result: TEX by 1.0",
+        "pnl": 1.02,
         "edge_pct": 0.0,
         "push": false,
         "voided": false
@@ -404,27 +408,9 @@
     ]
   },
   "today": {
-    "first_pitch": "04:10 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "TEX@ATL",
-        "play": "ML: TEX",
-        "info": "+102 \u00b7 LEAN \u00b7 04:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-18",
-        "book": "Pinnacle",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "12:15 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
   }
 }
