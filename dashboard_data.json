@@ -1,16 +1,16 @@
 {
-  "generated_date": "July 21, 2026",
+  "generated_date": "July 22, 2026",
   "overview": {
-    "combined_pnl": -14.39,
-    "combined_roi": -7.3,
-    "combined_record": "93W-104L (47.2%)",
-    "total_bets": 197,
+    "combined_pnl": -14.43,
+    "combined_roi": -7.25,
+    "combined_record": "94W-105L (47.2%)",
+    "total_bets": 199,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -12.09,
-    "totals_roi": -12.46,
-    "totals_record": "44W-53L (45.4%)",
+    "totals_pnl": -12.13,
+    "totals_roi": -12.25,
+    "totals_record": "45W-54L (45.5%)",
     "mlrl_pnl": 0.17,
     "mlrl_roi": 0.43,
     "mlrl_record": "20W-20L (50.0%)"
@@ -391,23 +391,27 @@
     {
       "date": "2026-07-20",
       "cumPnl": -14.39
+    },
+    {
+      "date": "2026-07-21",
+      "cumPnl": -14.43
     }
   ],
   "yesterday": {
-    "date": "2026-07-20",
-    "day_pnl": -2.0,
-    "day_record": "0W-2L (0.0%)",
+    "date": "2026-07-21",
+    "day_pnl": -0.04,
+    "day_record": "1W-1L (50.0%)",
     "best_bet": {
-      "label": "SF@KC \u2014 Over 10.5",
-      "pnl": -1.0
+      "label": "CIN@SEA \u2014 Under 7.5",
+      "pnl": 0.96
     },
-    "last_10_record": "3-6",
+    "last_10_record": "4-6",
     "bets": [
       {
         "market": "totals",
-        "matchup": "SF@KC",
-        "play": "Over 10.5",
-        "info": "-104 \u00b7 LEAN \u00b7 07:40 PM ET \u00b7 Result: 7 runs",
+        "matchup": "TB@TOR",
+        "play": "Under 7.5",
+        "info": "-108 \u00b7 LEAN \u00b7 07:07 PM ET \u00b7 Result: 14 runs",
         "pnl": -1.0,
         "edge_pct": 0.0,
         "push": false,
@@ -417,8 +421,8 @@
         "market": "totals",
         "matchup": "CIN@SEA",
         "play": "Under 7.5",
-        "info": "-105 \u00b7 LEAN \u00b7 09:40 PM ET \u00b7 Result: 8 runs",
-        "pnl": -1.0,
+        "info": "-105 \u00b7 LEAN \u00b7 09:40 PM ET \u00b7 Result: 6 runs",
+        "pnl": 0.96,
         "edge_pct": 0.0,
         "push": false,
         "voided": false
@@ -426,44 +430,9 @@
     ]
   },
   "today": {
-    "first_pitch": "07:07 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "TB@TOR",
-        "play": "Under 7.5",
-        "info": "-108 \u00b7 LEAN \u00b7 07:07 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-21",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "CIN@SEA",
-        "play": "Under 7.5",
-        "info": "-105 \u00b7 LEAN \u00b7 09:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-21",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "01:05 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:05 PM ET."
   }
 }
