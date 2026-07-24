@@ -1,19 +1,19 @@
 {
-  "generated_date": "July 23, 2026",
+  "generated_date": "July 24, 2026",
   "overview": {
-    "combined_pnl": -16.33,
-    "combined_roi": -8.04,
-    "combined_record": "95W-108L (46.8%)",
-    "total_bets": 203,
+    "combined_pnl": -17.33,
+    "combined_roi": -8.5,
+    "combined_record": "95W-109L (46.6%)",
+    "total_bets": 204,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
     "totals_pnl": -12.13,
     "totals_roi": -12.25,
     "totals_record": "45W-54L (45.5%)",
-    "mlrl_pnl": -1.73,
-    "mlrl_roi": -3.93,
-    "mlrl_record": "21W-23L (47.7%)"
+    "mlrl_pnl": -2.73,
+    "mlrl_roi": -6.07,
+    "mlrl_record": "21W-24L (46.7%)"
   },
   "cumulative_chart": [
     {
@@ -399,53 +399,27 @@
     {
       "date": "2026-07-22",
       "cumPnl": -16.33
+    },
+    {
+      "date": "2026-07-23",
+      "cumPnl": -17.33
     }
   ],
   "yesterday": {
-    "date": "2026-07-22",
-    "day_pnl": -1.9,
-    "day_record": "1W-3L (25.0%)",
+    "date": "2026-07-23",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "MIN@CLE \u2014 ML: MIN",
-      "pnl": 1.1
+      "label": "MIN@CLE \u2014 ML: CLE",
+      "pnl": -1.0
     },
-    "last_10_record": "3-7",
+    "last_10_record": "2-8",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "SF@KC",
-        "play": "ML: SF",
-        "info": "-132 \u00b7 LEAN \u00b7 02:10 PM ET \u00b7 Result: KC by 1.0",
-        "pnl": -1.0,
-        "edge_pct": 0.0,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "NYM@MIL",
-        "play": "RL: MIL (-1.5)",
-        "info": "+140 \u00b7 LEAN \u00b7 02:10 PM ET \u00b7 Result: MIL by 1.0",
-        "pnl": -1.0,
-        "edge_pct": 0.0,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
         "matchup": "MIN@CLE",
-        "play": "ML: MIN",
-        "info": "+109 \u00b7 LEAN \u00b7 06:40 PM ET \u00b7 Result: MIN by 4.0",
-        "pnl": 1.1,
-        "edge_pct": 0.0,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "MIA@HOU",
-        "play": "ML: MIA",
-        "info": "-106 \u00b7 LEAN \u00b7 08:10 PM ET \u00b7 Result: HOU by 3.0",
+        "play": "ML: CLE",
+        "info": "-153 \u00b7 LEAN \u00b7 01:10 PM ET \u00b7 Result: MIN by 2.0",
         "pnl": -1.0,
         "edge_pct": 0.0,
         "push": false,
@@ -454,27 +428,9 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "MIN@CLE",
-        "play": "ML: CLE",
-        "info": "-153 \u00b7 LEAN \u00b7 01:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-07-23",
-        "book": "Bovada",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "04:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 04:10 PM ET."
   }
 }
