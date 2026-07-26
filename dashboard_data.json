@@ -1,16 +1,16 @@
 {
-  "generated_date": "July 25, 2026",
+  "generated_date": "July 26, 2026",
   "overview": {
-    "combined_pnl": -18.33,
-    "combined_roi": -8.94,
-    "combined_record": "95W-110L (46.3%)",
-    "total_bets": 205,
+    "combined_pnl": -17.46,
+    "combined_roi": -8.48,
+    "combined_record": "96W-110L (46.6%)",
+    "total_bets": 206,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -13.13,
-    "totals_roi": -13.13,
-    "totals_record": "45W-55L (45.0%)",
+    "totals_pnl": -12.26,
+    "totals_roi": -12.14,
+    "totals_record": "46W-55L (45.5%)",
     "mlrl_pnl": -2.73,
     "mlrl_roi": -6.07,
     "mlrl_record": "21W-24L (46.7%)"
@@ -407,24 +407,28 @@
     {
       "date": "2026-07-24",
       "cumPnl": -18.33
+    },
+    {
+      "date": "2026-07-25",
+      "cumPnl": -17.46
     }
   ],
   "yesterday": {
-    "date": "2026-07-24",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-07-25",
+    "day_pnl": 0.87,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "AZ@WSH \u2014 Over 9.5",
-      "pnl": -1.0
+      "label": "TOR@BOS \u2014 Under 7.5",
+      "pnl": 0.87
     },
-    "last_10_record": "2-8",
+    "last_10_record": "3-7",
     "bets": [
       {
         "market": "totals",
-        "matchup": "AZ@WSH",
-        "play": "Over 9.5",
-        "info": "-115 \u00b7 LEAN \u00b7 06:45 PM ET \u00b7 Result: 5 runs",
-        "pnl": -1.0,
+        "matchup": "TOR@BOS",
+        "play": "Under 7.5",
+        "info": "-115 \u00b7 LEAN \u00b7 04:10 PM ET \u00b7 Result: 6 runs",
+        "pnl": 0.87,
         "edge_pct": 0.0,
         "push": false,
         "voided": false
@@ -432,27 +436,9 @@
     ]
   },
   "today": {
-    "first_pitch": "04:10 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "TOR@BOS",
-        "play": "Under 7.5",
-        "info": "-115 \u00b7 LEAN \u00b7 04:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-07-25",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "12:15 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
   }
 }
