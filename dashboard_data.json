@@ -1,16 +1,16 @@
 {
-  "generated_date": "July 29, 2026",
+  "generated_date": "July 30, 2026",
   "overview": {
-    "combined_pnl": -20.46,
-    "combined_roi": -9.79,
-    "combined_record": "96W-113L (45.9%)",
-    "total_bets": 209,
+    "combined_pnl": -21.46,
+    "combined_roi": -10.22,
+    "combined_record": "96W-114L (45.7%)",
+    "total_bets": 210,
     "k_pnl": -2.47,
     "k_roi": -4.12,
     "k_record": "29W-31L (48.3%)",
-    "totals_pnl": -15.26,
-    "totals_roi": -14.67,
-    "totals_record": "46W-58L (44.2%)",
+    "totals_pnl": -16.26,
+    "totals_roi": -15.49,
+    "totals_record": "46W-59L (43.8%)",
     "mlrl_pnl": -2.73,
     "mlrl_roi": -6.07,
     "mlrl_record": "21W-24L (46.7%)"
@@ -423,23 +423,27 @@
     {
       "date": "2026-07-28",
       "cumPnl": -20.46
+    },
+    {
+      "date": "2026-07-29",
+      "cumPnl": -21.46
     }
   ],
   "yesterday": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "day_pnl": -1.0,
     "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "BOS@ATH \u2014 Over 10",
+      "label": "BAL@DET \u2014 Under 7.5",
       "pnl": -1.0
     },
     "last_10_record": "2-8",
     "bets": [
       {
         "market": "totals",
-        "matchup": "BOS@ATH",
-        "play": "Over 10",
-        "info": "-104 \u00b7 LEAN \u00b7 09:40 PM ET \u00b7 Result: 7 runs",
+        "matchup": "BAL@DET",
+        "play": "Under 7.5",
+        "info": "-108 \u00b7 LEAN \u00b7 01:10 PM ET \u00b7 Result: 19 runs",
         "pnl": -1.0,
         "edge_pct": 0.0,
         "push": false,
@@ -448,27 +452,9 @@
     ]
   },
   "today": {
-    "first_pitch": "01:10 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "BAL@DET",
-        "play": "Under 7.5",
-        "info": "-108 \u00b7 LEAN \u00b7 01:10 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-07-29",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "12:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:10 PM ET."
   }
 }
