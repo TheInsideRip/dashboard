@@ -504,9 +504,44 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [],
+    "first_pitch": "04:05 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "DET@ATH",
+        "play": "DET ML -120",
+        "info": "-120 \u00b7 04:05 PM ET",
+        "edge_pct": 0.0,
+        "confidence": "HIGH",
+        "tier": "ELITE",
+        "tier_wr": 67,
+        "game_date": "2026-08-02",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "totals",
+        "matchup": "SF@SD",
+        "play": "Under 8.0",
+        "info": "-105 \u00b7 Model: 7.6 \u00b7 04:10 PM ET",
+        "edge_pct": 4.52,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-08-02",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:35 PM ET."
+    "status_message": ""
   }
 }
