@@ -1,19 +1,19 @@
 {
-  "generated_date": "August 03, 2026",
+  "generated_date": "August 04, 2026",
   "overview": {
-    "combined_pnl": -25.22,
-    "combined_roi": -11.41,
-    "combined_record": "100W-121L (45.2%)",
-    "total_bets": 221,
+    "combined_pnl": -24.32,
+    "combined_roi": -10.95,
+    "combined_record": "101W-121L (45.5%)",
+    "total_bets": 222,
     "k_pnl": -0.79,
     "k_roi": -1.27,
     "k_record": "31W-31L (50.0%)",
     "totals_pnl": -23.26,
     "totals_roi": -20.77,
     "totals_record": "46W-66L (41.1%)",
-    "mlrl_pnl": -1.17,
-    "mlrl_roi": -2.49,
-    "mlrl_record": "23W-24L (48.9%)"
+    "mlrl_pnl": -0.27,
+    "mlrl_roi": -0.56,
+    "mlrl_record": "24W-24L (50.0%)"
   },
   "cumulative_chart": [
     {
@@ -443,62 +443,38 @@
     {
       "date": "2026-08-02",
       "cumPnl": -25.22
+    },
+    {
+      "date": "2026-08-03",
+      "cumPnl": -24.32
     }
   ],
   "yesterday": {
-    "date": "2026-08-02",
-    "day_pnl": -0.17,
-    "day_record": "1W-1L (50.0%)",
+    "date": "2026-08-03",
+    "day_pnl": 0.9,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "DET@ATH \u2014 DET ML -120",
-      "pnl": 0.83
+      "label": "SF@TEX \u2014 SF ML -111",
+      "pnl": 0.9
     },
-    "last_10_record": "4-6",
+    "last_10_record": "5-5",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "DET@ATH",
-        "play": "DET ML -120",
-        "info": "-120 \u00b7 04:05 PM ET \u00b7 Result: DET",
-        "pnl": 0.83,
+        "matchup": "SF@TEX",
+        "play": "SF ML -111",
+        "info": "-111 \u00b7 08:05 PM ET \u00b7 Result: SF",
+        "pnl": 0.9,
         "edge_pct": 0.0,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "SF@SD",
-        "play": "Under 8.0",
-        "info": "-105 \u00b7 Model: 7.6 \u00b7 04:10 PM ET \u00b7 Result: 9 runs",
-        "pnl": -1.0,
-        "edge_pct": 4.52,
         "push": false,
         "voided": false
       }
     ]
   },
   "today": {
-    "first_pitch": "08:05 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "SF@TEX",
-        "play": "SF ML -111",
-        "info": "-111 \u00b7 08:05 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-03",
-        "book": "Bovada",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "06:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:35 PM ET."
   }
 }
