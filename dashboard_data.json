@@ -472,7 +472,7 @@
     ]
   },
   "today": {
-    "first_pitch": "08:05 PM ET",
+    "first_pitch": "07:15 PM ET",
     "picks": [
       {
         "market": "mlrl",
@@ -485,6 +485,40 @@
         "tier_wr": null,
         "game_date": "2026-08-04",
         "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "props",
+        "matchup": "Freddy Peralta \u2014 TB@COL",
+        "play": "Over 5.5 K",
+        "info": "+122 \u00b7 Model: 5.7 K \u00b7 08:40 PM ET",
+        "edge_pct": 18.16,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 53,
+        "game_date": "2026-08-04",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "props",
+        "matchup": "Grant Holmes \u2014 MIA@ATL",
+        "play": "Over 4.5 K",
+        "info": "+100 \u00b7 Model: 4.6 K \u00b7 07:15 PM ET",
+        "edge_pct": 3.23,
+        "confidence": "MEDIUM",
+        "tier": "STRONG",
+        "tier_wr": 53,
+        "game_date": "2026-08-04",
+        "book": "FanDuel",
         "result": null,
         "result_hit": null,
         "pnl": null,
