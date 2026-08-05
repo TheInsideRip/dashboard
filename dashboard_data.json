@@ -496,9 +496,27 @@
     ]
   },
   "today": {
-    "first_pitch": "02:10 PM ET",
-    "picks": [],
+    "first_pitch": "02:20 PM ET",
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "LAD@CHC",
+        "play": "Under 10.0",
+        "info": "-108 \u00b7 Model: 9.1 \u00b7 02:20 PM ET",
+        "edge_pct": 11.53,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": 58,
+        "game_date": "2026-08-05",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 02:10 PM ET."
+    "status_message": ""
   }
 }
