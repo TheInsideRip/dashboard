@@ -1,16 +1,16 @@
 {
-  "generated_date": "August 05, 2026",
+  "generated_date": "August 06, 2026",
   "overview": {
-    "combined_pnl": -25.32,
-    "combined_roi": -11.25,
-    "combined_record": "102W-123L (45.3%)",
-    "total_bets": 225,
-    "k_pnl": -0.79,
-    "k_roi": -1.23,
-    "k_record": "32W-32L (50.0%)",
-    "totals_pnl": -23.26,
-    "totals_roi": -20.77,
-    "totals_record": "46W-66L (41.1%)",
+    "combined_pnl": -26.18,
+    "combined_roi": -11.48,
+    "combined_record": "103W-125L (45.2%)",
+    "total_bets": 228,
+    "k_pnl": 0.35,
+    "k_roi": 0.54,
+    "k_record": "33W-32L (50.8%)",
+    "totals_pnl": -25.26,
+    "totals_roi": -22.16,
+    "totals_record": "46W-68L (40.4%)",
     "mlrl_pnl": -1.27,
     "mlrl_roi": -2.59,
     "mlrl_record": "24W-25L (49.0%)"
@@ -451,72 +451,58 @@
     {
       "date": "2026-08-04",
       "cumPnl": -25.32
+    },
+    {
+      "date": "2026-08-05",
+      "cumPnl": -26.18
     }
   ],
   "yesterday": {
-    "date": "2026-08-04",
-    "day_pnl": -1.0,
+    "date": "2026-08-05",
+    "day_pnl": -0.86,
     "day_record": "1W-2L (33.3%)",
     "best_bet": {
-      "label": "Grant Holmes \u2014 MIA@ATL \u2014 Over 4.5 K",
-      "pnl": 1.0
+      "label": "Sonny Gray \u2014 CWS@BOS \u2014 Over 5.5 K",
+      "pnl": 1.14
     },
-    "last_10_record": "6-4",
+    "last_10_record": "5-5",
     "bets": [
       {
-        "market": "mlrl",
-        "matchup": "SF@TEX",
-        "play": "SF ML +163",
-        "info": "+163 \u00b7 08:05 PM ET \u00b7 Result: TEX",
+        "market": "totals",
+        "matchup": "LAD@CHC",
+        "play": "Under 10.0",
+        "info": "-108 \u00b7 Model: 9.1 \u00b7 02:20 PM ET \u00b7 Result: 13 runs",
         "pnl": -1.0,
-        "edge_pct": 0.0,
+        "edge_pct": 11.53,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "NYM@CLE",
+        "play": "Under 8.0",
+        "info": "-115 \u00b7 Model: 7.4 \u00b7 06:40 PM ET \u00b7 Result: 11 runs",
+        "pnl": -1.0,
+        "edge_pct": 3.37,
         "push": false,
         "voided": false
       },
       {
         "market": "props",
-        "matchup": "Freddy Peralta \u2014 TB@COL",
+        "matchup": "Sonny Gray \u2014 CWS@BOS",
         "play": "Over 5.5 K",
-        "info": "+122 \u00b7 Model: 5.7 K \u00b7 08:40 PM ET \u00b7 Result: 3 K",
-        "pnl": -1.0,
-        "edge_pct": 18.16,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "props",
-        "matchup": "Grant Holmes \u2014 MIA@ATL",
-        "play": "Over 4.5 K",
-        "info": "+100 \u00b7 Model: 4.6 K \u00b7 07:15 PM ET \u00b7 Result: 5 K",
-        "pnl": 1.0,
-        "edge_pct": 3.23,
+        "info": "+114 \u00b7 Model: 5.8 K \u00b7 07:10 PM ET \u00b7 Result: 8 K",
+        "pnl": 1.14,
+        "edge_pct": 17.34,
         "push": false,
         "voided": false
       }
     ]
   },
   "today": {
-    "first_pitch": "02:20 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "LAD@CHC",
-        "play": "Under 10.0",
-        "info": "-108 \u00b7 Model: 9.1 \u00b7 02:20 PM ET",
-        "edge_pct": 11.53,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-08-05",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "12:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
   }
 }
