@@ -349,10 +349,6 @@
       "cumPnl": -13.95
     },
     {
-      "date": "2026-07-11",
-      "cumPnl": -13.95
-    },
-    {
       "date": "2026-07-12",
       "cumPnl": -14.95
     },
@@ -469,8 +465,94 @@
   },
   "today": {
     "first_pitch": "06:40 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "CLE@CWS",
+        "play": "CLE ML -138",
+        "info": "-138 \u00b7 07:40 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-07",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "LAA@MIA",
+        "play": "LAA ML +150",
+        "info": "+150 \u00b7 07:10 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-07",
+        "book": "Caesars",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "NYM@PIT",
+        "play": "NYM ML +125",
+        "info": "+125 \u00b7 06:40 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-07",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "props",
+        "matchup": "Ryan Feltner \u2014 COL@STL",
+        "play": "Over 3.5 K",
+        "info": "+108 \u00b7 Model: 3.8 K \u00b7 08:15 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-07",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "totals",
+        "matchup": "ATH@BOS",
+        "play": "Under 9.0",
+        "info": "-114 \u00b7 Model: 8.4 \u00b7 07:10 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-07",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
+    "status_message": ""
   }
 }
