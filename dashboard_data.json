@@ -1,16 +1,16 @@
 {
-  "generated_date": "August 06, 2026",
+  "generated_date": "August 07, 2026",
   "overview": {
-    "combined_pnl": -26.18,
-    "combined_roi": -11.48,
-    "combined_record": "103W-125L (45.2%)",
-    "total_bets": 228,
-    "k_pnl": 0.35,
-    "k_roi": 0.54,
-    "k_record": "33W-32L (50.8%)",
-    "totals_pnl": -25.26,
-    "totals_roi": -22.16,
-    "totals_record": "46W-68L (40.4%)",
+    "combined_pnl": -27.65,
+    "combined_roi": -11.87,
+    "combined_record": "105W-128L (45.1%)",
+    "total_bets": 233,
+    "k_pnl": -0.07,
+    "k_roi": -0.1,
+    "k_record": "34W-33L (50.7%)",
+    "totals_pnl": -26.31,
+    "totals_roi": -22.49,
+    "totals_record": "47W-70L (40.2%)",
     "mlrl_pnl": -1.27,
     "mlrl_roi": -2.59,
     "mlrl_record": "24W-25L (49.0%)"
@@ -455,106 +455,78 @@
     {
       "date": "2026-08-05",
       "cumPnl": -26.18
+    },
+    {
+      "date": "2026-08-06",
+      "cumPnl": -27.65
     }
   ],
   "yesterday": {
-    "date": "2026-08-05",
-    "day_pnl": -0.86,
-    "day_record": "1W-2L (33.3%)",
+    "date": "2026-08-06",
+    "day_pnl": -1.47,
+    "day_record": "2W-3L (40.0%)",
     "best_bet": {
-      "label": "Sonny Gray \u2014 CWS@BOS \u2014 Over 5.5 K",
-      "pnl": 1.14
+      "label": "LAA@BAL \u2014 Under 9.5",
+      "pnl": 0.95
     },
-    "last_10_record": "5-5",
+    "last_10_record": "4-6",
     "bets": [
       {
-        "market": "totals",
-        "matchup": "LAD@CHC",
-        "play": "Under 10.0",
-        "info": "-108 \u00b7 Model: 9.1 \u00b7 02:20 PM ET \u00b7 Result: 13 runs",
-        "pnl": -1.0,
-        "edge_pct": 11.53,
+        "market": "props",
+        "matchup": "MIN@KC",
+        "play": "Michael Wacha U 18.5 Outs",
+        "info": "-173 \u00b7 Line: 18.5 \u00b7 07:40 PM ET \u00b7 Result: 17 outs",
+        "pnl": 0.58,
+        "edge_pct": null,
         "push": false,
         "voided": false
       },
       {
         "market": "totals",
-        "matchup": "NYM@CLE",
-        "play": "Under 8.0",
-        "info": "-115 \u00b7 Model: 7.4 \u00b7 06:40 PM ET \u00b7 Result: 11 runs",
+        "matchup": "LAA@BAL",
+        "play": "Under 9.5",
+        "info": "-105 \u00b7 Model: 8.5 \u00b7 12:35 PM ET \u00b7 Result: 5 runs",
+        "pnl": 0.95,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "ATH@CIN",
+        "play": "Under 9.5",
+        "info": "-115 \u00b7 Model: 8.8 \u00b7 12:40 PM ET \u00b7 Result: 11 runs",
         "pnl": -1.0,
-        "edge_pct": 3.37,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "CWS@BOS",
+        "play": "Under 9.0",
+        "info": "-114 \u00b7 Model: 8.4 \u00b7 07:10 PM ET \u00b7 Result: 23 runs",
+        "pnl": -1.0,
+        "edge_pct": null,
         "push": false,
         "voided": false
       },
       {
         "market": "props",
-        "matchup": "Sonny Gray \u2014 CWS@BOS",
-        "play": "Over 5.5 K",
-        "info": "+114 \u00b7 Model: 5.8 K \u00b7 07:10 PM ET \u00b7 Result: 8 K",
-        "pnl": 1.14,
-        "edge_pct": 17.34,
+        "matchup": "Bailey Ober \u2014 MIN@KC",
+        "play": "Over 3.5 K",
+        "info": "-113 \u00b7 Model: 4.8 K \u00b7 07:40 PM ET \u00b7 Result: 0 K",
+        "pnl": -1.0,
+        "edge_pct": null,
         "push": false,
         "voided": false
       }
     ]
   },
   "today": {
-    "first_pitch": "12:35 PM ET",
-    "picks": [
-      {
-        "market": "props",
-        "matchup": "MIN@KC",
-        "play": "Michael Wacha U 18.5 Outs",
-        "info": "-173 \u00b7 Line: 18.5 \u00b7 07:40 PM ET",
-        "edge_pct": 0.0,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 56,
-        "game_date": "2026-08-06",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "LAA@BAL",
-        "play": "Under 9.5",
-        "info": "-105 \u00b7 Model: 8.5 \u00b7 12:35 PM ET",
-        "edge_pct": 14.75,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-08-06",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "ATH@CIN",
-        "play": "Under 9.5",
-        "info": "-115 \u00b7 Model: 8.8 \u00b7 12:40 PM ET",
-        "edge_pct": 5.01,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": 58,
-        "game_date": "2026-08-06",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
