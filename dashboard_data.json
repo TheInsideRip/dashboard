@@ -570,6 +570,23 @@
       },
       {
         "market": "totals",
+        "matchup": "LAD@AZ",
+        "play": "Over 8.5",
+        "info": "-124 \u00b7 Model: 9.8 \u00b7 09:40 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-07",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "totals",
         "matchup": "ATH@BOS",
         "play": "Under 9.0",
         "info": "-114 \u00b7 Model: 8.4 \u00b7 07:10 PM ET",
