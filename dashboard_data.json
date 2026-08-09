@@ -512,9 +512,44 @@
     ]
   },
   "today": {
-    "first_pitch": "12:15 PM ET",
-    "picks": [],
+    "first_pitch": "01:35 PM ET",
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "NYM@PIT",
+        "play": "NYM ML +132",
+        "info": "+132 \u00b7 01:35 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-09",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "TB@SEA",
+        "play": "TB ML +110",
+        "info": "+110 \u00b7 04:10 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-09",
+        "book": "BetRivers",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
+    "status_message": ""
   }
 }
