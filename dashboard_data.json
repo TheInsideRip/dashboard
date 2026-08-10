@@ -1,19 +1,19 @@
 {
-  "generated_date": "August 09, 2026",
+  "generated_date": "August 10, 2026",
   "overview": {
-    "combined_pnl": -29.69,
-    "combined_roi": -12.69,
-    "combined_record": "104W-130L (44.4%)",
-    "total_bets": 234,
+    "combined_pnl": -29.27,
+    "combined_roi": -12.3,
+    "combined_record": "106W-132L (44.5%)",
+    "total_bets": 238,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
-    "totals_pnl": -29.08,
-    "totals_roi": -25.96,
-    "totals_record": "43W-69L (38.4%)",
-    "mlrl_pnl": 0.2,
-    "mlrl_roi": 0.37,
-    "mlrl_record": "27W-27L (50.0%)"
+    "totals_pnl": -31.08,
+    "totals_roi": -27.26,
+    "totals_record": "43W-71L (37.7%)",
+    "mlrl_pnl": 2.62,
+    "mlrl_roi": 4.68,
+    "mlrl_record": "29W-27L (51.8%)"
   },
   "cumulative_chart": [
     {
@@ -447,43 +447,47 @@
     {
       "date": "2026-08-08",
       "cumPnl": -29.69
+    },
+    {
+      "date": "2026-08-09",
+      "cumPnl": -29.27
     }
   ],
   "yesterday": {
-    "date": "2026-08-08",
-    "day_pnl": -0.73,
-    "day_record": "2W-3L (40.0%)",
+    "date": "2026-08-09",
+    "day_pnl": 0.42,
+    "day_record": "2W-2L (50.0%)",
     "best_bet": {
-      "label": "Michael King \u2014 HOU@SD \u2014 Over 5.5 K",
-      "pnl": 1.4
+      "label": "NYM@PIT \u2014 NYM ML +132",
+      "pnl": 1.32
     },
-    "last_10_record": "2-8",
+    "last_10_record": "4-6",
     "bets": [
       {
         "market": "mlrl",
         "matchup": "NYM@PIT",
-        "play": "NYM ML +125",
-        "info": "+125 \u00b7 06:40 PM ET \u00b7 Result: PIT",
-        "pnl": -1.0,
+        "play": "NYM ML +132",
+        "info": "+132 \u00b7 01:35 PM ET \u00b7 Result: NYM",
+        "pnl": 1.32,
         "edge_pct": null,
         "push": false,
         "voided": false
       },
       {
         "market": "mlrl",
-        "matchup": "CLE@CWS",
-        "play": "CLE ML -124",
-        "info": "-124 \u00b7 07:15 PM ET \u00b7 Result: CWS",
-        "pnl": -1.0,
+        "matchup": "TB@SEA",
+        "play": "TB ML +110",
+        "info": "+110 \u00b7 04:10 PM ET \u00b7 Result: TB",
+        "pnl": 1.1,
         "edge_pct": null,
         "push": false,
         "voided": false
       },
       {
-        "market": "mlrl",
-        "matchup": "LAA@MIA",
-        "play": "LAA ML +146",
-        "info": "+146 \u00b7 04:10 PM ET \u00b7 Result: MIA",
+        "market": "totals",
+        "matchup": "CHC@KC",
+        "play": "Under 10.0",
+        "info": "-105 \u00b7 Model: 9.1 \u00b7 02:10 PM ET \u00b7 Result: 12 runs",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -491,20 +495,10 @@
       },
       {
         "market": "totals",
-        "matchup": "CIN@WSH",
+        "matchup": "LAD@AZ",
         "play": "Over 8.5",
-        "info": "-115 \u00b7 Model: 9.8 \u00b7 06:45 PM ET \u00b7 Result: 10 runs",
-        "pnl": 0.87,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "props",
-        "matchup": "Michael King \u2014 HOU@SD",
-        "play": "Over 5.5 K",
-        "info": "+140 \u00b7 Model: 5.1 K \u00b7 07:15 PM ET \u00b7 Result: 6 K",
-        "pnl": 1.4,
+        "info": "-128 \u00b7 Model: 10.1 \u00b7 04:10 PM ET \u00b7 Result: 6 runs",
+        "pnl": -1.0,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -512,78 +506,9 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "NYM@PIT",
-        "play": "NYM ML +132",
-        "info": "+132 \u00b7 01:35 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-09",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TB@SEA",
-        "play": "TB ML +110",
-        "info": "+110 \u00b7 04:10 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-09",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "LAD@AZ",
-        "play": "Over 8.5",
-        "info": "-128 \u00b7 Model: 10.1 \u00b7 04:10 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-09",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "CHC@KC",
-        "play": "Under 10.0",
-        "info": "-105 \u00b7 Model: 9.1 \u00b7 02:10 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-09",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "07:07 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 07:07 PM ET."
   }
 }
