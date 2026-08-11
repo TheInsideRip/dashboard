@@ -1,16 +1,16 @@
 {
-  "generated_date": "August 10, 2026",
+  "generated_date": "August 11, 2026",
   "overview": {
-    "combined_pnl": -29.27,
-    "combined_roi": -12.3,
-    "combined_record": "106W-132L (44.5%)",
-    "total_bets": 238,
+    "combined_pnl": -30.27,
+    "combined_roi": -12.67,
+    "combined_record": "106W-133L (44.4%)",
+    "total_bets": 239,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
-    "totals_pnl": -31.08,
-    "totals_roi": -27.26,
-    "totals_record": "43W-71L (37.7%)",
+    "totals_pnl": -32.08,
+    "totals_roi": -27.9,
+    "totals_record": "43W-72L (37.4%)",
     "mlrl_pnl": 2.62,
     "mlrl_roi": 4.68,
     "mlrl_record": "29W-27L (51.8%)"
@@ -451,53 +451,27 @@
     {
       "date": "2026-08-09",
       "cumPnl": -29.27
+    },
+    {
+      "date": "2026-08-10",
+      "cumPnl": -30.27
     }
   ],
   "yesterday": {
-    "date": "2026-08-09",
-    "day_pnl": 0.42,
-    "day_record": "2W-2L (50.0%)",
+    "date": "2026-08-10",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "NYM@PIT \u2014 NYM ML +132",
-      "pnl": 1.32
+      "label": "PHI@STL \u2014 Under 9.0",
+      "pnl": -1.0
     },
     "last_10_record": "4-6",
     "bets": [
       {
-        "market": "mlrl",
-        "matchup": "NYM@PIT",
-        "play": "NYM ML +132",
-        "info": "+132 \u00b7 01:35 PM ET \u00b7 Result: NYM",
-        "pnl": 1.32,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TB@SEA",
-        "play": "TB ML +110",
-        "info": "+110 \u00b7 04:10 PM ET \u00b7 Result: TB",
-        "pnl": 1.1,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
         "market": "totals",
-        "matchup": "CHC@KC",
-        "play": "Under 10.0",
-        "info": "-105 \u00b7 Model: 9.1 \u00b7 02:10 PM ET \u00b7 Result: 12 runs",
-        "pnl": -1.0,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "LAD@AZ",
-        "play": "Over 8.5",
-        "info": "-128 \u00b7 Model: 10.1 \u00b7 04:10 PM ET \u00b7 Result: 6 runs",
+        "matchup": "PHI@STL",
+        "play": "Under 9.0",
+        "info": "-115 \u00b7 Model: 8.4 \u00b7 07:45 PM ET \u00b7 Result: 11 runs",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -506,27 +480,9 @@
     ]
   },
   "today": {
-    "first_pitch": "07:45 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "PHI@STL",
-        "play": "Under 9.0",
-        "info": "-115 \u00b7 Model: 8.4 \u00b7 07:45 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-10",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
