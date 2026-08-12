@@ -1,16 +1,16 @@
 {
-  "generated_date": "August 11, 2026",
+  "generated_date": "August 12, 2026",
   "overview": {
-    "combined_pnl": -30.27,
-    "combined_roi": -12.67,
-    "combined_record": "106W-133L (44.4%)",
-    "total_bets": 239,
+    "combined_pnl": -30.31,
+    "combined_roi": -12.58,
+    "combined_record": "107W-134L (44.4%)",
+    "total_bets": 241,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
-    "totals_pnl": -32.08,
-    "totals_roi": -27.9,
-    "totals_record": "43W-72L (37.4%)",
+    "totals_pnl": -32.12,
+    "totals_roi": -27.45,
+    "totals_record": "44W-73L (37.6%)",
     "mlrl_pnl": 2.62,
     "mlrl_roi": 4.68,
     "mlrl_record": "29W-27L (51.8%)"
@@ -455,24 +455,38 @@
     {
       "date": "2026-08-10",
       "cumPnl": -30.27
+    },
+    {
+      "date": "2026-08-11",
+      "cumPnl": -30.31
     }
   ],
   "yesterday": {
-    "date": "2026-08-10",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-08-11",
+    "day_pnl": -0.04,
+    "day_record": "1W-1L (50.0%)",
     "best_bet": {
-      "label": "PHI@STL \u2014 Under 9.0",
-      "pnl": -1.0
+      "label": "TEX@LAA \u2014 Under 9.0",
+      "pnl": 0.96
     },
-    "last_10_record": "4-6",
+    "last_10_record": "5-5",
     "bets": [
       {
         "market": "totals",
-        "matchup": "PHI@STL",
-        "play": "Under 9.0",
-        "info": "-115 \u00b7 Model: 8.4 \u00b7 07:45 PM ET \u00b7 Result: 11 runs",
+        "matchup": "TB@ATH",
+        "play": "Under 10.5",
+        "info": "-118 \u00b7 Model: 9.6 \u00b7 09:40 PM ET \u00b7 Result: 16 runs",
         "pnl": -1.0,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "TEX@LAA",
+        "play": "Under 9.0",
+        "info": "-104 \u00b7 Model: 8.6 \u00b7 09:38 PM ET \u00b7 Result: 5 runs",
+        "pnl": 0.96,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -480,44 +494,9 @@
     ]
   },
   "today": {
-    "first_pitch": "09:38 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "TB@ATH",
-        "play": "Under 10.5",
-        "info": "-118 \u00b7 Model: 9.6 \u00b7 09:40 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "TEX@LAA",
-        "play": "Under 9.0",
-        "info": "-104 \u00b7 Model: 8.6 \u00b7 09:38 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "01:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:40 PM ET."
   }
 }
