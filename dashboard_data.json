@@ -585,6 +585,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "totals",
+        "matchup": "TEX@ATH",
+        "play": "Under 10.0",
+        "info": "-122 \u00b7 Model: 9.2 \u00b7 04:05 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-16",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
