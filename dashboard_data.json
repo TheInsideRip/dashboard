@@ -1,19 +1,19 @@
 {
-  "generated_date": "August 15, 2026",
+  "generated_date": "August 16, 2026",
   "overview": {
-    "combined_pnl": -30.21,
-    "combined_roi": -12.33,
-    "combined_record": "109W-136L (44.5%)",
-    "total_bets": 245,
+    "combined_pnl": -29.58,
+    "combined_roi": -11.93,
+    "combined_record": "111W-137L (44.8%)",
+    "total_bets": 248,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -31.21,
     "totals_roi": -26.45,
     "totals_record": "45W-73L (38.1%)",
-    "mlrl_pnl": 1.81,
-    "mlrl_roi": 3.07,
-    "mlrl_record": "30W-29L (50.8%)"
+    "mlrl_pnl": 2.44,
+    "mlrl_roi": 3.94,
+    "mlrl_record": "32W-30L (51.6%)"
   },
   "cumulative_chart": [
     {
@@ -467,24 +467,28 @@
     {
       "date": "2026-08-14",
       "cumPnl": -30.21
+    },
+    {
+      "date": "2026-08-15",
+      "cumPnl": -29.58
     }
   ],
   "yesterday": {
-    "date": "2026-08-14",
-    "day_pnl": -0.81,
-    "day_record": "1W-2L (33.3%)",
+    "date": "2026-08-15",
+    "day_pnl": 0.63,
+    "day_record": "2W-1L (66.7%)",
     "best_bet": {
-      "label": "SD@CLE \u2014 SD ML +119",
-      "pnl": 1.19
+      "label": "BOS@PIT \u2014 BOS ML -120",
+      "pnl": 0.83
     },
-    "last_10_record": "4-6",
+    "last_10_record": "5-5",
     "bets": [
       {
         "market": "mlrl",
         "matchup": "BOS@PIT",
-        "play": "BOS ML -122",
-        "info": "-122 \u00b7 06:40 PM ET \u00b7 Result: PIT",
-        "pnl": -1.0,
+        "play": "BOS ML -120",
+        "info": "-120 \u00b7 07:15 PM ET \u00b7 Result: BOS",
+        "pnl": 0.83,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -492,9 +496,9 @@
       {
         "market": "mlrl",
         "matchup": "SD@CLE",
-        "play": "SD ML +119",
-        "info": "+119 \u00b7 07:10 PM ET \u00b7 Result: SD",
-        "pnl": 1.19,
+        "play": "SD ML +111",
+        "info": "+111 \u00b7 07:10 PM ET \u00b7 Result: CLE",
+        "pnl": -1.0,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -502,9 +506,9 @@
       {
         "market": "mlrl",
         "matchup": "TEX@ATH",
-        "play": "TEX ML +100",
-        "info": "+100 \u00b7 09:40 PM ET \u00b7 Result: ATH",
-        "pnl": -1.0,
+        "play": "TEX ML -125",
+        "info": "-125 \u00b7 09:40 PM ET \u00b7 Result: TEX",
+        "pnl": 0.8,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -512,61 +516,9 @@
     ]
   },
   "today": {
-    "first_pitch": "07:10 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "BOS@PIT",
-        "play": "BOS ML -120",
-        "info": "-120 \u00b7 07:15 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-15",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SD@CLE",
-        "play": "SD ML +111",
-        "info": "+111 \u00b7 07:10 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-15",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TEX@ATH",
-        "play": "TEX ML -125",
-        "info": "-125 \u00b7 09:40 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-15",
-        "book": "Caesars",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "12:15 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:15 PM ET."
   }
 }
