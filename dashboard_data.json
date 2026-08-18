@@ -1,19 +1,19 @@
 {
-  "generated_date": "August 17, 2026",
+  "generated_date": "August 18, 2026",
   "overview": {
-    "combined_pnl": -28.89,
-    "combined_roi": -11.42,
-    "combined_record": "114W-139L (45.1%)",
-    "total_bets": 253,
+    "combined_pnl": -29.98,
+    "combined_roi": -11.71,
+    "combined_record": "115W-141L (44.9%)",
+    "total_bets": 256,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.46,
     "totals_roi": -24.55,
     "totals_record": "47W-73L (39.2%)",
-    "mlrl_pnl": 1.38,
-    "mlrl_roi": 2.12,
-    "mlrl_record": "33W-32L (50.8%)"
+    "mlrl_pnl": 0.29,
+    "mlrl_roi": 0.43,
+    "mlrl_record": "34W-34L (50.0%)"
   },
   "cumulative_chart": [
     {
@@ -475,23 +475,37 @@
     {
       "date": "2026-08-16",
       "cumPnl": -28.89
+    },
+    {
+      "date": "2026-08-17",
+      "cumPnl": -29.98
     }
   ],
   "yesterday": {
-    "date": "2026-08-16",
-    "day_pnl": 0.69,
-    "day_record": "3W-2L (60.0%)",
+    "date": "2026-08-17",
+    "day_pnl": -1.09,
+    "day_record": "1W-2L (33.3%)",
     "best_bet": {
-      "label": "SD@CLE \u2014 SD ML -106",
-      "pnl": 0.94
+      "label": "DET@PIT \u2014 DET ML -110",
+      "pnl": 0.91
     },
-    "last_10_record": "6-4",
+    "last_10_record": "5-5",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "BOS@PIT",
-        "play": "BOS ML -114",
-        "info": "-114 \u00b7 01:35 PM ET \u00b7 Result: PIT",
+        "matchup": "DET@PIT",
+        "play": "DET ML -110",
+        "info": "-110 \u00b7 07:05 PM ET \u00b7 Result: DET",
+        "pnl": 0.91,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "ATH@KC",
+        "play": "ATH ML +173",
+        "info": "+173 \u00b7 07:40 PM ET \u00b7 Result: KC",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -499,40 +513,10 @@
       },
       {
         "market": "mlrl",
-        "matchup": "SD@CLE",
-        "play": "SD ML -106",
-        "info": "-106 \u00b7 01:40 PM ET \u00b7 Result: SD",
-        "pnl": 0.94,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TEX@ATH",
-        "play": "TEX ML -132",
-        "info": "-132 \u00b7 04:05 PM ET \u00b7 Result: ATH",
+        "matchup": "BAL@TB",
+        "play": "BAL ML +147",
+        "info": "+147 \u00b7 06:05 PM ET \u00b7 Result: TB",
         "pnl": -1.0,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "MIA@CIN",
-        "play": "Under 9.0",
-        "info": "-108 \u00b7 Model: 8.4 \u00b7 01:40 PM ET \u00b7 Result: 8 runs",
-        "pnl": 0.93,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "totals",
-        "matchup": "TEX@ATH",
-        "play": "Under 10.0",
-        "info": "-122 \u00b7 Model: 9.2 \u00b7 04:05 PM ET \u00b7 Result: 7 runs",
-        "pnl": 0.82,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -540,61 +524,9 @@
     ]
   },
   "today": {
-    "first_pitch": "06:05 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "DET@PIT",
-        "play": "DET ML -110",
-        "info": "-110 \u00b7 07:05 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-17",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "ATH@KC",
-        "play": "ATH ML +173",
-        "info": "+173 \u00b7 07:40 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-17",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "BAL@TB",
-        "play": "BAL ML +147",
-        "info": "+147 \u00b7 06:05 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-17",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "06:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:35 PM ET."
   }
 }
