@@ -600,6 +600,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "totals",
+        "matchup": "CIN@AZ",
+        "play": "Over 8.5",
+        "info": "-102 \u00b7 Model: 10.1 \u00b7 09:40 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-21",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
