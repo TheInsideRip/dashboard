@@ -574,6 +574,23 @@
       },
       {
         "market": "totals",
+        "matchup": "CIN@AZ",
+        "play": "Over 8.5",
+        "info": "-122 \u00b7 Model: 9.9 \u00b7 04:15 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-23",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "totals",
         "matchup": "MIN@SD",
         "play": "Under 8.5",
         "info": "+100 \u00b7 Model: 7.9 \u00b7 04:10 PM ET",
