@@ -602,6 +602,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "totals",
+        "matchup": "MIN@ATH",
+        "play": "Under 10.5",
+        "info": "-105 \u00b7 Model: 9.8 \u00b7 09:40 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-24",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
