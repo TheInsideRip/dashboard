@@ -1,19 +1,19 @@
 {
-  "generated_date": "August 23, 2026",
+  "generated_date": "August 24, 2026",
   "overview": {
-    "combined_pnl": -28.94,
-    "combined_roi": -10.8,
-    "combined_record": "122W-146L (45.5%)",
-    "total_bets": 268,
+    "combined_pnl": -29.35,
+    "combined_roi": -10.79,
+    "combined_record": "124W-148L (45.6%)",
+    "total_bets": 272,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
-    "totals_pnl": -24.83,
-    "totals_roi": -19.86,
-    "totals_record": "52W-73L (41.6%)",
-    "mlrl_pnl": -3.3,
-    "mlrl_roi": -4.4,
-    "mlrl_record": "36W-39L (48.0%)"
+    "totals_pnl": -26.83,
+    "totals_roi": -21.13,
+    "totals_record": "52W-75L (40.9%)",
+    "mlrl_pnl": -1.71,
+    "mlrl_roi": -2.22,
+    "mlrl_record": "38W-39L (49.4%)"
   },
   "cumulative_chart": [
     {
@@ -491,24 +491,28 @@
     {
       "date": "2026-08-22",
       "cumPnl": -28.94
+    },
+    {
+      "date": "2026-08-23",
+      "cumPnl": -29.35
     }
   ],
   "yesterday": {
-    "date": "2026-08-22",
-    "day_pnl": 0.66,
-    "day_record": "2W-1L (66.7%)",
+    "date": "2026-08-23",
+    "day_pnl": -0.41,
+    "day_record": "2W-2L (50.0%)",
     "best_bet": {
-      "label": "CIN@AZ \u2014 Over 8.0",
-      "pnl": 0.91
+      "label": "TB@BAL \u2014 TB ML -106",
+      "pnl": 0.94
     },
-    "last_10_record": "7-3",
+    "last_10_record": "5-5",
     "bets": [
       {
         "market": "mlrl",
         "matchup": "CLE@COL",
-        "play": "CLE ML -134",
-        "info": "-134 \u00b7 08:10 PM ET \u00b7 Result: CLE",
-        "pnl": 0.75,
+        "play": "CLE ML -155",
+        "info": "-155 \u00b7 03:10 PM ET \u00b7 Result: CLE",
+        "pnl": 0.65,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -516,8 +520,18 @@
       {
         "market": "mlrl",
         "matchup": "TB@BAL",
-        "play": "TB ML -122",
-        "info": "-122 \u00b7 07:05 PM ET \u00b7 Result: BAL",
+        "play": "TB ML -106",
+        "info": "-106 \u00b7 01:35 PM ET \u00b7 Result: TB",
+        "pnl": 0.94,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "MIN@SD",
+        "play": "Under 8.5",
+        "info": "+100 \u00b7 Model: 7.9 \u00b7 04:10 PM ET \u00b7 Result: 9 runs",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -526,9 +540,9 @@
       {
         "market": "totals",
         "matchup": "CIN@AZ",
-        "play": "Over 8.0",
-        "info": "-110 \u00b7 Model: 9.3 \u00b7 08:10 PM ET \u00b7 Result: 16 runs",
-        "pnl": 0.91,
+        "play": "Over 8.5",
+        "info": "-122 \u00b7 Model: 9.9 \u00b7 04:15 PM ET \u00b7 Result: 8 runs",
+        "pnl": -1.0,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -536,78 +550,9 @@
     ]
   },
   "today": {
-    "first_pitch": "01:35 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "CLE@COL",
-        "play": "CLE ML -155",
-        "info": "-155 \u00b7 03:10 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-23",
-        "book": "DraftKings",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TB@BAL",
-        "play": "TB ML -106",
-        "info": "-106 \u00b7 01:35 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-23",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "CIN@AZ",
-        "play": "Over 8.5",
-        "info": "-122 \u00b7 Model: 9.9 \u00b7 04:15 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-23",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "MIN@SD",
-        "play": "Under 8.5",
-        "info": "+100 \u00b7 Model: 7.9 \u00b7 04:10 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-08-23",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "06:40 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:40 PM ET."
   }
 }
