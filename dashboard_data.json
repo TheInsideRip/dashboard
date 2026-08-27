@@ -583,8 +583,26 @@
   },
   "today": {
     "first_pitch": "01:05 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "totals",
+        "matchup": "COL@WSH",
+        "play": "OVER 9.5",
+        "info": "OVER 9.5 \u00b7 01:05 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-27",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:05 PM ET."
+    "status_message": ""
   }
 }
