@@ -597,6 +597,23 @@
         "push": false
       },
       {
+        "market": "mlrl",
+        "matchup": "BAL@ATH",
+        "play": "BAL ML -140",
+        "info": "BAL ML -140 \u00b7 10:05 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-08-29",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
         "market": "totals",
         "matchup": "MIA@WSH",
         "play": "OVER 8",
