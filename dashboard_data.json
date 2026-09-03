@@ -1,16 +1,16 @@
 {
-  "generated_date": "September 02, 2026",
+  "generated_date": "September 03, 2026",
   "overview": {
-    "combined_pnl": -29.33,
-    "combined_roi": -9.28,
-    "combined_record": "147W-169L (46.5%)",
-    "total_bets": 316,
+    "combined_pnl": -30.44,
+    "combined_roi": -9.54,
+    "combined_record": "148W-171L (46.4%)",
+    "total_bets": 319,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
-    "totals_pnl": -31.41,
-    "totals_roi": -20.13,
-    "totals_record": "65W-91L (41.7%)",
+    "totals_pnl": -32.52,
+    "totals_roi": -20.45,
+    "totals_record": "66W-93L (41.5%)",
     "mlrl_pnl": 2.89,
     "mlrl_roi": 3.14,
     "mlrl_record": "48W-44L (52.2%)"
@@ -531,23 +531,27 @@
     {
       "date": "2026-09-01",
       "cumPnl": -29.33
+    },
+    {
+      "date": "2026-09-02",
+      "cumPnl": -30.44
     }
   ],
   "yesterday": {
-    "date": "2026-09-01",
-    "day_pnl": -0.18,
-    "day_record": "1W-1L (50.0%)",
+    "date": "2026-09-02",
+    "day_pnl": -1.11,
+    "day_record": "1W-2L (33.3%)",
     "best_bet": {
-      "label": "NYM@TB \u2014 OVER 7.5",
-      "pnl": 0.82
+      "label": "NYY@LAA \u2014 OVER 6.5",
+      "pnl": 0.89
     },
-    "last_10_record": "6-4",
+    "last_10_record": "4-6",
     "bets": [
       {
         "market": "totals",
-        "matchup": "SF@PIT",
-        "play": "UNDER 7.5",
-        "info": "UNDER 7.5 \u00b7 06:40 PM ET \u00b7 Result: 25 runs",
+        "matchup": "SD@CIN",
+        "play": "UNDER 9.5",
+        "info": "UNDER 9.5 \u00b7 12:40 PM ET \u00b7 Result: 10 runs",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -555,10 +559,20 @@
       },
       {
         "market": "totals",
-        "matchup": "NYM@TB",
-        "play": "OVER 7.5",
-        "info": "OVER 7.5 \u00b7 06:40 PM ET \u00b7 Result: 8 runs",
-        "pnl": 0.82,
+        "matchup": "ATL@WSH",
+        "play": "OVER 9.5",
+        "info": "OVER 9.5 \u00b7 01:05 PM ET \u00b7 Result: 9 runs",
+        "pnl": -1.0,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "NYY@LAA",
+        "play": "OVER 6.5",
+        "info": "OVER 6.5 \u00b7 09:38 PM ET \u00b7 Result: 9 runs",
+        "pnl": 0.89,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -566,61 +580,9 @@
     ]
   },
   "today": {
-    "first_pitch": "12:40 PM ET",
-    "picks": [
-      {
-        "market": "totals",
-        "matchup": "SD@CIN",
-        "play": "UNDER 9.5",
-        "info": "UNDER 9.5 \u00b7 12:40 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-02",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "ATL@WSH",
-        "play": "OVER 9.5",
-        "info": "OVER 9.5 \u00b7 01:05 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-02",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "NYY@LAA",
-        "play": "OVER 6.5",
-        "info": "OVER 6.5 \u00b7 09:38 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-02",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "TBD",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch TBD."
   }
 }
