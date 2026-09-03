@@ -601,6 +601,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "totals",
+        "matchup": "NYY@LAA",
+        "play": "OVER 6.5",
+        "info": "OVER 6.5 \u00b7 09:38 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-02",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
