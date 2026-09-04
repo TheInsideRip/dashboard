@@ -683,6 +683,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "totals",
+        "matchup": "ATH@SEA",
+        "play": "OVER 7.5",
+        "info": "OVER 7.5 \u00b7 09:40 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-03",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
