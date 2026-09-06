@@ -715,6 +715,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "MIN@CWS",
+        "play": "CWS ML -146",
+        "info": "CWS ML -146 \u00b7 06:20 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-06",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
