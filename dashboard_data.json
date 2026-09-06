@@ -677,6 +677,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "WSH@LAD",
+        "play": "WSH ML +160",
+        "info": "WSH ML +160 \u00b7 09:10 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-05",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
