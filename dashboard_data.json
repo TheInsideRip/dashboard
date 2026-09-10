@@ -640,6 +640,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "COL@NYY",
+        "play": "COL ML +235",
+        "info": "COL ML +235 \u00b7 07:05 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-10",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
