@@ -1,19 +1,19 @@
 {
   "generated_date": "September 12, 2026",
   "overview": {
-    "combined_pnl": -36.64,
-    "combined_roi": -10.21,
-    "combined_record": "165W-194L (46.0%)",
-    "total_bets": 359,
+    "combined_pnl": -39.23,
+    "combined_roi": -10.75,
+    "combined_record": "167W-198L (45.8%)",
+    "total_bets": 365,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.81,
     "totals_roi": -18.4,
     "totals_record": "69W-93L (42.6%)",
-    "mlrl_pnl": -6.02,
-    "mlrl_roi": -4.67,
-    "mlrl_record": "62W-67L (48.1%)"
+    "mlrl_pnl": -8.61,
+    "mlrl_roi": -6.38,
+    "mlrl_record": "64W-71L (47.4%)"
   },
   "cumulative_chart": [
     {
@@ -567,23 +567,27 @@
     {
       "date": "2026-09-10",
       "cumPnl": -36.64
+    },
+    {
+      "date": "2026-09-11",
+      "cumPnl": -39.23
     }
   ],
   "yesterday": {
-    "date": "2026-09-10",
-    "day_pnl": -1.46,
-    "day_record": "1W-3L (25.0%)",
+    "date": "2026-09-11",
+    "day_pnl": -2.59,
+    "day_record": "2W-4L (33.3%)",
     "best_bet": {
-      "label": "HOU@PHI \u2014 HOU ML +154",
-      "pnl": 1.54
+      "label": "NYM@NYY \u2014 NYY ML -130",
+      "pnl": 0.77
     },
-    "last_10_record": "1-9",
+    "last_10_record": "3-7",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "TB@ATL",
-        "play": "TB ML +104",
-        "info": "TB ML +104 \u00b7 12:15 PM ET \u00b7 Result: ATL",
+        "matchup": "PIT@CHC",
+        "play": "PIT ML +160",
+        "info": "PIT ML +160 \u00b7 02:20 PM ET \u00b7 Result: CHC",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -591,19 +595,9 @@
       },
       {
         "market": "mlrl",
-        "matchup": "HOU@PHI",
-        "play": "HOU ML +154",
-        "info": "HOU ML +154 \u00b7 01:05 PM ET \u00b7 Result: HOU",
-        "pnl": 1.54,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "TEX@SEA",
-        "play": "TEX ML +108",
-        "info": "TEX ML +108 \u00b7 04:10 PM ET \u00b7 Result: SEA",
+        "matchup": "COL@DET",
+        "play": "COL ML +154",
+        "info": "COL ML +154 \u00b7 06:40 PM ET \u00b7 Result: DET",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -611,10 +605,40 @@
       },
       {
         "market": "mlrl",
-        "matchup": "COL@NYY",
-        "play": "COL ML +235",
-        "info": "COL ML +235 \u00b7 07:05 PM ET \u00b7 Result: NYY",
+        "matchup": "NYM@NYY",
+        "play": "NYY ML -130",
+        "info": "NYY ML -130 \u00b7 07:05 PM ET \u00b7 Result: NYY",
+        "pnl": 0.77,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "BAL@TOR",
+        "play": "TOR ML -134",
+        "info": "TOR ML -134 \u00b7 07:07 PM ET \u00b7 Result: BAL",
         "pnl": -1.0,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "PHI@ATL",
+        "play": "PHI ML +158",
+        "info": "PHI ML +158 \u00b7 07:15 PM ET \u00b7 Result: ATL",
+        "pnl": -1.0,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "SD@SF",
+        "play": "SD ML -156",
+        "info": "SD ML -156 \u00b7 10:15 PM ET \u00b7 Result: SD",
+        "pnl": 0.64,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -622,112 +646,9 @@
     ]
   },
   "today": {
-    "first_pitch": "02:20 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "PIT@CHC",
-        "play": "PIT ML +160",
-        "info": "PIT ML +160 \u00b7 02:20 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "COL@DET",
-        "play": "COL ML +154",
-        "info": "COL ML +154 \u00b7 06:40 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "NYM@NYY",
-        "play": "NYY ML -130",
-        "info": "NYY ML -130 \u00b7 07:05 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "BAL@TOR",
-        "play": "TOR ML -134",
-        "info": "TOR ML -134 \u00b7 07:07 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "PHI@ATL",
-        "play": "PHI ML +158",
-        "info": "PHI ML +158 \u00b7 07:15 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SD@SF",
-        "play": "SD ML -156",
-        "info": "SD ML -156 \u00b7 10:15 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-11",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "01:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
   }
 }
