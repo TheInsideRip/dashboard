@@ -1,19 +1,19 @@
 {
   "generated_date": "September 17, 2026",
   "overview": {
-    "combined_pnl": -41.06,
-    "combined_roi": -10.53,
-    "combined_record": "178W-212L (45.6%)",
-    "total_bets": 390,
+    "combined_pnl": -42.06,
+    "combined_roi": -10.76,
+    "combined_record": "178W-213L (45.5%)",
+    "total_bets": 391,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.81,
     "totals_roi": -18.4,
     "totals_record": "69W-93L (42.6%)",
-    "mlrl_pnl": -10.44,
-    "mlrl_roi": -6.53,
-    "mlrl_record": "75W-85L (46.9%)"
+    "mlrl_pnl": -11.44,
+    "mlrl_roi": -7.11,
+    "mlrl_record": "75W-86L (46.6%)"
   },
   "cumulative_chart": [
     {
@@ -587,73 +587,27 @@
     {
       "date": "2026-09-15",
       "cumPnl": -41.06
+    },
+    {
+      "date": "2026-09-16",
+      "cumPnl": -42.06
     }
   ],
   "yesterday": {
-    "date": "2026-09-15",
-    "day_pnl": 0.42,
-    "day_record": "3W-3L (50.0%)",
+    "date": "2026-09-16",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "SD@COL \u2014 COL ML +162",
-      "pnl": 1.62
+      "label": "DET@TOR \u2014 DET ML +112",
+      "pnl": -1.0
     },
-    "last_10_record": "4-6",
+    "last_10_record": "3-7",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "ATH@TB",
-        "play": "ATH ML +190",
-        "info": "ATH ML +190 \u00b7 06:40 PM ET \u00b7 Result: TB",
-        "pnl": -1.0,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "ATL@CHC",
-        "play": "ATL ML +118",
-        "info": "ATL ML +118 \u00b7 07:40 PM ET \u00b7 Result: ATL",
-        "pnl": 1.18,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "NYY@MIN",
-        "play": "MIN ML +142",
-        "info": "MIN ML +142 \u00b7 07:40 PM ET \u00b7 Result: NYY",
-        "pnl": -1.0,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "KC@HOU",
-        "play": "HOU ML -162",
-        "info": "HOU ML -162 \u00b7 08:10 PM ET \u00b7 Result: HOU",
-        "pnl": 0.62,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SD@COL",
-        "play": "COL ML +162",
-        "info": "COL ML +162 \u00b7 08:40 PM ET \u00b7 Result: COL",
-        "pnl": 1.62,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SEA@LAA",
-        "play": "SEA ML -174",
-        "info": "SEA ML -174 \u00b7 09:38 PM ET \u00b7 Result: LAA",
+        "matchup": "DET@TOR",
+        "play": "DET ML +112",
+        "info": "DET ML +112 \u00b7 03:07 PM ET \u00b7 Result: TOR",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -662,27 +616,9 @@
     ]
   },
   "today": {
-    "first_pitch": "03:07 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "DET@TOR",
-        "play": "DET ML +112",
-        "info": "DET ML +112 \u00b7 03:07 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-16",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "12:35 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 12:35 PM ET."
   }
 }
