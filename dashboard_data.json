@@ -1,19 +1,19 @@
 {
   "generated_date": "September 23, 2026",
   "overview": {
-    "combined_pnl": -38.58,
-    "combined_roi": -9.1,
-    "combined_record": "196W-228L (46.2%)",
-    "total_bets": 424,
+    "combined_pnl": -36.88,
+    "combined_roi": -8.62,
+    "combined_record": "199W-229L (46.5%)",
+    "total_bets": 428,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.81,
     "totals_roi": -18.4,
     "totals_record": "69W-93L (42.6%)",
-    "mlrl_pnl": -7.96,
-    "mlrl_roi": -4.1,
-    "mlrl_record": "93W-101L (47.9%)"
+    "mlrl_pnl": -6.26,
+    "mlrl_roi": -3.16,
+    "mlrl_record": "96W-102L (48.5%)"
   },
   "cumulative_chart": [
     {
@@ -611,24 +611,58 @@
     {
       "date": "2026-09-21",
       "cumPnl": -38.58
+    },
+    {
+      "date": "2026-09-22",
+      "cumPnl": -36.88
     }
   ],
   "yesterday": {
-    "date": "2026-09-21",
-    "day_pnl": 0.93,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-09-22",
+    "day_pnl": 1.7,
+    "day_record": "3W-1L (75.0%)",
     "best_bet": {
-      "label": "TOR@BAL \u2014 BAL ML -108",
-      "pnl": 0.93
+      "label": "HOU@SEA \u2014 HOU ML +120",
+      "pnl": 1.2
     },
-    "last_10_record": "7-3",
+    "last_10_record": "8-2",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "TOR@BAL",
-        "play": "BAL ML -108",
-        "info": "BAL ML -108 \u00b7 06:35 PM ET \u00b7 Result: BAL",
-        "pnl": 0.93,
+        "matchup": "TB@NYY",
+        "play": "NYY ML -134",
+        "info": "NYY ML -134 \u00b7 01:05 PM ET \u00b7 Result: NYY",
+        "pnl": 0.75,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "AZ@COL",
+        "play": "COL ML +154",
+        "info": "COL ML +154 \u00b7 08:40 PM ET \u00b7 Result: AZ",
+        "pnl": -1.0,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "HOU@SEA",
+        "play": "HOU ML +120",
+        "info": "HOU ML +120 \u00b7 09:40 PM ET \u00b7 Result: HOU",
+        "pnl": 1.2,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "MIN@SF",
+        "play": "MIN ML -134",
+        "info": "MIN ML -134 \u00b7 09:45 PM ET \u00b7 Result: MIN",
+        "pnl": 0.75,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -636,78 +670,9 @@
     ]
   },
   "today": {
-    "first_pitch": "01:05 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "TB@NYY",
-        "play": "NYY ML -134",
-        "info": "NYY ML -134 \u00b7 01:05 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-22",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "AZ@COL",
-        "play": "COL ML +154",
-        "info": "COL ML +154 \u00b7 08:40 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-22",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "HOU@SEA",
-        "play": "HOU ML +120",
-        "info": "HOU ML +120 \u00b7 09:40 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-22",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "MIN@SF",
-        "play": "MIN ML -134",
-        "info": "MIN ML -134 \u00b7 09:45 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-09-22",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "01:10 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:10 PM ET."
   }
 }
