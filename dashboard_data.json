@@ -675,8 +675,77 @@
   },
   "today": {
     "first_pitch": "02:00 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "PHI@ATL",
+        "play": "ML: PHI",
+        "info": "-118 \u00b7 LEAN \u00b7 02:00 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-30",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "CWS@HOU",
+        "play": "ML: HOU",
+        "info": "-144 \u00b7 LEAN \u00b7 05:00 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-30",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "BOS@NYY",
+        "play": "ML: NYY",
+        "info": "-142 \u00b7 LEAN \u00b7 08:00 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-30",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "CHC@SD",
+        "play": "ML: CHC",
+        "info": "+116 \u00b7 LEAN \u00b7 10:00 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-09-30",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 02:00 PM ET."
+    "status_message": ""
   }
 }
