@@ -1,5 +1,5 @@
 {
-  "generated_date": "October 02, 2026",
+  "generated_date": "October 03, 2026",
   "overview": {
     "combined_pnl": -40.34,
     "combined_roi": -8.62,
@@ -698,9 +698,9 @@
     ]
   },
   "today": {
-    "first_pitch": "TBD",
+    "first_pitch": "01:00 PM ET",
     "picks": [],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch TBD."
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:00 PM ET."
   }
 }
