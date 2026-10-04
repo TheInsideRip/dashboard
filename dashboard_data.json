@@ -1,19 +1,19 @@
 {
-  "generated_date": "October 03, 2026",
+  "generated_date": "October 04, 2026",
   "overview": {
-    "combined_pnl": -40.34,
-    "combined_roi": -8.62,
-    "combined_record": "216W-252L (46.2%)",
-    "total_bets": 468,
+    "combined_pnl": -39.77,
+    "combined_roi": -8.44,
+    "combined_record": "218W-253L (46.3%)",
+    "total_bets": 471,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.81,
     "totals_roi": -18.4,
     "totals_record": "69W-93L (42.6%)",
-    "mlrl_pnl": -9.72,
-    "mlrl_roi": -4.08,
-    "mlrl_record": "113W-125L (47.5%)"
+    "mlrl_pnl": -9.15,
+    "mlrl_roi": -3.8,
+    "mlrl_record": "115W-126L (47.7%)"
   },
   "cumulative_chart": [
     {
@@ -643,33 +643,27 @@
     {
       "date": "2026-09-30",
       "cumPnl": -40.34
+    },
+    {
+      "date": "2026-10-03",
+      "cumPnl": -39.77
     }
   ],
   "yesterday": {
-    "date": "2026-09-30",
-    "day_pnl": -0.45,
-    "day_record": "2W-2L (50.0%)",
+    "date": "2026-10-03",
+    "day_pnl": 0.57,
+    "day_record": "2W-1L (66.7%)",
     "best_bet": {
-      "label": "PHI@ATL \u2014 ML: PHI",
-      "pnl": 0.85
+      "label": "SD@MIL \u2014 RL: SD (+1.5)",
+      "pnl": 0.81
     },
     "last_10_record": "4-6",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "PHI@ATL",
-        "play": "ML: PHI",
-        "info": "-118 \u00b7 LEAN \u00b7 02:00 PM ET \u00b7 Result: PHI by 1.0",
-        "pnl": 0.85,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "CWS@HOU",
-        "play": "ML: HOU",
-        "info": "-144 \u00b7 LEAN \u00b7 05:00 PM ET \u00b7 Result: CWS by 4.0",
+        "matchup": "ATL@LAD",
+        "play": "RL: ATL (+1.5)",
+        "info": "-112 \u00b7 LEAN \u00b7 04:00 PM ET \u00b7 Result: LAD by 2.0",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -677,20 +671,20 @@
       },
       {
         "market": "mlrl",
-        "matchup": "BOS@NYY",
-        "play": "ML: NYY",
-        "info": "-142 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: NYY by 7.0",
-        "pnl": 0.7,
+        "matchup": "NYY@TB",
+        "play": "ML: TB",
+        "info": "-132 \u00b7 LEAN \u00b7 06:30 PM ET \u00b7 Result: TB by 1.0",
+        "pnl": 0.76,
         "edge_pct": null,
         "push": false,
         "voided": false
       },
       {
         "market": "mlrl",
-        "matchup": "CHC@SD",
-        "play": "ML: CHC",
-        "info": "+116 \u00b7 LEAN \u00b7 10:00 PM ET \u00b7 Result: SD by 3.0",
-        "pnl": -1.0,
+        "matchup": "SD@MIL",
+        "play": "RL: SD (+1.5)",
+        "info": "-124 \u00b7 LEAN \u00b7 08:30 PM ET \u00b7 Result: MIL by 1.0",
+        "pnl": 0.81,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -699,60 +693,8 @@
   },
   "today": {
     "first_pitch": "04:00 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "ATL@LAD",
-        "play": "RL: ATL (+1.5)",
-        "info": "-112 \u00b7 LEAN \u00b7 04:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-03",
-        "book": "Caesars",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "NYY@TB",
-        "play": "ML: TB",
-        "info": "-132 \u00b7 LEAN \u00b7 06:30 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-03",
-        "book": "BetRivers",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SD@MIL",
-        "play": "RL: SD (+1.5)",
-        "info": "-124 \u00b7 LEAN \u00b7 08:30 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-03",
-        "book": "Caesars",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 04:00 PM ET."
   }
 }
