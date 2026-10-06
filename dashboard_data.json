@@ -1,19 +1,19 @@
 {
-  "generated_date": "October 05, 2026",
+  "generated_date": "October 06, 2026",
   "overview": {
-    "combined_pnl": -39.77,
-    "combined_roi": -8.44,
-    "combined_record": "218W-253L (46.3%)",
-    "total_bets": 471,
+    "combined_pnl": -38.58,
+    "combined_roi": -8.16,
+    "combined_record": "220W-253L (46.5%)",
+    "total_bets": 473,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.81,
     "totals_roi": -18.4,
     "totals_record": "69W-93L (42.6%)",
-    "mlrl_pnl": -9.15,
-    "mlrl_roi": -3.8,
-    "mlrl_record": "115W-126L (47.7%)"
+    "mlrl_pnl": -7.96,
+    "mlrl_roi": -3.28,
+    "mlrl_record": "117W-126L (48.1%)"
   },
   "cumulative_chart": [
     {
@@ -647,24 +647,28 @@
     {
       "date": "2026-10-03",
       "cumPnl": -39.77
+    },
+    {
+      "date": "2026-10-05",
+      "cumPnl": -38.58
     }
   ],
   "yesterday": {
-    "date": "2026-10-03",
-    "day_pnl": 0.57,
-    "day_record": "2W-1L (66.7%)",
+    "date": "2026-10-05",
+    "day_pnl": 1.19,
+    "day_record": "2W-0L (100.0%)",
     "best_bet": {
-      "label": "SD@MIL \u2014 RL: SD (+1.5)",
-      "pnl": 0.81
+      "label": "NYY@TB \u2014 RL: TB (+1.5)",
+      "pnl": 0.61
     },
-    "last_10_record": "4-6",
+    "last_10_record": "6-4",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "ATL@LAD",
-        "play": "RL: ATL (+1.5)",
-        "info": "-112 \u00b7 LEAN \u00b7 04:00 PM ET \u00b7 Result: LAD by 2.0",
-        "pnl": -1.0,
+        "matchup": "CWS@CLE",
+        "play": "RL: CWS (+1.5)",
+        "info": "-173 \u00b7 LEAN \u00b7 05:00 PM ET \u00b7 Result: CWS by 1.0",
+        "pnl": 0.58,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -672,19 +676,9 @@
       {
         "market": "mlrl",
         "matchup": "NYY@TB",
-        "play": "ML: TB",
-        "info": "-132 \u00b7 LEAN \u00b7 06:30 PM ET \u00b7 Result: TB by 1.0",
-        "pnl": 0.76,
-        "edge_pct": null,
-        "push": false,
-        "voided": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "SD@MIL",
-        "play": "RL: SD (+1.5)",
-        "info": "-124 \u00b7 LEAN \u00b7 08:30 PM ET \u00b7 Result: MIL by 1.0",
-        "pnl": 0.81,
+        "play": "RL: TB (+1.5)",
+        "info": "-166 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: TB by 3.0",
+        "pnl": 0.61,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -692,44 +686,9 @@
     ]
   },
   "today": {
-    "first_pitch": "05:00 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "CWS@CLE",
-        "play": "RL: CWS (+1.5)",
-        "info": "-173 \u00b7 LEAN \u00b7 05:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-05",
-        "book": "Caesars",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "NYY@TB",
-        "play": "RL: TB (+1.5)",
-        "info": "-166 \u00b7 LEAN \u00b7 08:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-05",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "06:00 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:00 PM ET."
   }
 }
