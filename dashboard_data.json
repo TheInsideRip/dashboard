@@ -704,6 +704,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "MIL@SD",
+        "play": "RL: MIL (+1.5)",
+        "info": "-190 \u00b7 LEAN \u00b7 09:30 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-10-06",
+        "book": "BetMGM",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
