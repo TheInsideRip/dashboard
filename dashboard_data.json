@@ -687,8 +687,26 @@
   },
   "today": {
     "first_pitch": "06:00 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "LAD@ATL",
+        "play": "ML: LAD",
+        "info": "-108 \u00b7 LEAN \u00b7 06:00 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-10-06",
+        "book": "FanDuel",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 06:00 PM ET."
+    "status_message": ""
   }
 }
