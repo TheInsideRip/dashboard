@@ -1,19 +1,19 @@
 {
-  "generated_date": "October 07, 2026",
+  "generated_date": "October 08, 2026",
   "overview": {
-    "combined_pnl": -37.12,
-    "combined_roi": -7.81,
-    "combined_record": "222W-253L (46.7%)",
-    "total_bets": 475,
+    "combined_pnl": -34.05,
+    "combined_roi": -7.12,
+    "combined_record": "225W-253L (47.1%)",
+    "total_bets": 478,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
-    "totals_pnl": -29.81,
-    "totals_roi": -18.4,
-    "totals_record": "69W-93L (42.6%)",
-    "mlrl_pnl": -6.5,
-    "mlrl_roi": -2.65,
-    "mlrl_record": "119W-126L (48.6%)"
+    "totals_pnl": -29.04,
+    "totals_roi": -17.82,
+    "totals_record": "70W-93L (42.9%)",
+    "mlrl_pnl": -4.2,
+    "mlrl_roi": -1.7,
+    "mlrl_record": "121W-126L (49.0%)"
   },
   "cumulative_chart": [
     {
@@ -655,34 +655,48 @@
     {
       "date": "2026-10-06",
       "cumPnl": -37.12
+    },
+    {
+      "date": "2026-10-07",
+      "cumPnl": -34.05
     }
   ],
   "yesterday": {
-    "date": "2026-10-06",
-    "day_pnl": 1.46,
-    "day_record": "2W-0L (100.0%)",
+    "date": "2026-10-07",
+    "day_pnl": 3.07,
+    "day_record": "3W-0L (100.0%)",
     "best_bet": {
-      "label": "LAD@ATL \u2014 ML: LAD",
-      "pnl": 0.93
+      "label": "LAD@ATL \u2014 RL: LAD (-1.5)",
+      "pnl": 1.2
     },
-    "last_10_record": "7-3",
+    "last_10_record": "9-1",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "LAD@ATL",
-        "play": "ML: LAD",
-        "info": "-108 \u00b7 LEAN \u00b7 06:00 PM ET \u00b7 Result: LAD by 2.0",
-        "pnl": 0.93,
+        "matchup": "CLE@CWS",
+        "play": "ML: CLE",
+        "info": "+110 \u00b7 LEAN \u00b7 04:00 PM ET \u00b7 Result: CLE by 6.0",
+        "pnl": 1.1,
         "edge_pct": null,
         "push": false,
         "voided": false
       },
       {
         "market": "mlrl",
-        "matchup": "MIL@SD",
-        "play": "RL: MIL (+1.5)",
-        "info": "-190 \u00b7 LEAN \u00b7 09:30 PM ET \u00b7 Result: SD by 1.0",
-        "pnl": 0.53,
+        "matchup": "LAD@ATL",
+        "play": "RL: LAD (-1.5)",
+        "info": "+120 \u00b7 LEAN \u00b7 06:00 PM ET \u00b7 Result: LAD by 3.0",
+        "pnl": 1.2,
+        "edge_pct": null,
+        "push": false,
+        "voided": false
+      },
+      {
+        "market": "totals",
+        "matchup": "TB@NYY",
+        "play": "Under 7.5",
+        "info": "-130 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: 7 runs",
+        "pnl": 0.77,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -690,61 +704,9 @@
     ]
   },
   "today": {
-    "first_pitch": "04:00 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "CLE@CWS",
-        "play": "ML: CLE",
-        "info": "+110 \u00b7 LEAN \u00b7 04:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-07",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "mlrl",
-        "matchup": "LAD@ATL",
-        "play": "RL: LAD (-1.5)",
-        "info": "+120 \u00b7 LEAN \u00b7 06:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-07",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      },
-      {
-        "market": "totals",
-        "matchup": "TB@NYY",
-        "play": "Under 7.5",
-        "info": "-130 \u00b7 LEAN \u00b7 08:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-07",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "08:00 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 08:00 PM ET."
   }
 }
