@@ -714,6 +714,23 @@
         "pnl": null,
         "voided": false,
         "push": false
+      },
+      {
+        "market": "mlrl",
+        "matchup": "CLE@TB",
+        "play": "ML: CLE",
+        "info": "+143 \u00b7 LEAN \u00b7 08:00 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-10-12",
+        "book": "DraftKings",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
       }
     ],
     "watchlist": [],
