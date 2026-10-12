@@ -697,8 +697,26 @@
   },
   "today": {
     "first_pitch": "05:00 PM ET",
-    "picks": [],
+    "picks": [
+      {
+        "market": "mlrl",
+        "matchup": "LAD@MIL",
+        "play": "ML: MIL",
+        "info": "+117 \u00b7 LEAN \u00b7 05:00 PM ET",
+        "edge_pct": null,
+        "confidence": "LOW",
+        "tier": "LEAN",
+        "tier_wr": null,
+        "game_date": "2026-10-12",
+        "book": "bet365",
+        "result": null,
+        "result_hit": null,
+        "pnl": null,
+        "voided": false,
+        "push": false
+      }
+    ],
     "watchlist": [],
-    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 05:00 PM ET."
+    "status_message": ""
   }
 }
