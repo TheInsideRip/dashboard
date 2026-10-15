@@ -1,19 +1,19 @@
 {
-  "generated_date": "October 14, 2026",
+  "generated_date": "October 15, 2026",
   "overview": {
-    "combined_pnl": -31.82,
-    "combined_roi": -6.57,
-    "combined_record": "229W-255L (47.3%)",
-    "total_bets": 484,
+    "combined_pnl": -31.09,
+    "combined_roi": -6.41,
+    "combined_record": "230W-255L (47.4%)",
+    "total_bets": 485,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.04,
     "totals_roi": -17.82,
     "totals_record": "70W-93L (42.9%)",
-    "mlrl_pnl": -1.97,
-    "mlrl_roi": -0.78,
-    "mlrl_record": "125W-128L (49.4%)"
+    "mlrl_pnl": -1.24,
+    "mlrl_roi": -0.49,
+    "mlrl_record": "126W-128L (49.6%)"
   },
   "cumulative_chart": [
     {
@@ -679,24 +679,28 @@
     {
       "date": "2026-10-13",
       "cumPnl": -31.82
+    },
+    {
+      "date": "2026-10-14",
+      "cumPnl": -31.09
     }
   ],
   "yesterday": {
-    "date": "2026-10-13",
-    "day_pnl": -1.0,
-    "day_record": "0W-1L (0.0%)",
+    "date": "2026-10-14",
+    "day_pnl": 0.73,
+    "day_record": "1W-0L (100.0%)",
     "best_bet": {
-      "label": "CLE@TB \u2014 ML: CLE",
-      "pnl": -1.0
+      "label": "MIL@LAD \u2014 RL: MIL (+1.5)",
+      "pnl": 0.73
     },
     "last_10_record": "8-2",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "CLE@TB",
-        "play": "ML: CLE",
-        "info": "+116 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: TB by 2.0",
-        "pnl": -1.0,
+        "matchup": "MIL@LAD",
+        "play": "RL: MIL (+1.5)",
+        "info": "-137 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: MIL by 4.0",
+        "pnl": 0.73,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -704,27 +708,9 @@
     ]
   },
   "today": {
-    "first_pitch": "08:00 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "MIL@LAD",
-        "play": "RL: MIL (+1.5)",
-        "info": "-137 \u00b7 LEAN \u00b7 08:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-14",
-        "book": "FanDuel",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "01:00 PM ET",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 01:00 PM ET."
   }
 }
