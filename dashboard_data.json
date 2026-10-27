@@ -1,19 +1,19 @@
 {
-  "generated_date": "October 26, 2026",
+  "generated_date": "October 27, 2026",
   "overview": {
-    "combined_pnl": -31.91,
-    "combined_roi": -6.51,
-    "combined_record": "232W-258L (47.3%)",
-    "total_bets": 490,
+    "combined_pnl": -32.91,
+    "combined_roi": -6.7,
+    "combined_record": "232W-259L (47.3%)",
+    "total_bets": 491,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.04,
     "totals_roi": -17.82,
     "totals_record": "70W-93L (42.9%)",
-    "mlrl_pnl": -2.06,
-    "mlrl_roi": -0.8,
-    "mlrl_record": "128W-131L (49.4%)"
+    "mlrl_pnl": -3.06,
+    "mlrl_roi": -1.18,
+    "mlrl_record": "128W-132L (49.2%)"
   },
   "cumulative_chart": [
     {
@@ -703,24 +703,28 @@
     {
       "date": "2026-10-24",
       "cumPnl": -31.91
+    },
+    {
+      "date": "2026-10-26",
+      "cumPnl": -32.91
     }
   ],
   "yesterday": {
-    "date": "2026-10-24",
-    "day_pnl": 0.83,
-    "day_record": "1W-0L (100.0%)",
+    "date": "2026-10-26",
+    "day_pnl": -1.0,
+    "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "TB@MIL \u2014 ML: MIL",
-      "pnl": 0.83
+      "label": "MIL@TB \u2014 ML: TB",
+      "pnl": -1.0
     },
     "last_10_record": "5-5",
     "bets": [
       {
         "market": "mlrl",
-        "matchup": "TB@MIL",
-        "play": "ML: MIL",
-        "info": "-120 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: MIL by 1.0",
-        "pnl": 0.83,
+        "matchup": "MIL@TB",
+        "play": "ML: TB",
+        "info": "-119 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: MIL by 9.0",
+        "pnl": -1.0,
         "edge_pct": null,
         "push": false,
         "voided": false
@@ -729,26 +733,8 @@
   },
   "today": {
     "first_pitch": "08:00 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "MIL@TB",
-        "play": "ML: TB",
-        "info": "-119 \u00b7 LEAN \u00b7 08:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-26",
-        "book": "bet365",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch 08:00 PM ET."
   }
 }
