@@ -1,19 +1,19 @@
 {
-  "generated_date": "October 28, 2026",
+  "generated_date": "October 29, 2026",
   "overview": {
-    "combined_pnl": -33.91,
-    "combined_roi": -6.89,
-    "combined_record": "232W-260L (47.2%)",
-    "total_bets": 492,
+    "combined_pnl": -34.91,
+    "combined_roi": -7.08,
+    "combined_record": "232W-261L (47.1%)",
+    "total_bets": 493,
     "k_pnl": -0.81,
     "k_roi": -1.19,
     "k_record": "34W-34L (50.0%)",
     "totals_pnl": -29.04,
     "totals_roi": -17.82,
     "totals_record": "70W-93L (42.9%)",
-    "mlrl_pnl": -4.06,
-    "mlrl_roi": -1.56,
-    "mlrl_record": "128W-133L (49.0%)"
+    "mlrl_pnl": -5.06,
+    "mlrl_roi": -1.93,
+    "mlrl_record": "128W-134L (48.9%)"
   },
   "cumulative_chart": [
     {
@@ -711,23 +711,27 @@
     {
       "date": "2026-10-27",
       "cumPnl": -33.91
+    },
+    {
+      "date": "2026-10-28",
+      "cumPnl": -34.91
     }
   ],
   "yesterday": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "day_pnl": -1.0,
     "day_record": "0W-1L (0.0%)",
     "best_bet": {
-      "label": "MIL@TB \u2014 ML: MIL",
+      "label": "MIL@TB \u2014 RL: TB (+1.5)",
       "pnl": -1.0
     },
-    "last_10_record": "4-6",
+    "last_10_record": "3-7",
     "bets": [
       {
         "market": "mlrl",
         "matchup": "MIL@TB",
-        "play": "ML: MIL",
-        "info": "-124 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: TB by 1.0",
+        "play": "RL: TB (+1.5)",
+        "info": "-140 \u00b7 LEAN \u00b7 08:00 PM ET \u00b7 Result: MIL by 3.0",
         "pnl": -1.0,
         "edge_pct": null,
         "push": false,
@@ -736,27 +740,9 @@
     ]
   },
   "today": {
-    "first_pitch": "08:00 PM ET",
-    "picks": [
-      {
-        "market": "mlrl",
-        "matchup": "MIL@TB",
-        "play": "RL: TB (+1.5)",
-        "info": "-140 \u00b7 LEAN \u00b7 08:00 PM ET",
-        "edge_pct": null,
-        "confidence": "LOW",
-        "tier": "LEAN",
-        "tier_wr": null,
-        "game_date": "2026-10-28",
-        "book": "BetMGM",
-        "result": null,
-        "result_hit": null,
-        "pnl": null,
-        "voided": false,
-        "push": false
-      }
-    ],
+    "first_pitch": "TBD",
+    "picks": [],
     "watchlist": [],
-    "status_message": ""
+    "status_message": "Lineup confirmation required to process The Rip. Check back prior to first pitch TBD."
   }
 }
